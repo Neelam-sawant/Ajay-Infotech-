@@ -1,0 +1,19 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+th, td {
+    word-wrap: break-word;
+    text-align: center; /* Optional: Center-align text for a better look */
+}
+
+a {
+    text-decoration: none;
+    color:black
+}

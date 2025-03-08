@@ -1,0 +1,226 @@
+/* marquee styling start */
+.marquee {
+    vertical-align: middle;
+    width: 50%;
+    height: auto;
+    border: 0.5px solid black;
+    border-radius: 16px;
+    font-weight: 500;
+}
+/* marquee styling end */
+
+
+ /* General Styling for Section */
+ .product-services {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.product-services .section-header h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+}
+
+
+
+/* Tab Content Styling */
+.tab-content {
+    padding: 20px 0;
+}
+
+.tab-content .tab-pane {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.tab-content .tab-pane.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Adjust column layout */
+@media (min-width: 768px) {
+    .row > .col-md-6 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-tabs {
+        flex-wrap: wrap;
+    }
+
+    .nav-item {
+        flex: 1 1 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* General Section Styling */
+.values-section-title {
+    padding-bottom: 20px;
+}
+
+.values-section-title h5 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #28a745;
+}
+
+/* Values Container */
+.custom-values-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+/* Value Item Styling */
+.custom-value-item {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.custom-value-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.custom-value-item p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.custom-value-item:hover {
+    transform: translateY(-10px);
+}
+
+.custom-value-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .custom-value-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-value-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.item {
+            background: #f8f9fa;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        
+/* second carousel styling start */
+
+.custom-carousel {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+        
+        .custom-carousel-inner {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        
+        .custom-carousel-item {
+            min-width: 30%; /* Adjust according to how many items you want visible */
+            box-sizing: border-box;
+        }
+        
+        .custom-card {
+            width: 100%;
+        }
+        
+        .carousel-controls {
+            position: absolute;
+            bottom: 10px; /* Position the buttons at the bottom */
+            right: 10px;  /* Align them to the right */
+            display: flex;
+            gap: 10px;    /* Add space between the buttons */
+        }
+        
+        .btn-pink {
+            background-color: #fcb2b2 !important;
+        }
+        
+        .custom-card-img-top {
+            height: 200px;
+            border-radius: 12px;
+        }
+
+/* second carousel styling end */
+
+/* third carousel styling start */
+.awards-carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.awards-carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.awards-carousel-item {
+    min-width: 30%; /* Adjust according to how many items you want visible */
+    box-sizing: border-box;
+}
+
+.awards-card {
+    width: 100%;
+}
+
+.awards-carousel-controls {
+    position: absolute;
+    bottom: 10px; /* Position the buttons at the bottom */
+    right: 10px;  /* Align them to the right */
+    display: flex;
+    gap: 10px;    /* Add space between the buttons */
+}
+
+.btn-blue {
+    background-color: #b2d4fc !important; /* Change color as needed */
+}
+
+.awards-card-img-top {
+    height: 200px;
+    border-radius: 12px;
+}
+
+/* third carousel styling end */
+
+
+/* next and preview styling start */
+
+.custom-prev-icon, .custom-next-icon {
+    width: 20px;  /* Adjust as necessary */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* next and preview styling end */
+
+
+
+
