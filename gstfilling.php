@@ -53,7 +53,7 @@
 
 
 <!-- Navbar & Carousel Start -->
-<?php include 'imgnavbar.php' ?>
+<?php include 'navbar.php' ?>
 <!-- Navbar & Carousel end -->
 
 

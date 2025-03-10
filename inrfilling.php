@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="utf-8">
-    <?php include '../linkcss.php'; ?>
+    <?php include 'linkcss.php'; ?>
 
 
     <!-- styling start -->
@@ -52,14 +52,14 @@
 
 
 <!-- Navbar & Carousel Start -->
-<?php include '../navbar.php' ?>
+<?php include 'navbar.php' ?>
 <!-- Navbar & Carousel end -->
 
 
 
 <!-- background name display start -->
 <div class="aiheaderimage">
-    <img src="/img/Tally Pime backgrornd image.png"  class="header-image">
+    <img src="C:\xampp\htdocs\Ajay-Infotech\img\Tally Pime backgrornd image.png"  class="header-image">
     <h1 class="title">INR Filling</h1>
 </div>
 <!-- background name display end -->
@@ -85,7 +85,7 @@
             <img 
                 class="position-absolute w-100 h-60 rounded custom-image-size wow zoomIn"
                 data-wow-delay="0.9s"
-                src="/img/inrf1.webp" 
+                src="img/inrf1.webp" 
                 alt="Image"
             />
         </div>
@@ -129,7 +129,7 @@
             <div class="image-wrapper rounded mb-3">
               <img
                 style="height: 50px; width: 50px"
-                src="/img/tamc1.svg"
+                src="img/tamc1.svg"
                 class="card-img-top"
                 alt="Image"
               />
@@ -149,7 +149,7 @@
             <div class="image-wrapper rounded mb-3">
               <img
                 style="height: 50px; width: 50px"
-                src="/img/tamc2.svg"
+                src="img\tamc2.svg"
                 class="card-img-top"
                 alt="Image"
               />
@@ -170,7 +170,7 @@
             <div class="image-wrapper rounded mb-3">
               <img
                 style="height: 50px; width: 50px"
-                src="/img/tamc3.svg"
+                src="img/tamc3.svg"
                 class="card-img-top"
                 alt="Image"
               />
@@ -190,7 +190,7 @@
             <div class="image-wrapper rounded mb-3">
               <img
                 style="height: 50px; width: 50px"
-                src="/img/tamc4.svg"
+                src="img/tamc4.svg"
                 class="card-img-top"
                 alt="Image"
               />
@@ -210,7 +210,7 @@
             <div class="image-wrapper rounded mb-3">
               <img
                 style="height: 50px; width: 50px"
-                src="/img/tamc5.svg"
+                src="img/tamc5.svg"
                 class="card-img-top"
                 alt="Image"
               />
@@ -232,7 +232,7 @@
             <div class="image-wrapper rounded mb-3">
               <img
                 style="height: 50px; width: 50px"
-                src="/img/tamc6.svg"
+                src="img/tamc6.svg"
                 class="card-img-top"
                 alt="Image"
               />
@@ -389,7 +389,7 @@
 
 <!-- contact start -->
 
-<?php include './../contact.php' ?>
+<?php include 'contact.php' ?>
 
 
 
@@ -399,7 +399,7 @@
 
 
 <!-- Vendor Start -->
-<?php include './../vendor.php' ?>
+<?php include 'vendor.php' ?>
 <!-- Vendor End -->
 
 
@@ -410,15 +410,15 @@
 
 
 
-<!-- footer start -->
-<?php include '../footer.php' ?>
+<!-- footer star-->
+<?php include 'footer.php' ?>
 <!-- Footer End -->
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
-    <?php include '../linkscript.php'; ?>
+    <?php include 'linkscript.php'; ?>
 </body>
 
 </html>

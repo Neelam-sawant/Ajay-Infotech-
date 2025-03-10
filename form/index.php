@@ -267,7 +267,7 @@ width: 100%;
 <form action="./store_data.php" method="post" enctype="multipart/form-data">
 <div class="form-container">
     <div class="form-section">
-        <img src="./img/Vector.png" alt="">
+        <img src=".img/Vector.png" alt="">
     </div>
 <h1>Employee Application Form</h1>
 <p>Please fill the Employee Application Form for Ajay Infotech.</p>

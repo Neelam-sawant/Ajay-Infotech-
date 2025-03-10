@@ -146,7 +146,7 @@
                            playsinline 
                            data-wow-delay="0.9s" 
                            src="img/career.avif" 
-                           style="object-fit: cover"></img>
+                           style="object-fit: cover"><img>
                 </div>
             </div>
             <div class="col-lg-7">

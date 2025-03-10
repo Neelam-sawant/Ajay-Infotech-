@@ -467,7 +467,7 @@ h1 {
     <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img style="left: 0%;top: 0%; right: 0%; width:100%;height: 600px;"  src="./img/web-car-1.webp" alt="Image">
+                <img style="left: 0%;top: 0%; right: 0%; width:100%;height: 600px;"  src=".img/web-car-1.webp" alt="Image">
                 <div class="carousel-caption ">
                     <div class="p-3" style="max-width: 900px;">
                         <a href="blogdetais.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">To Know More</a>
@@ -477,7 +477,7 @@ h1 {
             </div>
             
             <div class="carousel-item">
-                    <img style="left: 0%;top: 0%; right: 0%; width:100%;height: 600px;"  class="w-100" src="./img/web-car.jpg" alt="Image">
+                    <img style="left: 0%;top: 0%; right: 0%; width:100%;height: 600px;"  class="w-100" src=".img/web-car.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-LEFT justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <!-- <h5 class="text-uppercase mb-3 animated slideInDown">Stay Updated</h5> -->
@@ -489,11 +489,11 @@ h1 {
            </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-            <img src="./img/Pre.png" alt="Previous" class="custom-prev-icon">
+            <img src=".img/Pre.png" alt="Previous" class="custom-prev-icon">
             <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-            <img src="./img/next.png" alt="Next" class="custom-next-icon">
+            <img src=".img/next.png" alt="Next" class="custom-next-icon">
             <span class="visually-hidden">Next</span>
         </button>
     </div>
