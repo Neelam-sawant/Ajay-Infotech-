@@ -85,7 +85,7 @@
                 <a href="Gem\index-5.1.html"><p class="dropdown-item">Portfolio</p></a>
             </div>
 
-            <!-- Graphics Section -->
+            <!-- Graphics Section 
             <div class="col-md-6">
                 <h6 class="dropdown-title">Graphics</h6>
                 <p class="dropdown-item">Logo</p>
@@ -93,7 +93,7 @@
                 <p class="dropdown-item">Visiting Card</p>
                 <p class="dropdown-item">YouTube Kit</p>
                 <p class="dropdown-item">Banner</p>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

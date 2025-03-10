@@ -646,11 +646,54 @@
 <!-- Awards carousel end -->
 <br><br><br><br><br>
 <!-- Events carousel start -->
+<style>
+    .awards-carousel {
+        overflow: hidden;
+        position: relative;
+        width: 80%;
+        margin: auto;
+    }
+
+    .awards-carousel-inner {
+        display: flex;
+        transition: transform 0.5s linear;
+        width: max-content; /* Allows continuous scrolling */
+    }
+
+    .awards-carousel-item {
+        flex: 0 0 auto;
+        width: 200px; /* Adjust as needed */
+        margin: 0 10px;
+    }
+
+    .carousel-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        z-index: 10;
+    }
+
+    .prev {
+        left: 0;
+    }
+
+    .next {
+        right: 0;
+    }
+</style>
+
 <div class="container">
     <div class="col-sm-12 section-header section-title text-center position-relative pb-3 mb-4 mx-auto">
         <h2 class="text-primary text-center">Events</h2>
     </div>
     <div class="awards-carousel">
+        <button class="carousel-btn prev" onclick="moveCarousel(-1)">&#10094;</button>
+
         <div class="awards-carousel-inner" id="awardsCarousel">
             <div class="awards-carousel-item">
                 <div class="awards-card m-2">
@@ -672,45 +715,50 @@
                     <img class="awards-card-img-top" src="img/wimg4.jfif" alt="Card image cap" />
                 </div>
             </div>
-            <div class="awards-carousel-item">
-                <div class="awards-card m-2">
-                    <img class="awards-card-img-top" src="img/event.png" alt="Card image cap" />
-                </div>
-            </div>
-            <div class="awards-carousel-item">
-                <div class="awards-card m-2">
-                    <img class="awards-card-img-top" src="img/event.png" alt="Card image cap" />
-                </div>
-            </div>
-            <div class="awards-carousel-item">
-                <div class="awards-card m-2">
-                    <img class="awards-card-img-top" src="img/event.png" alt="Card image cap" />
-                </div>
-            </div>
-            <div class="awards-carousel-item">
-                <div class="awards-card m-2">
-                    <img class="awards-card-img-top" src="img/event.png" alt="Card image cap" />
-                </div>
-            </div>
-            <div class="awards-carousel-item">
-                <div class="awards-card m-2">
-                    <img class="awards-card-img-top" src="img/event.png" alt="Card image cap" />
-                </div>
-            </div>
-            <div class="awards-carousel-item">
-                <div class="awards-card m-2">
-                    <img class="awards-card-img-top" src="img/event.png" alt="Card image cap" />
-                </div>
-            </div>
-            <!-- Add other items similar to above -->
         </div>
+
+        <button class="carousel-btn next" onclick="moveCarousel(1)">&#10095;</button>
     </div>
 </div>
+
+<script>
+    let carousel = document.getElementById("awardsCarousel");
+    let items = document.querySelectorAll(".awards-carousel-item");
+    let clonedItems = [...items]; // Clone items to create a seamless loop
+
+    // Append clones to create a loop effect
+    clonedItems.forEach(item => {
+        let clone = item.cloneNode(true);
+        carousel.appendChild(clone);
+    });
+
+    let index = 0;
+    let itemWidth = items[0].offsetWidth + 10; // Adjust for margins
+
+    function moveCarousel(step) {
+        index += step;
+
+        if (index >= items.length) {
+            index = 0;
+            carousel.style.transition = "none"; // Reset transition for seamless looping
+            carousel.style.transform = `translateX(0px)`;
+        } else {
+            carousel.style.transition = "transform 0.5s ease-in-out";
+            carousel.style.transform = `translateX(-${index * itemWidth}px)`;
+        }
+    }
+
+    // Auto-scroll every 2 seconds
+    setInterval(() => {
+        moveCarousel(1);
+    }, 2000);
+</script>
+
 
 
 <!-- Events carousel end -->
 
-
+<br><br><br><br>
 <!-- footer start -->
 <?php include './footer.php' ?>
   <!-- Footer End -->
