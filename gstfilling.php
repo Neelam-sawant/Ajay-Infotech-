@@ -53,7 +53,7 @@
 
 
 <!-- Navbar & Carousel Start -->
-<?php include 'imgnavbar.php' ?>
+<?php include 'navbar.php' ?>
 <!-- Navbar & Carousel end -->
 
 
@@ -94,26 +94,26 @@
       <!-- Text Column on the Right -->
       <div class="col-lg-7">
         <div class="section-title position-relative pb-3 mb-5">
-          <h1 class="mb-0">GST Filling</h1>
+          <h1 class="mb-0" style="margin-left : 10px;">GST Filling</h1>
         </div>
-        <p class="mb-4">
+        <p class="mb-4"  style="margin-left : 10px;">
             <b>GST Filing with Tally</b> involves using Tally's integrated GST features to manage and automate the filing process, ensuring accuracy and compliance. TallyPrime, the latest version of Tally, provides a comprehensive solution for GST accounting, making it easier for businesses to file GST returns directly from their accounting software.
         </p>
-        <p class="mb-0">
+        <p class="mb-0"  style="margin-left : 10px;">
             <b>GST-Compliant Invoicing:</b>Tally allows you to create GST-compliant invoices with HSN/SAC codes, tax rates, and other necessary details automatically populated.
             It supports different types of GST, including CGST, SGST, IGST, and UTGST, depending on the nature of the transaction.
         </p>
-        <p class="mb-0">
+        <p class="mb-0"  style="margin-left : 10px;">
             <b>Automated Tax Calculations:</b>
             Tally automates the calculation of GST for each transaction, reducing the chances of errors.
             It supports different tax scenarios like reverse charge, exempted goods/services, and zero-rated supplies.
         </p>
-        <p class="mb-0">
+        <p class="mb-0"  style="margin-left : 10px;">
             <b>Input Tax Credit (ITC) Management:</b>
             Tally helps you manage and track your Input Tax Credit by maintaining a detailed record of GST paid on purchases.
             It automatically matches the ITC with GSTR-2A data, making reconciliation straightforward.
         </p>
-        <p class="mb-0">
+        <p class="mb-0"  style="margin-left : 10px;">
             <b>GST Return Preparation:</b>
             Tally prepares all the necessary GST returns (e.g., GSTR-1, GSTR-3B) by consolidating the transaction data entered.
             The software categorizes transactions based on their GST applicability, simplifying the return preparation process.
@@ -121,6 +121,7 @@
         <a
           href="maincontact.php"
           class="btn btn-primary py-3 px-5 mt-3 wow zoomIn"
+           style="margin-left : 10px;"
           data-wow-delay="0.9s"
           >Contact Us</a
         >

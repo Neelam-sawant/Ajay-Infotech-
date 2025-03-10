@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="utf-8">
-    <?php include '../linkcss.php'; ?>
+    <?php include 'linkcss.php'; ?>
 
 
     <!-- styling start -->
@@ -52,14 +52,14 @@
 
 
 <!-- Navbar & Carousel Start -->
-<?php include '../navbar.php' ?>
+<?php include 'navbar.php' ?>
 <!-- Navbar & Carousel end -->
 
 
 
 <!-- background name display start -->
 <div class="aiheaderimage">
-    <img src="/img/Tally Pime backgrornd image.png"  class="header-image">
+    <img src="img\Tally Pime backgrornd image.png"  class="header-image">
     <h1 class="title">INR Filling</h1>
 </div>
 <!-- background name display end -->
@@ -80,37 +80,40 @@
     <!-- First Component -->
     <div class="row g-5 mt-5">
       <!-- Image Column on the Left -->
-      <div class="col-lg-5" style="min-height: 500px">
-        <div class="position-relative h-100">
+      <div class="row g-5 mt-5 align-items-center" style="gap: 10px;">
+    <!-- Image Column -->
+    <div class="row g-5 mt-5 d-flex align-items-center" style="gap: 10px; flex-wrap: nowrap;">
+    <!-- Image Column -->
+    <div class="col-lg-5">
+        <div class="h-100">
             <img 
-                class="position-absolute w-100 h-60 rounded custom-image-size wow zoomIn"
+                class="w-100 rounded custom-image-size wow zoomIn"
+                style="object-fit: cover; border-radius: 18px; height: auto;"
                 data-wow-delay="0.9s"
-                src="/img/inrf1.webp" 
+                src="img/inrf1.webp" 
                 alt="Image"
             />
         </div>
     </div>
 
-      <!-- Text Column on the Right -->
-      <div class="col-lg-7">
+    <!-- Text Column -->
+    <div class="col-lg-7">
         <div class="section-title position-relative pb-3 mb-5">
-          <h1 class="mb-0">INR Filling</h1>
+            <h1 class="mb-0">INR Filling</h1>
         </div>
         <p class="mb-4">
             INR Filling with Tally is the process of managing and filing International Normalized Ratio (INR) data, typically related to financial transactions, using Tally software. Tally is a comprehensive business management software widely used for accounting, inventory management, and statutory compliance. In the context of INR filling, Tally helps businesses accurately record, manage, and report financial transactions that involve INR, ensuring compliance with relevant financial regulations and tax laws.
-
         </p>
         <p class="mb-0">
             The software simplifies the process by automating calculations, generating necessary reports, and filing returns, saving time and reducing errors. With Tally, businesses can streamline their financial operations, maintain accurate records, and ensure that their INR-related filings are completed efficiently and correctly.
         </p>
-        <a
-          href="contact.html"
-          class="btn btn-primary py-3 px-5 mt-3 wow zoomIn"
-          data-wow-delay="0.9s"
-          >Contact Us</a
-        >
-      </div>
+        <a href="contact.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">
+            Contact Us
+        </a>
     </div>
+</div>
+
+
     <br><br><br>
 
 
@@ -129,7 +132,7 @@
             <div class="image-wrapper rounded mb-3">
               <img
                 style="height: 50px; width: 50px"
-                src="/img/tamc1.svg"
+                src="img/tamc1.svg"
                 class="card-img-top"
                 alt="Image"
               />
@@ -149,7 +152,7 @@
             <div class="image-wrapper rounded mb-3">
               <img
                 style="height: 50px; width: 50px"
-                src="/img/tamc2.svg"
+                src="img\tamc2.svg"
                 class="card-img-top"
                 alt="Image"
               />
@@ -170,7 +173,7 @@
             <div class="image-wrapper rounded mb-3">
               <img
                 style="height: 50px; width: 50px"
-                src="/img/tamc3.svg"
+                src="img/tamc3.svg"
                 class="card-img-top"
                 alt="Image"
               />
@@ -190,7 +193,7 @@
             <div class="image-wrapper rounded mb-3">
               <img
                 style="height: 50px; width: 50px"
-                src="/img/tamc4.svg"
+                src="img/tamc4.svg"
                 class="card-img-top"
                 alt="Image"
               />
@@ -210,7 +213,7 @@
             <div class="image-wrapper rounded mb-3">
               <img
                 style="height: 50px; width: 50px"
-                src="/img/tamc5.svg"
+                src="img/tamc5.svg"
                 class="card-img-top"
                 alt="Image"
               />
@@ -232,7 +235,7 @@
             <div class="image-wrapper rounded mb-3">
               <img
                 style="height: 50px; width: 50px"
-                src="/img/tamc6.svg"
+                src="img/tamc6.svg"
                 class="card-img-top"
                 alt="Image"
               />
@@ -389,7 +392,7 @@
 
 <!-- contact start -->
 
-<?php include './../contact.php' ?>
+<?php include 'contact.php' ?>
 
 
 
@@ -399,7 +402,7 @@
 
 
 <!-- Vendor Start -->
-<?php include './../vendor.php' ?>
+<?php include 'vendor.php' ?>
 <!-- Vendor End -->
 
 
@@ -410,15 +413,15 @@
 
 
 
-<!-- footer start -->
-<?php include '../footer.php' ?>
+<!-- footer star-->
+<?php include 'footer.php' ?>
 <!-- Footer End -->
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
-    <?php include '../linkscript.php'; ?>
+    <?php include 'linkscript.php'; ?>
 </body>
 
 </html>

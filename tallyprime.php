@@ -30,7 +30,7 @@
 
 <!-- background name display Start -->
   <div class="aiheaderimage">
-    <img src="/img/Tally Pime backgrornd image.png"  class="header-image">
+    <img src="img/Tally Pime backgrornd image.png"  class="header-image">
     <h1 class="title">Tally Prime</h1>
 </div>
 <!-- background name display end -->
@@ -73,8 +73,8 @@
           <img
             class="position-absolute w-100 h-100 rounded wow zoomIn"
             data-wow-delay="0.9s"
-            src="/img/TallyPrime.svg"
-            style="object-fit: contain"
+            src=" img/TallyPrime.svg"
+            style="object-fit: contain; margin-left: 10px;"
           />
         </div>
       </div>
@@ -88,8 +88,8 @@
           <img
             class="position-absolute w-100 h-100 rounded wow zoomIn"
             data-wow-delay="0.9s"
-            src="/img/TallyPrime2.svg"
-            style="object-fit: contain"
+            src="img/TallyPrime2.svg"
+            style="object-fit: contain; margin-left: 10px;"
           />
         </div>
       </div>
@@ -119,7 +119,7 @@
           <img
             class="position-absolute w-100 h-100 rounded wow zoomIn"
             data-wow-delay="0.9s"
-            src="/img/TallyPrime3.svg"
+            src="img/TallyPrime3.png"
             style="object-fit: contain"
           />
         </div>
@@ -134,7 +134,7 @@
           <img
             class="position-absolute w-100 h-100 rounded wow zoomIn"
             data-wow-delay="0.9s"
-            src="/img/TallyPrime4.svg"
+            src="img/TallyPrime4.svg"
             style="object-fit: contain"
           />
         </div>
@@ -168,81 +168,77 @@
     <!-- do more with tally prime heading component end -->
 
     <!-- first text with video component start -->
-    <div  class="row g-5 mt-5">
-      <div class="col-lg-7">
-          <p class="mb-4">
-              TallyPrime is designed to streamline and enhance payment processes for MSMEs, ensuring compliance with MSME regulations. Registered MSMEs can easily print their UDYAM registration number, track upcoming or delayed receivables, and send timely reminders to manage their cash flow effectively. For businesses engaging with MSMEs, TallyPrime provides a straightforward way to identify upcoming payables, monitor due dates, and use the ‘MSME Form -1’ to report overdue bills. This integration helps maintain transparency and efficiency in transactions, supporting better financial management and adherence to MSME guidelines.
-          </p>
-      </div>
-      <div class="col-lg-5" >
-          <div class="position-relative h-100">
-              <video style="border-radius: 18px;width: 500px;height: 250px;" class="position-absolute w-100  rounded wow zoomIn" 
-                     autoplay 
-                     muted 
-                     playsinline 
-                     data-wow-delay="0.9s" 
-                     src="/img/fv.mp4" 
-                     style="object-fit: cover"></video>
-          </div>
-      </div>
-  </div>
-  
-  <div class="row g-5 mt-5">
-      <div class="col-lg-5" >
-          <div class="position-relative h-100">
-              <video style="border-radius: 18px;width: 500px;height: 250px;" class="position-absolute w-100  rounded wow zoomIn" 
-                     autoplay 
-                     muted 
-                     playsinline 
-                     data-wow-delay="0.9s" 
-                     src="/img/sv.mp4" 
-                     style="object-fit: cover"></video>
-          </div>
-      </div>
-      <div class="col-lg-7">
-          <p class="mb-4">
-              TallyPrime offers a dynamic and powerful reports dashboard, designed to provide a comprehensive overview of your business information through intuitive and customizable visual formats. With TallyPrime, you can effortlessly add and configure tiles to display critical data, hide unnecessary details, and organize the information in a way that aligns with your preferences and business objectives. This flexibility ensures that you can tailor your dashboard to meet your specific needs, making it easier to track performance, analyze trends, and make informed decisions with confidence.
-          </p>
-      </div>
-  </div>
-  
-  <div class="row g-5 mt-5">
-      <div class="col-lg-7">
-          <p class="mb-4">
-              Effortlessly import your ledgers and transactions from Excel into TallyPrime with just a few simple steps. TallyPrime offers exceptional flexibility, allowing you to import your data seamlessly regardless of how it is organized or structured in Excel. Whether your data is formatted in rows, columns, or any custom layout, TallyPrime’s intuitive import functionality ensures that your information is accurately transferred and integrated, saving you time and reducing manual data entry errors. This ease of use helps streamline your accounting processes and maintain data consistency across your financial systems.
-          </p>
-      </div>
-      <div class="col-lg-5" >
-          <div class="position-relative h-100">
-              <video style="border-radius: 18px;width: 500px;height: 250px;" class="position-absolute w-100  rounded wow zoomIn" 
-                     autoplay 
-                     muted 
-                     playsinline 
-                     data-wow-delay="0.9s" 
-                     src="/img/tv.mp4" 
-                     style="object-fit: cover"></video>
-          </div>
-      </div>
-  </div>
-  
-  <div class="row g-5 mt-5">
-      <div class="col-lg-5" >
-          <div class="position-relative h-100">
-              <video style="border-radius: 18px;width: 500px;height: 250px;" class="position-absolute w-100  rounded wow zoomIn" 
-                     autoplay 
-                     muted 
-                     playsinline 
-                     data-wow-delay="0.9s" 
-                     src="/img/TallyPrime4.mp4" 
-                     style="object-fit: cover"></video>
-          </div>
-      </div>
-      <div class="col-lg-7">
-          <p class="mb-4">
-              Using TallyPrime's fully connected service, you can effortlessly generate e-way bills and e-invoices in real time, whether for a single invoice or multiple invoices. TallyPrime offers direct integration with the relevant portals, enabling seamless and automatic generation of e-invoices and e-way bills. This eliminates the need for manual intervention, streamlining your compliance processes and saving you valuable time. With TallyPrime, you can ensure accuracy and efficiency in your invoicing and transportation documentation, allowing you to focus on running your business.
-          </p>
-      </div>
-  </div>
+    <div class="row g-5 mt-5 align-items-center">
+    <div class="col-lg-7">
+        <p class="mb-4">
+            TallyPrime is designed to streamline and enhance payment processes for MSMEs, ensuring compliance with MSME regulations. Registered MSMEs can easily print their UDYAM registration number, track upcoming or delayed receivables, and send timely reminders to manage their cash flow effectively. For businesses engaging with MSMEs, TallyPrime provides a straightforward way to identify upcoming payables, monitor due dates, and use the ‘MSME Form -1’ to report overdue bills. This integration helps maintain transparency and efficiency in transactions, supporting better financial management and adherence to MSME guidelines.
+        </p>
+    </div>
+    <div class="col-lg-5">
+        <div class="position-relative h-100">
+            <video style="border-radius: 18px; width: 100%; height: auto; object-fit: cover;" 
+                   class="w-100 rounded wow zoomIn" 
+                   autoplay 
+                   muted 
+                   playsinline 
+                   data-wow-delay="0.9s" 
+                   src="img/fv.mp4"></video>
+        </div>
+    </div>
+</div>
+
+
+<div class="row g-5 mt-5 align-items-center">
+    <div class="col-lg-5">
+        <video style="border-radius: 18px; width: 50%; height: auto; object-fit: cover;" 
+               class="w-100 rounded wow zoomIn" 
+               autoplay 
+               muted 
+               playsinline 
+               data-wow-delay="0.9s" 
+               src="img/sv.mp4"></video>
+    </div>
+    <div class="col-lg-7">
+        <p class="mb-4">
+            TallyPrime offers a dynamic and powerful reports dashboard, designed to provide a comprehensive overview of your business information through intuitive and customizable visual formats. With TallyPrime, you can effortlessly add and configure tiles to display critical data, hide unnecessary details, and organize the information in a way that aligns with your preferences and business objectives. 
+        </p>
+    </div>
+</div>
+
+<div class="row g-5 mt-5 align-items-center">
+    <div class="col-lg-7">
+        <p class="mb-4">
+            Effortlessly import your ledgers and transactions from Excel into TallyPrime with just a few simple steps. TallyPrime offers exceptional flexibility, allowing you to import your data seamlessly regardless of how it is organized or structured in Excel. 
+        </p>
+    </div>
+    <div class="col-lg-5">
+        <video style="border-radius: 18px; width: 100%; height: auto; object-fit: cover;" 
+               class="w-100 rounded wow zoomIn" 
+               autoplay 
+               muted 
+               playsinline 
+               data-wow-delay="0.9s" 
+               src="img/tv.mp4"></video>
+    </div>
+</div>
+
+<div class="row g-5 mt-5 align-items-center">
+    <div class="col-lg-5">
+        <video style="border-radius: 18px; width: 100%; height: auto; object-fit: cover;" 
+               class="w-100 rounded wow zoomIn" 
+               autoplay 
+               muted 
+               playsinline 
+               data-wow-delay="0.9s" 
+               src="img/TallyPrime4.mp4"></video>
+    </div>
+    <div class="col-lg-7">
+        <p class="mb-4">
+            Using TallyPrime's fully connected service, you can effortlessly generate e-way bills and e-invoices in real time, whether for a single invoice or multiple invoices. TallyPrime offers direct integration with the relevant portals, enabling seamless and automatic generation of e-invoices and e-way bills. 
+        </p>
+    </div>
+</div>
+
   
 
     <!-- fourth text with video end -->

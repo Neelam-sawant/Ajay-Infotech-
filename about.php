@@ -92,7 +92,7 @@
             <div class="col-lg-5" style="min-height: 500px;">
                 <div class="position-relative h-100">
                     <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
-                        src="/img/about.jpg" style="object-fit: cover;">
+                        src="img/about.jpg" style="object-fit: cover;">
                 </div>
             </div>
         </div>
@@ -112,7 +112,7 @@
             <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                 <div class="team-item bg-light rounded overflow-hidden">
                     <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="/img/team-1.jpg" alt="">
+                        <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
                         <div class="team-social">
                             <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                             <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -129,7 +129,7 @@
             <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                 <div class="team-item bg-light rounded overflow-hidden">
                     <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="/img/team-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
                         <div class="team-social">
                             <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                             <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -146,7 +146,7 @@
             <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                 <div class="team-item bg-light rounded overflow-hidden">
                     <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="/img/team-3.jpg" alt="">
+                        <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
                         <div class="team-social">
                             <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                             <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>

@@ -74,7 +74,7 @@
             </div> -->
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-            <img src="./img/Pre.png" alt="Previous" class="custom-prev-icon">
+            <img src="img/Pre.png" alt="Previous" class="custom-prev-icon">
             <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
@@ -104,7 +104,7 @@
 
 <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s" >
     <div class style="margin: 100px;">
-        <div class="row g-5" style="margin-bottom: -78px;","margin-top: 20px;">
+        <div class="row g-5" style="margin-bottom: -78px;margin-top: 20px;">
             <div class="col-lg-7">
             
                 <div class="section-title position-relative pb-3 mb-5">
@@ -588,61 +588,52 @@
         <div class="custom-carousel-inner" id="carousel">
             <div class="custom-carousel-item">
                 <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="img/award.png" alt="Card image cap" />
+                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project (2).png" alt="Card image cap" />
                     
                 </div>
             </div>
             <div class="custom-carousel-item">
                 <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="img/award.png" alt="Card image cap" />
+                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project-1 (1).png" alt="Card image cap" />
                     
                 </div>
             </div>
             <div class="custom-carousel-item">
                 <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="img/award.png" alt="Card image cap" />
+                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project-1 (2).png" alt="Card image cap" />
                 </div>
             </div>
             <div class="custom-carousel-item">
                 <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="img/award.png" alt="Card image cap" />
+                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project-1 (3).png" alt="Card image cap" />
                 </div>
             </div>
             <div class="custom-carousel-item">
                 <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="img/award.png" alt="Card image cap" />
+                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project-1 (4).png" alt="Card image cap" />
                 </div>
             </div>
+
             <div class="custom-carousel-item">
                 <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="img/award.png" alt="Card image cap" />
-                </div>
-            </div>
-            <div class="custom-carousel-item">
-                <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="img/award.png" alt="Card image cap" />
+                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project-1 (8).png" alt="Card image cap" />
                     
                 </div>
             </div>
             <div class="custom-carousel-item">
                 <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="img/award.png" alt="Card image cap" />
+                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project-1 (5).png" alt="Card image cap" />
                 </div>
             </div>
             <div class="custom-carousel-item">
                 <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="img/award.png" alt="Card image cap" />
+                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project-1 (7).png" alt="Card image cap" />
                     
                 </div>
             </div>
             <div class="custom-carousel-item">
                 <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="img/award.png" alt="Card image cap" />
-                </div>
-            </div>
-            <div class="custom-carousel-item">
-                <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="img/award.png" alt="Card image cap" />
+                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project-1 (6).png" alt="Card image cap" />
                 </div>
             </div>
             <!-- Add other items similar to above -->
