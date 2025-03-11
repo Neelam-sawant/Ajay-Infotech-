@@ -40,12 +40,30 @@
         <div class="carousell-inner">
             <div class="carousel-item active">
                 <img style="left: 0%;top: 0%; right: 0%; width:100% ;"  src="img/Tally prime 5.0.png" alt="Image">
-                <div class="carousel-caption ">
-                    <div class="p-3" style="max-width: 900px;">
-                        <a href="blogdetais.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">To Know More</a>
-                        <a href="contact.php" class="btn btn-outline-primary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
-                    </div>
-                </div>
+                <div class="carousel-caption-top" 
+    style="text-align: center; position: absolute; top: 400px; left: 50%; transform: translateX(-50%); width: 100%;">
+    <div class="p-3" style="max-width: 900px;">
+        <a href="blogdetails.php" 
+            style="font-size: 18px; padding: 12px 30px; border-radius: 5px; margin: 10px; background-color: #2bb1e0; 
+                   border: 2px solid #2bb1e0; color: white; text-decoration: none; display: inline-block;
+                   transition: all 0.3s ease-in-out;"
+            onmouseover="this.style.backgroundColor='#2bb1e0'; this.style.borderColor='#2bb1e0';" 
+            onmouseout="this.style.backgroundColor='#2bb1e0'; this.style.borderColor='#2bb1e0';">
+            To Know More
+        </a>
+
+        <a href="contact.php" 
+            style="font-size: 18px; padding: 12px 30px; border-radius: 5px; margin: 10px; background-color: transparent;
+                   border: 2px solid #2bb1e0; color: #2bb1e0; text-decoration: none; display: inline-block;
+                   transition: all 0.3s ease-in-out;"
+            onmouseover="this.style.backgroundColor='#2bb1e0'; this.style.color='white';" 
+            onmouseout="this.style.backgroundColor='transparent'; this.style.color='#2bb1e0';">
+            Contact Us
+        </a>
+    </div>
+</div>
+
+
             </div>
             <!--
             <div class="carousel-item">
@@ -564,43 +582,36 @@
 <!-- awards carousel start -->
 
 <style>
-    .custom-carousel {
-        position: relative;
+    .carousel-container {
+        display: flex;
         overflow: hidden;
-        width: 100%;
-        margin: auto;
+        width: 100%; /* Adjust width as needed */
+        position: relative;
     }
 
-    .custom-carousel-inner {
-
+    .carousel-wrapper {
+        display: flex;
         transition: transform 0.5s ease-in-out;
-        width: 80%; /* Ensures enough space for items */
+        width: fit-content;
     }
 
     .custom-carousel-item {
-        flex: 0 0 25%; /* Shows 3 items at a time */
-        text-align: center;
-        padding: 5.1%;
+        min-width: 25%; /* Must match container width */
     }
 
-    .carousel-controls {
+    .btn {
         position: absolute;
         top: 50%;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
         transform: translateY(-50%);
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
         background: rgba(0, 0, 0, 0.5);
         color: white;
         border: none;
-        padding: 10px;
         cursor: pointer;
-        font-size: 24px;
+        padding: 100px;
     }
+
+    #prev { left: 10px; }
+    #next { right: 10px; }
 </style>
 
 <div class="container">
@@ -633,6 +644,15 @@
                 <img class="custom-card-img-top" src="Awards and certificats/Awards and certificats/Remove background project-1 (4).png" alt="Award 5" />
             </div>
             <div class="custom-carousel-item">
+                <img class="custom-card-img-top" src="Awards and certificats/Awards and certificats/Remove background project-1 (5).png" alt="Award 4" />
+            </div>
+            <div class="custom-carousel-item">
+                <img class="custom-card-img-top" src="Awards and certificats/Awards and certificats/Remove background project-1 (6).png" alt="Award 5" />
+            </div>
+            <div class="custom-carousel-item">
+                <img class="custom-card-img-top" src="Awards and certificats/Awards and certificats/Remove background project-1 (7).png" alt="Award 6" />
+            </div>
+            <div class="custom-carousel-item">
                 <img class="custom-card-img-top" src="Awards and certificats/Awards and certificats/Remove background project-1 (8).png" alt="Award 6" />
             </div>
         </div>
@@ -644,34 +664,60 @@
         const carousel = document.getElementById("carousel");
         const items = document.querySelectorAll(".custom-carousel-item");
         const totalItems = items.length;
-        let index = 0;
 
-        function slideCarousel() {
-            index++;
-            if (index >= totalItems) {
-                index = 0; // Loop back to the start
-            }
-            carousel.style.transform = `translateX(-${index * (100 / 3)}%)`;
+        // Clone first and last elements
+        const firstClone = items[0].cloneNode(true);
+        const lastClone = items[totalItems - 1].cloneNode(true);
+        carousel.appendChild(firstClone); // Clone first to end
+        carousel.insertBefore(lastClone, items[0]); // Clone last to start
+
+        let index = 1; // Start at real first image
+        let isTransitioning = false;
+
+        // Get updated list after cloning
+        const allItems = document.querySelectorAll(".custom-carousel-item");
+        const itemWidth = allItems[0].offsetWidth; 
+
+        // Set initial position
+        carousel.style.transform = `translateX(-${itemWidth}px)`;
+
+        function slideCarousel(direction) {
+            if (isTransitioning) return;
+            isTransitioning = true;
+            index += direction;
+            carousel.style.transition = "transform 0.5s ease-in-out";
+            carousel.style.transform = `translateX(-${index * itemWidth}px)`;
+
+            setTimeout(() => {
+                if (index >= totalItems + 1) {
+                    // Instantly jump back to real first image
+                    carousel.style.transition = "none";
+                    index = 1;
+                    carousel.style.transform = `translateX(-${index * itemWidth}px)`;
+                } else if (index <= 0) {
+                    // Instantly jump back to real last image
+                    carousel.style.transition = "none";
+                    index = totalItems;
+                    carousel.style.transform = `translateX(-${index * itemWidth}px)`;
+                }
+                isTransitioning = false;
+            }, 500);
         }
 
         // Auto-slide every 3 seconds
-        let autoSlide = setInterval(slideCarousel, 3000);
+        let autoSlide = setInterval(() => slideCarousel(1), 3000);
 
         // Navigation buttons
         document.getElementById("next").addEventListener("click", function () {
-            clearInterval(autoSlide); // Pause auto-slide
-            slideCarousel();
-            autoSlide = setInterval(slideCarousel, 3000); // Restart auto-slide
+            clearInterval(autoSlide);
+            slideCarousel(1);
+            autoSlide = setInterval(() => slideCarousel(1), 3000);
         });
 
         document.getElementById("prev").addEventListener("click", function () {
-            clearInterval(autoSlide); // Pause auto-slide
-            index--;
-            if (index < 0) {
-                index = totalItems - 1; // Loop back to last item
-            }
-            carousel.style.transform = `translateX(-${index * (100 / 3)}%)`;
-            autoSlide = setInterval(slideCarousel, 3000); // Restart auto-slide
+            clearInterval(autoSlide);
+            slideCarousel(-1);
+            autoSlide = setInterval(() => slideCarousel(1), 3000);
         });
     });
 </script>
@@ -730,6 +776,7 @@
 
         <div class="awards-carousel-inner" id="awardsCarousel">
             <!-- Images are cloned dynamically for seamless looping -->
+            
         </div>
 
         <button class="carousel-btn next" onclick="moveCarousel(1)"></button>
@@ -809,9 +856,9 @@
 
 
 
-<!-- Back to Top -->
+<!-- Back to Top 
 <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i style="width: 100px;" class="bi bi-arrow-up"></i></a>
-
+-->
 
 <!-- JavaScript Libraries -->
 <?php include 'linkscript.php' ?>
