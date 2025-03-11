@@ -571,189 +571,93 @@
 
 <!-- awards carousel start -->
 
-
-<div class="container">
-    <div class="col-sm-12 section-header section-title text-center position-relative pb-3 mb-4 mx-auto">
-        <h2 class="text-primary text-center">Awards</h2>
-    </div>
-    <div class="custom-carousel">
-        <div class="carousel-controls">
-            <button class="carousel-control-prev custom-btn btn-pink btn-floating" id="prev" type="button">
-                <i class="fas fa-angle-left fa-lg"></i>
-            </button>
-            <button class="carousel-control-next custom-btn btn-pink btn-floating" id="next" type="button">
-                <i class="fas fa-angle-right fa-lg"></i>
-            </button>
-        </div>
-        <div class="custom-carousel-inner" id="carousel">
-            <div class="custom-carousel-item">
-                <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project (2).png" alt="Card image cap" />
-                    
-                </div>
-            </div>
-            <div class="custom-carousel-item">
-                <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project-1 (1).png" alt="Card image cap" />
-                    
-                </div>
-            </div>
-            <div class="custom-carousel-item">
-                <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project-1 (2).png" alt="Card image cap" />
-                </div>
-            </div>
-            <div class="custom-carousel-item">
-                <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project-1 (3).png" alt="Card image cap" />
-                </div>
-            </div>
-            <div class="custom-carousel-item">
-                <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project-1 (4).png" alt="Card image cap" />
-                </div>
-            </div>
-
-            <div class="custom-carousel-item">
-                <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project-1 (8).png" alt="Card image cap" />
-                    
-                </div>
-            </div>
-            <div class="custom-carousel-item">
-                <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project-1 (5).png" alt="Card image cap" />
-                </div>
-            </div>
-            <div class="custom-carousel-item">
-                <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project-1 (7).png" alt="Card image cap" />
-                    
-                </div>
-            </div>
-            <div class="custom-carousel-item">
-                <div class="custom-card m-2">
-                    <img class="custom-card-img-top" src="Awards and certificats\Awards and certificats\Remove background project-1 (6).png" alt="Card image cap" />
-                </div>
-            </div>
-            <!-- Add other items similar to above -->
-        </div>
-    </div>
-    
-</div>
-
-
-<!-- Awards carousel end -->
-<br><br><br><br><br>
-<!-- Events carousel start -->
 <style>
-    .awards-carousel {
+    .carousel-container {
         overflow: hidden;
         position: relative;
         width: 80%;
         margin: auto;
     }
-
-    .awards-carousel-inner {
+    .carousel-inner {
         display: flex;
-        transition: transform 0.5s linear;
-        width: max-content; /* Allows continuous scrolling */
+        transition: transform 0.5s ease-in-out;
     }
-
-    .awards-carousel-item {
-        flex: 0 0 auto;
-        width: 200px; /* Adjust as needed */
-        margin: 0 10px;
-    }
-
-    .carousel-btn {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background: rgba(0, 0, 0, 0.5);
-        color: white;
-        border: none;
-        cursor: pointer;
-        padding: 10px;
-        z-index: 10;
-    }
-
-    .prev {
-        left: 0;
-    }
-
-    .next {
-        right: 0;
+    .carousel-item {
+        flex: 0 0 33.33%; /* Show 3 images at a time */
+        text-align: center;
     }
 </style>
 
 <div class="container">
     <div class="col-sm-12 section-header section-title text-center position-relative pb-3 mb-4 mx-auto">
+        <h2 class="text-primary text-center">Awards</h2>
+    </div>
+    <div class="carousel-container">
+        <div class="carousel-controls">
+            <button class="carousel-control-prev custom-btn btn-pink btn-floating" id="prevAwards" type="button">
+                <i class="fas fa-angle-left fa-lg"></i>
+            </button>
+            <button class="carousel-control-next custom-btn btn-pink btn-floating" id="nextAwards" type="button">
+                <i class="fas fa-angle-right fa-lg"></i>
+            </button>
+        </div>
+        <div class="carousel-inner" id="awardsCarousel">
+            <div class="carousel-item"><img src="img1.png" alt="Award 1" /></div>
+            <div class="carousel-item"><img src="img2.png" alt="Award 2" /></div>
+            <div class="carousel-item"><img src="img3.png" alt="Award 3" /></div>
+            <div class="carousel-item"><img src="img4.png" alt="Award 4" /></div>
+            <div class="carousel-item"><img src="img5.png" alt="Award 5" /></div>
+            <div class="carousel-item"><img src="img6.png" alt="Award 6" /></div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="col-sm-12 section-header section-title text-center position-relative pb-3 mb-4 mx-auto">
         <h2 class="text-primary text-center">Events</h2>
     </div>
-    <div class="awards-carousel">
-        <button class="carousel-btn prev" onclick="moveCarousel(-1)">&#10094;</button>
-
-        <div class="awards-carousel-inner" id="awardsCarousel">
-            <div class="awards-carousel-item">
-                <div class="awards-card m-2">
-                    <img class="awards-card-img-top" src="img/wimg1.jfif" alt="Card image cap" />
-                </div>
-            </div>
-            <div class="awards-carousel-item">
-                <div class="awards-card m-2">
-                    <img class="awards-card-img-top" src="img/wimg2.jfif" alt="Card image cap" />
-                </div>
-            </div>
-            <div class="awards-carousel-item">
-                <div class="awards-card m-2">
-                    <img class="awards-card-img-top" src="img/wimg3.jfif" alt="Card image cap" />
-                </div>
-            </div>
-            <div class="awards-carousel-item">
-                <div class="awards-card m-2">
-                    <img class="awards-card-img-top" src="img/wimg4.jfif" alt="Card image cap" />
-                </div>
-            </div>
+    <div class="carousel-container">
+        <div class="carousel-controls">
+            <button class="carousel-control-prev custom-btn btn-pink btn-floating" id="prevEvents" type="button">
+                <i class="fas fa-angle-left fa-lg"></i>
+            </button>
+            <button class="carousel-control-next custom-btn btn-pink btn-floating" id="nextEvents" type="button">
+                <i class="fas fa-angle-right fa-lg"></i>
+            </button>
         </div>
-
-        <button class="carousel-btn next" onclick="moveCarousel(1)">&#10095;</button>
+        <div class="carousel-inner" id="eventsCarousel">
+            <div class="carousel-item"><img src="event1.png" alt="Event 1" /></div>
+            <div class="carousel-item"><img src="event2.png" alt="Event 2" /></div>
+            <div class="carousel-item"><img src="event3.png" alt="Event 3" /></div>
+            <div class="carousel-item"><img src="event4.png" alt="Event 4" /></div>
+            <div class="carousel-item"><img src="event5.png" alt="Event 5" /></div>
+            <div class="carousel-item"><img src="event6.png" alt="Event 6" /></div>
+        </div>
     </div>
 </div>
 
 <script>
-    let carousel = document.getElementById("awardsCarousel");
-    let items = document.querySelectorAll(".awards-carousel-item");
-    let clonedItems = [...items]; // Clone items to create a seamless loop
+    function setupCarousel(carouselId) {
+        let carousel = document.getElementById(carouselId);
+        let items = carousel.querySelectorAll(".carousel-item");
+        let index = 0;
 
-    // Append clones to create a loop effect
-    clonedItems.forEach(item => {
-        let clone = item.cloneNode(true);
-        carousel.appendChild(clone);
-    });
-
-    let index = 0;
-    let itemWidth = items[0].offsetWidth + 10; // Adjust for margins
-
-    function moveCarousel(step) {
-        index += step;
-
-        if (index >= items.length) {
-            index = 0;
-            carousel.style.transition = "none"; // Reset transition for seamless looping
-            carousel.style.transform = `translateX(0px)`;
-        } else {
-            carousel.style.transition = "transform 0.5s ease-in-out";
-            carousel.style.transform = `translateX(-${index * itemWidth}px)`;
+        function slideCarousel() {
+            index++;
+            if (index > items.length - 3) {
+                index = 0;
+            }
+            carousel.style.transform = `translateX(-${index * (100 / 3)}%)`;
         }
+
+        setInterval(slideCarousel, 2000);
     }
 
-    // Auto-scroll every 2 seconds
-    setInterval(() => {
-        moveCarousel(1);
-    }, 2000);
+    document.addEventListener("DOMContentLoaded", function () {
+        setupCarousel("awardsCarousel");
+        setupCarousel("eventsCarousel");
+    });
 </script>
-
 
 
 <!-- Events carousel end -->
