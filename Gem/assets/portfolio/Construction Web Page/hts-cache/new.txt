@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+10:19:08	695/695	---MCZ	200	added ('OK')	text/plain	etag:W/%2262cfbffd-1a07%22	https://websitedemos.net/robots.txt		(from )
+10:19:08	425486/425486	---MCZ	200	added ('OK')	text/html	date:Mon,%2010%20Mar%202025%2003:45:46%20GMT	https://websitedemos.net/construction-02/?customize=template	F:/Shubham/Construction%20Web%20Page/websitedemos.net/construction-02/index6195.html	(from )
