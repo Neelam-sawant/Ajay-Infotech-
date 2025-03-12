@@ -80,7 +80,6 @@
                           <a class="text-light mb-2" href="gstservice.php"><i class="bi bi-arrow-right text-primary me-2"></i>GST Services</a>
                           <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Tally Services</a>
                           <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Web Development</a>
-                          <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Recruitment</a>
                       </div>
                   </div>
               </div>
