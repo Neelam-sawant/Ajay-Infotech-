@@ -246,9 +246,24 @@
         <a href="blogdetails.php"><img style="width: 200px;height: 100px;" src="img/tally.png" alt=""><p style="text-align: center;">click here</p></a>
       </div>
       <br>
-      <br>
+     
       <div class="something">
         <a href="blogdetails1.php"><img style="width: 200px;height: 100px;" src="img/bdetails1.png" alt=""><p style="text-align: center;">click here</p></a>
+      </div>
+      <br>
+      <div class="something">
+        <a href="blogdetails3.php"><img style="width: 200px;height: 100px;" src="img/e-way-bill.jpeg" alt=""><p style="text-align: center;">click here</p></a>
+      </div>
+      <br>
+      <div class="something">
+        <a href="blogdetails4.php"
+          ><img
+            style="width: 200px; height: 100px"
+            src="img/shortcut.png"
+            alt=""
+          />
+          <p style="text-align: center">click here</p></a
+        >
       </div>
       <br>
     </div>

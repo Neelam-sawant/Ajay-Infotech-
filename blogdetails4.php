@@ -45,6 +45,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left:40%;
     width: 100%; /* Make width flexible */
     max-width: 300px; /* Limit width for responsiveness */
     height: auto; /* Adjust based on content */
@@ -139,7 +140,7 @@
 <!-- background name display start -->
 <div class="aiheaderimage">
     <img src="img/Tally Pime backgrornd image.png"  class="header-image">
-    <h1 class="title">Blog Details</h1>
+    <h1 class="title">Shortcuts in Tally Prime</h1>
 </div>
 <!-- background name display end -->
 
@@ -149,53 +150,52 @@
 <div class="accordion-background">
   <div class="main-container">
     <!-- First Container: Image and Text -->
-    <div class="image-text-container">
-      <img src="img/bdetails1.png" alt="Image" class="image" />
-      <h1 class="text-below-image">Working with Reports in TallyPrime</h1>
-      <p class="text-below-image">
-        In every business journey, insights are the guiding stars, and reports
-        serve as the map to navigate the vast terrain of performance. Through
-        reports, you gain a panoramic view of your daily sales, purchase
-        dynamics, profit margins, and inventory status, among other critical
-        aspects. These reports aren’t just snapshots of your business; they’re
-        invaluable tools for reporting, auditing, and regulatory compliance.
-      </p>
-      <p class="text-below-image">
-        Enter TallyPrime, your trusted companion in decoding the language of
-        your business transactions. With TallyPrime, accessing these vital
-        reports is a breeze, offering real-time insights precisely when you need
-        them. Delve deeper with features like the Dashboard, where data
-        transforms into visually compelling graphs, empowering you to make
-        informed, data-driven decisions across various business verticals.
-        Working with reports in TallyPrime isn’t just efficient; it’s downright
-        flexible. Discovering your reports is a seamless experience, thanks to
-        TallyPrime’s intuitive organization. Navigate effortlessly through the
-        Gateway of Tally screen, or swiftly locate specific reports using the Go
-        To feature. But that’s not all. TallyPrime simplifies your journey
-        further with a plethora of keyboard shortcuts designed for effortless
-        report viewing. Whether you’re drilling down into details or
-        manipulating transactions, TallyPrime’s shortcuts make every task a
-        breeze. With the latest release of TallyPrime, accessing shortcuts and
-        related actions is easier than ever. The bottom bar provides quick
-        access to relevant shortcuts, ensuring a smooth workflow without
-        interruptions. Customize your reports effortlessly with TallyPrime’s
-        right buttons. Tailor your reports to fit your specific needs, whether
-        it’s adjusting dates, currency formats, or including specific details
-        for a more comprehensive analysis. Sharing your insights with
-        stakeholders is as simple as a click of a button. TallyPrime enables you
-        to export, email, WhatsApp, or print your reports seamlessly. Whether
-        it’s sharing financial reports with your CA or mailing reminders to your
-        clients, TallyPrime simplifies the process, ensuring efficient
-        communication. And let’s not forget the time-saving one-time
-        configurations offered by TallyPrime. Say goodbye to repetitive setups;
-        TallyPrime streamlines the process, allowing you to focus on what truly
-        matters: your business. In conclusion, TallyPrime isn’t just software;
-        it’s your trusted ally in the journey of business success. Empower
-        yourself with insights, simplify your workflows, and elevate your
-        business with TallyPrime’s intuitive features and seamless
-        functionality.
-      </p>
-    </div>
+    <div class="shortcut-section">
+    <h2 class="shortcut-title">Tally Prime Shortcuts</h2>
+    <div style="display: flex; justify-content: center; gap: 50px; margin-top: 20px;">
+    <!-- First Table -->
+    <table style="width: 40%; border-collapse: collapse; text-align: left; font-family: Arial, sans-serif; background-color: #f8f9fa;">
+        <thead>
+            <tr style="background-color: #d3d3d3; color: #333; font-weight: bold;">
+                <th style="padding: 12px; border-bottom: 2px solid #666;">Action</th>
+                <th style="padding: 12px; border-bottom: 2px solid #666;">Key</th>
+                <th style="padding: 12px; border-bottom: 2px solid #666;">Equivalent in Tally ERP 9</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td style="padding: 10px;">Open Company</td><td style="padding: 10px;">Ctrl + O</td><td style="padding: 10px;">Alt + F3</td></tr>
+            <tr><td style="padding: 10px;">Change Company</td><td style="padding: 10px;">Ctrl + F3</td><td style="padding: 10px;">Alt + F3</td></tr>
+            <tr><td style="padding: 10px;">Shut Company</td><td style="padding: 10px;">Alt + F1</td><td style="padding: 10px;">Alt + F1</td></tr>
+            <tr><td style="padding: 10px;">Open Vouchers</td><td style="padding: 10px;">Ctrl + B</td><td style="padding: 10px;">F2</td></tr>
+            <tr><td style="padding: 10px;">Display Daybook</td><td style="padding: 10px;">Alt + G</td><td style="padding: 10px;">D</td></tr>
+            <tr><td style="padding: 10px;">Alter Masters</td><td style="padding: 10px;">Ctrl + H</td><td style="padding: 10px;">A</td></tr>
+            <tr><td style="padding: 10px;">Quit Tally</td><td style="padding: 10px;">Ctrl + Q</td><td style="padding: 10px;">Esc</td></tr>
+        </tbody>
+    </table>
+
+    <!-- Second Table -->
+    <table style="width: 40%; border-collapse: collapse; text-align: left; font-family: Arial, sans-serif; background-color: #f8f9fa;">
+        <thead>
+            <tr style="background-color: #d3d3d3; color: #333; font-weight: bold;">
+                <th style="padding: 12px; border-bottom: 2px solid #666;">Action</th>
+                <th style="padding: 12px; border-bottom: 2px solid #666;">Key</th>
+                <th style="padding: 12px; border-bottom: 2px solid #666;">Equivalent in Tally ERP 9</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td style="padding: 10px;">Create a Ledger</td><td style="padding: 10px;">Alt + C</td><td style="padding: 10px;">Alt + C</td></tr>
+            <tr><td style="padding: 10px;">Create a Voucher</td><td style="padding: 10px;">Ctrl + V</td><td style="padding: 10px;">F7</td></tr>
+            <tr><td style="padding: 10px;">Print Reports</td><td style="padding: 10px;">Ctrl + P</td><td style="padding: 10px;">Alt + P</td></tr>
+            <tr><td style="padding: 10px;">Export Data</td><td style="padding: 10px;">Alt + E</td><td style="padding: 10px;">Alt + E</td></tr>
+            <tr><td style="padding: 10px;">Change Date</td><td style="padding: 10px;">F2</td><td style="padding: 10px;">F2</td></tr>
+            <tr><td style="padding: 10px;">Create a Stock Item</td><td style="padding: 10px;">Alt + I</td><td style="padding: 10px;">Alt + I</td></tr>
+            <tr><td style="padding: 10px;">Delete Entry</td><td style="padding: 10px;">Alt + D</td><td style="padding: 10px;">Alt + D</td></tr>
+        </tbody>
+    </table>
+</div>
+
+
+</div>
 
     <!-- Second Container: Search Section -->
     <div class="search-section">
@@ -206,6 +206,17 @@
           ><img
             style="width: 200px; height: 100px"
             src="img/tally.png"
+            alt=""
+          />
+          <p style="text-align: center">click here</p></a
+        >
+      </div>
+      <br>
+      <div class="something">
+        <a href="blogdetails1.php"
+          ><img
+            style="width: 200px; height: 100px"
+            src="img/bdetails1.png"
             alt=""
           />
           <p style="text-align: center">click here</p></a
@@ -232,9 +243,6 @@
           />
           <p style="text-align: center">click here</p></a
         >
-      </div><br>
-      <div class="something">
-        <a href="blogdetails4.php"><img style="width: 200px;height: 100px;" src="img/shortcut.png" alt=""><p style="text-align: center;">click here</p></a>
       </div>
       <br>
      

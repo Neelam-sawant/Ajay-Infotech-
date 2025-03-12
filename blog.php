@@ -174,6 +174,16 @@
                 <img src="img/bdetails2.png" alt="Third Blog Topic" style="width: 250px; height: auto; border-radius: 10px;">
             </a>
         </div>
+        <div>
+            <a href="blogdetails3.php">
+                <img src="img\e-way-bill.jpeg" alt="Third Blog Topic" style="width: 250px; height: 140px; border-radius: 10px;">
+            </a>
+        </div>
+        <div>
+            <a href="blogdetails4.php">
+                <img src="img/shortcut.png" alt="Working with Reports in TallyPrime" style="width: 250px; height: 140px; border-radius: 10px;">
+            </a>
+        </div>
     </div>
 </div>
 

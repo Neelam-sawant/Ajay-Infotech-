@@ -139,7 +139,7 @@
 <!-- background name display start -->
 <div class="aiheaderimage">
     <img src="img/Tally Pime backgrornd image.png"  class="header-image">
-    <h1 class="title">Blog Details</h1>
+    <h1 class="title">E-Way Bill in Tally Prime</h1>
 </div>
 <!-- background name display end -->
 
@@ -150,51 +150,23 @@
   <div class="main-container">
     <!-- First Container: Image and Text -->
     <div class="image-text-container">
-      <img src="img/bdetails1.png" alt="Image" class="image" />
-      <h1 class="text-below-image">Working with Reports in TallyPrime</h1>
-      <p class="text-below-image">
-        In every business journey, insights are the guiding stars, and reports
-        serve as the map to navigate the vast terrain of performance. Through
-        reports, you gain a panoramic view of your daily sales, purchase
-        dynamics, profit margins, and inventory status, among other critical
-        aspects. These reports aren’t just snapshots of your business; they’re
-        invaluable tools for reporting, auditing, and regulatory compliance.
-      </p>
-      <p class="text-below-image">
-        Enter TallyPrime, your trusted companion in decoding the language of
-        your business transactions. With TallyPrime, accessing these vital
-        reports is a breeze, offering real-time insights precisely when you need
-        them. Delve deeper with features like the Dashboard, where data
-        transforms into visually compelling graphs, empowering you to make
-        informed, data-driven decisions across various business verticals.
-        Working with reports in TallyPrime isn’t just efficient; it’s downright
-        flexible. Discovering your reports is a seamless experience, thanks to
-        TallyPrime’s intuitive organization. Navigate effortlessly through the
-        Gateway of Tally screen, or swiftly locate specific reports using the Go
-        To feature. But that’s not all. TallyPrime simplifies your journey
-        further with a plethora of keyboard shortcuts designed for effortless
-        report viewing. Whether you’re drilling down into details or
-        manipulating transactions, TallyPrime’s shortcuts make every task a
-        breeze. With the latest release of TallyPrime, accessing shortcuts and
-        related actions is easier than ever. The bottom bar provides quick
-        access to relevant shortcuts, ensuring a smooth workflow without
-        interruptions. Customize your reports effortlessly with TallyPrime’s
-        right buttons. Tailor your reports to fit your specific needs, whether
-        it’s adjusting dates, currency formats, or including specific details
-        for a more comprehensive analysis. Sharing your insights with
-        stakeholders is as simple as a click of a button. TallyPrime enables you
-        to export, email, WhatsApp, or print your reports seamlessly. Whether
-        it’s sharing financial reports with your CA or mailing reminders to your
-        clients, TallyPrime simplifies the process, ensuring efficient
-        communication. And let’s not forget the time-saving one-time
-        configurations offered by TallyPrime. Say goodbye to repetitive setups;
-        TallyPrime streamlines the process, allowing you to focus on what truly
-        matters: your business. In conclusion, TallyPrime isn’t just software;
-        it’s your trusted ally in the journey of business success. Empower
-        yourself with insights, simplify your workflows, and elevate your
-        business with TallyPrime’s intuitive features and seamless
-        functionality.
-      </p>
+      <img src="img\e-way-bill.jpeg" alt="Image" class="image" />
+      <h1 class="text-below-image">E-Way Bill TallyPrime</h1>
+      <div class="eway-bill-info">
+    <ul>
+        <li>The e-Way Bill system, introduced by the government, simplifies GST compliance by ensuring seamless movement of goods. An e-Way Bill document must be carried while transporting goods between locations, containing essential details like the Bill number.</li>
+        <li>Tally Prime streamlines the e-Way Bill process by integrating it with regular invoicing, eliminating the need for additional expertise.</li>
+        <li>The system applies to GST-registered businesses and enrolled transporters, requiring an e-Way Bill for goods exceeding Rs. 50,000 in value, whether for supply, non-supply reasons, or inward supply from unregistered sellers.</li>
+    </ul>
+</div><div class="eway-bill-header">
+    <h2>What Is E-Way Bill Report?</h2>
+</div>
+<div class="eway-bill-info">
+    <p>
+        The e-Way Bill report is a one-stop shop for your e-Way Bill needs in <strong>TallyPrime</strong>. You can view the e-Way Bill status of your transactions, and take the next steps accordingly. You can perform operations such as e-Way Bill generation and cancellation for one or many transactions. The e-Way Bill report also allows you to view the transactions where the details are incomplete or incorrect, and update the required information.
+    </p>
+</div>
+
     </div>
 
     <!-- Second Container: Search Section -->
@@ -206,6 +178,17 @@
           ><img
             style="width: 200px; height: 100px"
             src="img/tally.png"
+            alt=""
+          />
+          <p style="text-align: center">click here</p></a
+        >
+      </div>
+      <br>
+      <div class="something">
+        <a href="blogdetails1.php"
+          ><img
+            style="width: 200px; height: 100px"
+            src="img/bdetails1.png"
             alt=""
           />
           <p style="text-align: center">click here</p></a
@@ -224,20 +207,16 @@
       </div>
       <br />
       <div class="something">
-        <a href="blogdetails3.php"
+        <a href="blogdetails4.php"
           ><img
             style="width: 200px; height: 100px"
-            src="img/e-way-bill.jpeg"
+            src="img/shortcut.png"
             alt=""
           />
           <p style="text-align: center">click here</p></a
         >
-      </div><br>
-      <div class="something">
-        <a href="blogdetails4.php"><img style="width: 200px;height: 100px;" src="img/shortcut.png" alt=""><p style="text-align: center;">click here</p></a>
       </div>
       <br>
-     
     </div>
   </div>
 </div>
