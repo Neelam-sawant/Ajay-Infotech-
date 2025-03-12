@@ -26,7 +26,7 @@
   <div class="container-fluid position-relative p-0">
       <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0 " style="background-color: #003B64;">
           <a href="index.php" class="navbar-brand p-0">
-              <h1 style="margin-left:30px;"><i class="fa  me-2"><img style="height: 5;width: 50px; margin: left 10px;" src="img\AILOGO.png" alt=""> </i>Ajay Infotech</h1>
+              <h1 style="margin-left:30px;"><i class="fa  me-2"><img style="height: 50px;width: 50px; margin: left 10px;" src="img\AILOGO.png" alt=""> </i>Ajay Infotech</h1>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
               <span class="fa fa-bars"></span>

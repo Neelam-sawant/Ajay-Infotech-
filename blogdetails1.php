@@ -150,7 +150,7 @@
   <div class="main-container">
     <!-- First Container: Image and Text -->
     <div class="image-text-container">
-      <img src="img/bdetails-2.png" alt="Image" class="image" />
+      <img src="img/bdetails1.png" alt="Image" class="image" />
       <h1 class="text-below-image">Working with Reports in TallyPrime</h1>
       <p class="text-below-image">
         In every business journey, insights are the guiding stars, and reports
@@ -205,7 +205,7 @@
         <a href="blogdetails.php"
           ><img
             style="width: 200px; height: 100px"
-            src="img/bdetails-1.png"
+            src="img/tally.png"
             alt=""
           />
           <p style="text-align: center">click here</p></a
@@ -213,37 +213,17 @@
       </div>
       <br />
       <div class="something">
-        <a href="blogdetails1.php"
+        <a href="blogdetails2.php"
           ><img
             style="width: 200px; height: 100px"
-            src="img/bdetails-2.png"
+            src="img/bdetails2.png"
             alt=""
           />
           <p style="text-align: center">click here</p></a
         >
       </div>
       <br />
-      <div class="something">
-        <a href="blogdetails.php"
-          ><img
-            style="width: 200px; height: 100px"
-            src="img/bdetails-3.png"
-            alt=""
-          />
-          <p style="text-align: center">click here</p></a
-        >
-      </div>
-      <br />
-      <div class="something">
-        <a href=""
-          ><img
-            style="width: 200px; height: 100px"
-            src="img/bdetails-1.png"
-            alt=""
-          />
-          <p style="text-align: center">click here</p></a
-        >
-      </div>
+     
     </div>
   </div>
 </div>

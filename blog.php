@@ -156,49 +156,28 @@
 
 <!-- blog cards start -->
 <div class="accordion-background">
-    <div style="display: flex;justify-content: center;" class="container mt-5">
-        <div class="card fbg">
-            <!-- <h3 class="card__title text-uppercase">Mastering The Dashboard Features In Tally
-            </h3> -->
-            <!-- <p class="card__content">Professional And Reliable </p> -->
-            <div class="card__date">
-                <!-- August 20, 2024 -->
-            </div>
-            <div class="card__arrow">
-                <a href="blogdetails.php"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
-                    <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
-                </svg></a>
-            </div>
+    <div style="display: flex; justify-content: center; gap: 20px;" class="container mt-5">
+        <div>
+            <a href="blogdetails.php">
+                <img src="img/tally.png" alt="Mastering The Dashboard Features In Tally" style="width: 250px; height: 140px; border-radius: 10px;">
+            </a>
         </div>
-        <div class="card sbg">
-            <!-- <h3 class="card__title text-uppercase">working with reports in tallyprime
-            </h3> -->
-            <!-- <p class="card__content">Professional And Reliable </p> -->
-            <div class="card__date">
-                <!-- August 20, 2024 -->
-            </div>
-            <div class="card__arrow">
-                <a href="blogdetails1.php"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
-                    <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
-                </svg></a>
-            </div>
+        
+        <div>
+            <a href="blogdetails1.php">
+                <img src="img/bdetails1.png" alt="Working with Reports in TallyPrime" style="width: 250px; height: auto; border-radius: 10px;">
+            </a>
         </div>
-        <div class="card tbg">
-            <h3 class="card__title text-uppercase">
-            </h3>
-            <p class="card__content"></p>
-            <div class="card__date">
-                <!-- August 20, 2024 -->
-            </div>
-            <div class="card__arrow">
-                <a href="blogdetails2.php"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
-                    <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
-                </svg></a>
-            </div>
+        
+        <div>
+            <a href="blogdetails2.php">
+                <img src="img/bdetails2.png" alt="Third Blog Topic" style="width: 250px; height: auto; border-radius: 10px;">
+            </a>
         </div>
     </div>
-    
 </div>
+
+
 
 <!-- blog cards end -->
 

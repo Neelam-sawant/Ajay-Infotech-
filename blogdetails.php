@@ -145,7 +145,7 @@
   <div class="main-container">
     <!-- First Container: Image and Text -->
     <div class="image-text-container">
-      <img src="img/bdetails-1.png" alt="Image" class="image" />
+      <img src="img/tally.png" alt="Image" class="image" />
       <h1 class="text-below-image">
         TallyPrime Release 5.0: What’s New!
       </h1>
@@ -300,21 +300,15 @@
     <div class="search-section">
       <p style="text-align: center;margin: 10px;">Recent Posts</p>
       <br>
+      <br>
       <div class="something">
-        <a href="blogdetails.php"><img style="width: 200px;height: 100px;" src="img/bdetails-1.png" alt=""><p style="text-align: center;">click here</p></a>
+        <a href="blogdetails1.php"><img style="width: 200px;height: auto;" src="img\bdetails1.png" alt=""><p style="text-align: center;">click here</p></a>
       </div>
       <br>
       <div class="something">
-        <a href="blogdetails1.php"><img style="width: 200px;height: 100px;" src="img/bdetails-2.png" alt=""><p style="text-align: center;">click here</p></a>
+        <a href="blogdetails2.php"><img style="width: 200px;height: auto;" src="img/bdetails2.png" alt=""><p style="text-align: center;">click here</p></a>
       </div>
       <br>
-      <div class="something">
-        <a href="blogdetails2.php"><img style="width: 200px;height: 100px;" src="img/bdetails-3.png" alt=""><p style="text-align: center;">click here</p></a>
-      </div>
-      <br>
-      <div class="something">
-        <a href=""><img style="width: 200px;height: 100px;" src="img/bdetails-1.png" alt=""><p style="text-align: center;">click here</p></a>
-      </div>
     </div>
    
   </div>
