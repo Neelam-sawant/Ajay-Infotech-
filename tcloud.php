@@ -196,8 +196,7 @@
       </div>
     </div>
     <br />
-    <br />
-    <br />
+
 
     <!-- why tally on cloud end -->
 
@@ -286,7 +285,7 @@
         </div>
       </div>
       <!-- first component end -->
-      <br><br><br>
+      <br>
       <!-- second component start -->
       <div class="row g-5 mt-5">
         <div class="col-lg-7">
@@ -309,7 +308,7 @@
         </div>
       </div>
       <!-- second component end -->
-      <br><br><br>
+      <br>
       <!-- third component start -->
 
       <div class="row g-5 mt-5">
@@ -336,7 +335,7 @@
       </div>
 
       <!-- third component end -->
-      <br><br><br>
+      <br>
       <!-- Tally on cloud image and description end -->
     </div>
   </div>

@@ -141,28 +141,21 @@
         <img src="img/wimg2.jfif" alt="Image 2" />
         <img src="img/wimg3.jfif" alt="Image 3" />
         <img src="img/wimg4.jfif" alt="Image 4" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project (2).png" alt="Image 5" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (1).png" alt="Image 6" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (2).png" alt="Image 7" />
-        <img src="Awards and certificats/Awards and certificats/Remove background project-1 (3).png" alt="Image 8" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (4).png" alt="Image 9" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (5).png" alt="Image 10" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (8).png" alt="Image 11" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (6).png" alt="Image 12" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (7).png" alt="Image 13" />
+       
         <!-- This will go on the next row -->
       </div>
     </div>
     <div id="image2" class="image-container">
       <div class="image-grid">
-        <img src="https://via.placeholder.com/600x400" alt="Image 1" />
-        <img src="https://via.placeholder.com/600x400" alt="Image 2" />
-        <img src="https://via.placeholder.com/600x400" alt="Image 3" />
-        <img src="https://via.placeholder.com/600x400" alt="Image 4" />
-        <img src="https://via.placeholder.com/600x400" alt="Image 5" />
-        <img src="https://via.placeholder.com/600x400" alt="Image 6" />
-        <img src="https://via.placeholder.com/600x400" alt="Image 7" />
-        <img src="https://via.placeholder.com/600x400" alt="Image 8" />
+      <img src="Awards and certificats\Awards and certificats\Remove background project (2).png" alt="Image 1" />
+        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (1).png" alt="Image 2" />
+        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (2).png" alt="Image 3" />
+        <img src="Awards and certificats/Awards and certificats/Remove background project-1 (3).png" alt="Image 4" />
+        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (4).png" alt="Image 5" />
+        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (5).png" alt="Image 6" />
+        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (8).png" alt="Image 7" />
+        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (6).png" alt="Image 8" />
+        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (7).png" alt="Image 9" />
         <!-- This will go on the next row -->
       </div>
     </div>
