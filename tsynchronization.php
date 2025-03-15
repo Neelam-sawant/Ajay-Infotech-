@@ -100,7 +100,7 @@
         <p class="mb-4">
            When it comes to distributing Tally applications across several locations, a modular architecture is needed. A traditional configuration can include a corporate headquarters, several branches, warehouses and factories, and sales depots. The usage at different locations varies greatly depending on the type of location and the functionalities to be introduced. For example, the Sales Depot will only wish to join Sales Orders and Cheques Obtained and may need to know the status of their orders and pending dues. The fact that various states have different tax policies contributes to the complexity of enforcement.
         </p>
-        <a href="contact.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact Us</a>
+        <a href="maincontact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact Us</a>
       </div>
     </div>
     <br><br><br>

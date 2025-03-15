@@ -52,7 +52,7 @@
             To Know More
         </a>
 
-        <a href="contact.php" 
+        <a href="maincontact.php" 
             style="font-size: 18px; padding: 12px 30px; border-radius: 5px; margin: 10px; background-color: transparent;
                    border: 2px solid #2bb1e0; color: #2bb1e0; text-decoration: none; display: inline-block;
                    transition: all 0.3s ease-in-out;"

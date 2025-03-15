@@ -92,7 +92,7 @@
         <p class="mb-4">
            At Synergy Technologies, we offer customized Tally solutions tailored to your business needs. Our dedicated team specializes in creating seamless integrations with TallyPrime to meet your specific requirements. Whether you run a small shop or a large corporation, trust us for personalized Tally customization services.
         </p>
-        <a href="contact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact Us</a>
+        <a href="maincontact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact Us</a>
       </div>
     </div>
     <!-- image + description end -->

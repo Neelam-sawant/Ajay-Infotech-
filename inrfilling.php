@@ -107,7 +107,7 @@
         <p class="mb-0">
             The software simplifies the process by automating calculations, generating necessary reports, and filing returns, saving time and reducing errors. With Tally, businesses can streamline their financial operations, maintain accurate records, and ensure that their INR-related filings are completed efficiently and correctly.
         </p>
-        <a href="contact.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">
+        <a href="maincontact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">
             Contact Us
         </a>
     </div>

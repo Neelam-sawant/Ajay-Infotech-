@@ -77,7 +77,7 @@
         <p class="mb-4">
           Continue recording transactions or viewing reports while taking backup with no compromise on speed, access, or accuracy. It also limits discrepancies at the client end to the client systems and ensures that neither data on the server nor the operations of other users get impacted. Thus, improves work productivity and business performance by avoiding disruption of work and ensuring zero downtime.
         </p>
-        <a href="contact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact Us</a>
+        <a href="maincontact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact Us</a>
       </div>
     </div>
     <!-- image + description end -->

@@ -471,7 +471,7 @@ h1 {
                 <div class="carousel-caption ">
                     <div class="p-3" style="max-width: 900px;">
                         <a href="blogdetais.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">To Know More</a>
-                        <a href="contact.php" class="btn btn-primary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                        <a href="maincontact.php" class="btn btn-primary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -483,7 +483,7 @@ h1 {
                             <!-- <h5 class="text-uppercase mb-3 animated slideInDown">Stay Updated</h5> -->
                             <!-- <h1 class="animated zoomIn" >Tally Prime 5.0</h1> -->
                             <a href="blogdetails.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">To Know More</a>
-                            <a href="contact.html" class="btn btn-primary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                            <a href="maincontact.html" class="btn btn-primary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                         </div>
                     </div>
            </div>
