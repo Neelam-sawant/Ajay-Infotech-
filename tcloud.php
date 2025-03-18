@@ -90,7 +90,7 @@
 
 <!-- text and image start -->
 <div
-  style="background-color: #e7eaf6"
+  style="background-color:  rgb(253, 253, 253)"
   class="container-fluid py-5 wow fadeInUp"
   data-wow-delay="0.1s"
 >
@@ -190,7 +190,7 @@
             class="position-absolute w-100 h-100 rounded wow zoomIn"
             data-wow-delay="0.9s"
             src="img/tcloud1.jpeg"
-            style="object-fit: contain"
+            style="margin-left:20px;"
           />
         </div>
       </div>
@@ -239,7 +239,7 @@
 
   <!-- Why Tally On Cloud end -->
 
-  <!-- Tally On Cloud With Ajay Infotech Start -->
+  <!-- Tally On Cloud With Ajay Infotech Start 
   <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
       <div
@@ -258,7 +258,7 @@
         <b><p class="mb-0">Our cloud solution ensures:</p></b>
       </div>
 
-      <!-- Tally on cloud image and description start -->
+      Tally on cloud image and description start -->
 
       <!-- first component start -->
       <div class="row g-5 mt-5">
@@ -289,24 +289,25 @@
       <!-- second component start -->
       <div class="row g-5 mt-5">
         <div class="col-lg-7">
-          <div class="section-title position-relative pb-3 mb-5">
+          <div class="section-title position-relative pb-3 mb-5" style="margin-left:40px;">
             <h1 class="mb-0">Complete security</h1>
           </div>
-          <h5 class="mb-4">
+          <h5 class="mb-4" style="margin-left:40px;">
             Get in-built Firewall, anti-virus & automatic data backup facilities
           </h5>
-        </div>
+          </div>
         <div class="col-lg-5" style="height: 250px;">
           <div class="position-relative h-100">
             <img
-              class="position-absolute w-100 h-100 rounded wow zoomIn"
+              class="position-absolute w-10s0 h-100 rounded wow zoomIn"
               data-wow-delay="0.9s"
               src="img/tcloud4.png"
               style="object-fit: contain"
             />
           </div>
         </div>
-      </div>
+      
+</div>
       <!-- second component end -->
       <br>
       <!-- third component start -->

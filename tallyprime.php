@@ -42,8 +42,8 @@
 
 
 <!-- Text and Description Start for Tally -->
-<div style="background-color: #e7eaf6;" class="container-fluid py-5 wow fadeInUp bgti" data-wow-delay="0.1s">
-  <div class="container py-5">
+<div style="background-color:rgb(253, 253, 253);" class="container-fluid py-5 wow fadeInUp bgti" data-wow-delay="0.1s">
+  <div class="container py-5"  >
 
     <!-- First Component -->
     <div class="row g-5">
@@ -266,7 +266,6 @@
                 <div class="bg-light rounded">
                     <div class="border-bottom py-4 px-5 mb-4">
                         <h4 class="text-primary mb-1">Tally Prime Silver</h4>
-                        <small class="text-uppercase">Tally Prime Silver List</small>
                     </div>
                     <div class="p-5 pt-0">
                         <h1 class="display-5 mb-3">
@@ -290,7 +289,6 @@
                 <div class="bg-light rounded">
                     <div class="border-bottom py-4 px-5 mb-4">
                         <h4 class="text-primary mb-1">Tally Prime Gold</h4>
-                        <small class="text-uppercase">Tally Prime Gold List</small>
                     </div>
                     <div class="p-5 pt-0">
                         <h1 class="display-5 mb-3">

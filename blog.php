@@ -76,7 +76,7 @@
   
   
   .accordion-background {
-      background-color: #e7eaf6;
+      background-color:  rgb(253, 253, 253);
       width: 100%; /* Ensure it takes full width */
       padding: 20px; /* Add padding to visualize background */
     }
@@ -152,41 +152,150 @@
     
 
 <!-- Navbar & Carousel End -->
+<div class="mb-5 wow slideInUp" data-wow-delay="0.1s" style="margin-left:50px; margin-top:50px;">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Tag Cloud</h3>
+                        </div>
+                        <div class="d-flex flex-wrap m-n1">
+                            <a href="" class="btn btn-light m-1">Design</a>
+                            <a href="" class="btn btn-light m-1">Development</a>
+                            <a href="" class="btn btn-light m-1">Marketing</a>
+                            <a href="" class="btn btn-light m-1">SEO</a>
+                            <a href="" class="btn btn-light m-1">Writing</a>
+                            <a href="" class="btn btn-light m-1">Consulting</a>
+                            <a href="" class="btn btn-light m-1">Design</a>
+                            <a href="" class="btn btn-light m-1">Development</a>
+                            <a href="" class="btn btn-light m-1">Marketing</a>
+                            <a href="" class="btn btn-light m-1">SEO</a>
+                            <a href="" class="btn btn-light m-1">Writing</a>
+                            <a href="" class="btn btn-light m-1">Consulting</a>
+                        </div>
+                    </div>
+                    </div>
+<!-- Blog and Sidebar Container -->
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+          
 
+        <div class="row g-5">
+            <!-- Blog list Start -->
+            <div class="col-lg-8">
+                <div class="row g-4">
+                    <!-- Blog Item Start -->
+                    <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="blog-item bg-light rounded overflow-hidden">
+                            <div class="blog-img position-relative overflow-hidden">
+                                <img class="img-fluid" src="img/tally.png" alt="" style="width:100%; height:250px;">
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="blogdetails.php">17 March 2025</a>
+                            </div>
+                            <div class="p-3">
+                                <h5 class="mb-2">What’s new in Tally Prime 5.0?</h5>
+                                <p class="small">Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                                <a class="text-uppercase small fw-bold" href="blogdetails.php">Read More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Blog Item End -->
+                    
+                    <!-- Blog Item Start -->
+                    <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
+                        <div class="blog-item bg-light rounded overflow-hidden">
+                            <div class="blog-img position-relative overflow-hidden">
+                                <img class="img-fluid" src="img\bdetails1.png" alt="" style="width:100%; height:250px;">
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="blogdetails1.php">17 March 2025</a>
+                            </div>
+                            <div class="p-3">
+                                <h5 class="mb-2">Working with reports in Tally Prime</h5>
+                                <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
+                                <a class="text-uppercase small fw-bold" href="blogdetails1.php">Read More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Blog Item End -->
+                     <!-- Blog Item Start -->
+                    <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
+                        <div class="blog-item bg-light rounded overflow-hidden">
+                            <div class="blog-img position-relative overflow-hidden">
+                                <img class="img-fluid" src="img/bdetails2.png" alt="" style="width:100%; height:250px;">
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="blogdetails2.php">17 March 2025</a>
+                            </div>
+                            <div class="p-3">
+                                <h5 class="mb-2">Discover Tally Prime: Simplyfing Business</h5>
+                                <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
+                                <a class="text-uppercase small fw-bold" href="blogdetails2.php">Read More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Blog Item End -->
+                     <!-- Blog Item Start -->
+                    <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
+                        <div class="blog-item bg-light rounded overflow-hidden">
+                            <div class="blog-img position-relative overflow-hidden">
+                                <img class="img-fluid" src="img\e-way-bill.jpeg" alt="" style="width:100%; height:250px;">
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="blogdetails3.php">17 March 2025</a>
+                            </div>
+                            <div class="p-3">
+                                <h5 class="mb-2">E-Way Bill in Tally Prime</h5>
+                                <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
+                                <a class="text-uppercase small fw-bold" href="blogdetails3.php">Read More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Blog Item End -->
+                </div>
+            </div>
+            <!-- Blog list End -->
 
-<!-- blog cards start -->
-<div class="accordion-background">
-    <div style="display: flex; justify-content: center; gap: 20px;" class="container mt-5">
-        <div>
-            <a href="blogdetails.php">
-                <img src="img/tally.png" alt="Mastering The Dashboard Features In Tally" style="width: 250px; height: 140px; border-radius: 10px;">
-            </a>
-        </div>
-        
-        <div>
-            <a href="blogdetails1.php">
-                <img src="img/bdetails1.png" alt="Working with Reports in TallyPrime" style="width: 250px; height: auto; border-radius: 10px;">
-            </a>
-        </div>
-        
-        <div>
-            <a href="blogdetails2.php">
-                <img src="img/bdetails2.png" alt="Third Blog Topic" style="width: 250px; height: auto; border-radius: 10px;">
-            </a>
-        </div>
-        <div>
-            <a href="blogdetails3.php">
-                <img src="img\e-way-bill.jpeg" alt="Third Blog Topic" style="width: 250px; height: 140px; border-radius: 10px;">
-            </a>
-        </div>
-        <div>
-            <a href="blogdetails4.php">
-                <img src="img/shortcut.png" alt="Working with Reports in TallyPrime" style="width: 250px; height: 140px; border-radius: 10px;">
-            </a>
-        </div>
+            <!-- Sidebar Start -->
+            <div class="col-lg-4">
+                <!-- Search Form Start -->
+                <div class="mb-4 wow slideInUp" data-wow-delay="0.1s">
+                    <div class="input-group">
+                        <input type="text" class="form-control p-2" placeholder="Keyword" style="margin-left:30px;">
+                        <button class="btn btn-primary px-3"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+                <!-- Search Form End -->
+
+                <!-- Categories Start 
+                <div class="mb-4 wow slideInUp" data-wow-delay="0.1s" style="margin-left:30px;">
+                    <h5 class="section-title-sm pb-2">Categories</h5>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">Web Design</a>
+                        <a href="#" class="list-group-item list-group-item-action">Web Development</a>
+                        <a href="#" class="list-group-item list-group-item-action">Keyword Research</a>
+                        <a href="#" class="list-group-item list-group-item-action">Email Marketing</a>
+                    </div>
+                </div>
+                Categories End -->
+
+                <!-- Recent Post Start -->
+                <div class="mb-4 wow slideInUp" data-wow-delay="0.1s" style="margin-left:30px;">
+                    <h5 class="section-title-sm pb-2" >Recent Post</h5>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img/tally.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails.php" class="small ms-2">What’s new in Tally Prime 5.0?</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img\bdetails1.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails1.php" class="small ms-2">Working with reports in Tally Prime</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img\bdetails2.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails2.php" class="small ms-2">Discover Tally Prime: Simplyfing Business</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img/e-way-bill.jpeg" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails3.php" class="small ms-2">E-Way Bill in Tally Prime</a>
+                    </div>
+                    
+                </div>
+                <!-- Recent Post End -->
+            </div>
+            <!-- Sidebar End -->
+    
     </div>
 </div>
-
 
 
 <!-- blog cards end -->

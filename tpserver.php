@@ -88,7 +88,7 @@
 
   <!-- Tally Prime Server Section Start -->
 <div
-style="background-color: #e7eaf6"
+style="background-color:rgb(255, 255, 255)"
 class="container-fluid py-5 wow fadeInUp"
 data-wow-delay="0.1s"
 >
@@ -265,7 +265,7 @@ data-wow-delay="0.1s"
   <div class="container">
   <div class="row">
     <div class="col-12">
-      <h3 class="headings">
+      <h3 class="headings" style="text-align:left">
         Find out if TallyPrime Server is right for your business
       </h3>
       <p class="para-text text-center">
@@ -283,10 +283,10 @@ data-wow-delay="0.1s"
           src="https://tallysolutions.com/wp-content/uploads/2019/08/Icon-4-Blue.svg"
           class="img-fluid"
           alt="Tally"
+          style="display: block; margin: auto;"
         />
         <p class="para-text">
-          You are a growing business with 10+ employees performing various
-          operations simultaneously
+          You are a growing business with 10+ employees that perform various operations simultaneously
         </p>
       </div>
     </div>
@@ -296,6 +296,7 @@ data-wow-delay="0.1s"
           src="https://tallysolutions.com/wp-content/uploads/2019/08/Icon-4-Blue.svg"
           class="img-fluid"
           alt="Tally"
+          style="display: block; margin: auto;"
         />
         <p class="para-text">
           A business where multiple users are connected to the same data and
@@ -310,6 +311,7 @@ data-wow-delay="0.1s"
           src="https://tallysolutions.com/wp-content/uploads/2019/08/Icon-4-Blue.svg"
           class="img-fluid"
           alt="Tally"
+          style="display: block; margin: auto;"
         />
         <p class="para-text">
           A business with multiple branches and head office. All the

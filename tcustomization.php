@@ -72,7 +72,7 @@
 
 
  <!-- image + description start -->
- <div style="background-color: #e7eaf6" class="container-fluid custom-description-image py-5 wow fadeInUp" data-wow-delay="0.1s">
+ <div style="background-color:  rgb(253, 253, 253)" class="container-fluid custom-description-image py-5 wow fadeInUp" data-wow-delay="0.1s">
   <div class="container py-5">
 
     <!-- First Component -->

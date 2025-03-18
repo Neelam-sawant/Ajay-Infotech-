@@ -79,7 +79,7 @@
 
 
 
-<div style="background-color: #e7eaf6" class="container-fluid custom-description-image wow fadeInUp" data-wow-delay="0.1s">
+<div style="background-color:  rgb(253, 253, 253)" class="container-fluid custom-description-image wow fadeInUp" data-wow-delay="0.1s">
   <div class="container py-5">
 
     <!-- First Component -->
@@ -103,16 +103,16 @@
         <a href="maincontact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact Us</a>
       </div>
     </div>
-    <br><br><br>
 
 
     <!-- About Their Types start -->
 
     <!-- title start -->
 
-    <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+    <div class="section-title text-center" style="margin:100px">
        <h5 class="fw-bold text-primary text-uppercase">Choose Your Architecture Type:</h5>
-       <p class="mb-0">Choose your design type: centralised, decentralised, or hybrid, and we will configure it for your multi-location organisation. Sync data on a regular basis or explicitly insert data into the Central Tally Server.</p>
+       <p class="mb-0">Choose your design type: centralised, decentralised, or hybrid, and we will configure it for your multi-location organisation. </p>
+       <p>.Sync data on a regular basis or explicitly insert data into the Central Tally Server.</p>
    </div>
 
     <!-- title end -->

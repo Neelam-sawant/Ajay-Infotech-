@@ -76,7 +76,7 @@
     background-color: #f8f9fa;
   }
   .accordion-background {
-    background-color: #e7eaf6;
+    background-color:  rgb(253, 253, 253);
     width: 100%; /* Ensure it takes full width */
     padding: 20px; /* Add padding to visualize background */
   }
@@ -133,6 +133,7 @@
     <div class="accordion-container">
       <div class="accordion-button active" data-target="#image1">Events</div>
       <div class="accordion-button" data-target="#image2">Awards</div>
+      <div class="accordion-button" data-target="#image3">All</div>
     </div>
 
     <div id="image1" class="image-container" style="display: block;"> <!-- Show Events images by default -->
@@ -147,6 +148,25 @@
     </div>
     <div id="image2" class="image-container">
       <div class="image-grid">
+      <img src="Awards and certificats\Awards and certificats\Remove background project (2).png" alt="Image 1" />
+        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (1).png" alt="Image 2" />
+        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (2).png" alt="Image 3" />
+        <img src="Awards and certificats/Awards and certificats/Remove background project-1 (3).png" alt="Image 4" />
+        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (4).png" alt="Image 5" />
+        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (5).png" alt="Image 6" />
+        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (8).png" alt="Image 7" />
+        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (6).png" alt="Image 8" />
+        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (7).png" alt="Image 9" />
+        <!-- This will go on the next row -->
+      </div>
+    </div>
+
+    <div id="image3" class="image-container">
+      <div class="image-grid">
+      <img src="img/wimg1.jfif" alt="Image 1" />
+        <img src="img/wimg2.jfif" alt="Image 2" />
+        <img src="img/wimg3.jfif" alt="Image 3" />
+        <img src="img/wimg4.jfif" alt="Image 4" />
       <img src="Awards and certificats\Awards and certificats\Remove background project (2).png" alt="Image 1" />
         <img src="Awards and certificats\Awards and certificats\Remove background project-1 (1).png" alt="Image 2" />
         <img src="Awards and certificats\Awards and certificats\Remove background project-1 (2).png" alt="Image 3" />

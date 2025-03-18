@@ -53,7 +53,7 @@
 
 
 <!-- Tally Products List Start here -->
-<div class="container-fluid " style="background-color: #e7eaf6" data-wow-delay="0.1s">
+<div class="container-fluid " style="background-color:  rgb(253, 253, 253)" data-wow-delay="0.1s">
   <br><br><br>
   <div class="container ">
     <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px">

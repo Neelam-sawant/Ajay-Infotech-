@@ -79,7 +79,7 @@
   }
 
   .accordion-background {
-    background-color: #e7eaf6;
+    background-color:  rgb(253, 253, 253);
     width: 100%; /* Full width */
     padding: 20px;
   }
@@ -146,99 +146,89 @@
 <!-- Full Screen Search End -->
 
 <!-- blog details page start -->
-<div class="accordion-background">
-  <div class="main-container">
-    <!-- First Container: Image and Text -->
-    <div class="image-text-container">
-      <img src="img/bdetails1.png" alt="Image" class="image" />
-      <h1 class="text-below-image">Working with Reports in TallyPrime</h1>
-      <p class="text-below-image">
-        In every business journey, insights are the guiding stars, and reports
-        serve as the map to navigate the vast terrain of performance. Through
-        reports, you gain a panoramic view of your daily sales, purchase
-        dynamics, profit margins, and inventory status, among other critical
-        aspects. These reports aren’t just snapshots of your business; they’re
-        invaluable tools for reporting, auditing, and regulatory compliance.
-      </p>
-      <p class="text-below-image">
-        Enter TallyPrime, your trusted companion in decoding the language of
-        your business transactions. With TallyPrime, accessing these vital
-        reports is a breeze, offering real-time insights precisely when you need
-        them. Delve deeper with features like the Dashboard, where data
-        transforms into visually compelling graphs, empowering you to make
-        informed, data-driven decisions across various business verticals.
-        Working with reports in TallyPrime isn’t just efficient; it’s downright
-        flexible. Discovering your reports is a seamless experience, thanks to
-        TallyPrime’s intuitive organization. Navigate effortlessly through the
-        Gateway of Tally screen, or swiftly locate specific reports using the Go
-        To feature. But that’s not all. TallyPrime simplifies your journey
-        further with a plethora of keyboard shortcuts designed for effortless
-        report viewing. Whether you’re drilling down into details or
-        manipulating transactions, TallyPrime’s shortcuts make every task a
-        breeze. With the latest release of TallyPrime, accessing shortcuts and
-        related actions is easier than ever. The bottom bar provides quick
-        access to relevant shortcuts, ensuring a smooth workflow without
-        interruptions. Customize your reports effortlessly with TallyPrime’s
-        right buttons. Tailor your reports to fit your specific needs, whether
-        it’s adjusting dates, currency formats, or including specific details
-        for a more comprehensive analysis. Sharing your insights with
-        stakeholders is as simple as a click of a button. TallyPrime enables you
-        to export, email, WhatsApp, or print your reports seamlessly. Whether
-        it’s sharing financial reports with your CA or mailing reminders to your
-        clients, TallyPrime simplifies the process, ensuring efficient
-        communication. And let’s not forget the time-saving one-time
-        configurations offered by TallyPrime. Say goodbye to repetitive setups;
-        TallyPrime streamlines the process, allowing you to focus on what truly
-        matters: your business. In conclusion, TallyPrime isn’t just software;
-        it’s your trusted ally in the journey of business success. Empower
-        yourself with insights, simplify your workflows, and elevate your
-        business with TallyPrime’s intuitive features and seamless
-        functionality.
-      </p>
-    </div>
+
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-8">
+                    <!-- Blog Detail Start -->
+                    <div class="mb-5">
+                        <img class="img-fluid w-100 rounded mb-5" src="img/bdetails1.png" alt="">
+                        <h1 class="mb-4">Working with Reports in TallyPrime</h1>
+                        <p>In every business journey, insights are the guiding stars, and reports serve as the map to navigate the vast terrain of performance. Through reports, you gain a panoramic view of your daily sales, purchase dynamics, profit margins, and inventory status, among other critical aspects. These reports aren’t just snapshots of your business; they’re invaluable tools for reporting, auditing, and regulatory compliance.
+
+Enter TallyPrime, your trusted companion in decoding the language of your business transactions. With TallyPrime, accessing these vital reports is a breeze, offering real-time insights precisely when you need them. Delve deeper with features like the Dashboard, where data transforms into visually compelling graphs, empowering you to make informed, data-driven decisions across various business verticals. Working with reports in TallyPrime isn’t just efficient; it’s downright flexible. Discovering your reports is a seamless experience, thanks to TallyPrime’s intuitive organization. Navigate effortlessly through the Gateway of Tally screen, or swiftly locate specific reports using the Go To feature. But that’s not all. TallyPrime simplifies your journey further with a plethora of keyboard shortcuts designed for effortless report viewing. Whether you’re drilling down into details or manipulating transactions, TallyPrime’s shortcuts make every task a breeze. With the latest release of TallyPrime, accessing shortcuts and related actions is easier than ever. The bottom bar provides quick access to relevant shortcuts, ensuring a smooth workflow without interruptions. Customize your reports effortlessly with TallyPrime’s right buttons. Tailor your reports to fit your specific needs, whether it’s adjusting dates, currency formats, or including specific details for a more comprehensive analysis. Sharing your insights with stakeholders is as simple as a click of a button. TallyPrime enables you to export, email, WhatsApp, or print your reports seamlessly. Whether it’s sharing financial reports with your CA or mailing reminders to your clients, TallyPrime simplifies the process, ensuring efficient communication. And let’s not forget the time-saving one-time configurations offered by TallyPrime. Say goodbye to repetitive setups; TallyPrime streamlines the process, allowing you to focus on what truly matters: your business. In conclusion, TallyPrime isn’t just software; it’s your trusted ally in the journey of business success. Empower yourself with insights, simplify your workflows, and elevate your business with TallyPrime’s intuitive features and seamless functionality.</p>
+                        
+                    </div>
+                    <!-- Blog Detail End -->
+    
+                   
+                    <!-- Comment List End -->
+    
+                    <!-- Comment Form Start -->
+                    
+                    <!-- Comment Form End -->
+                </div>
+    
+                <!-- Sidebar Start -->
+                <div class="col-lg-4">
+                    <!-- Search Form Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="input-group" style="margin-left:20px;">
+                            <input type="text" class="form-control p-3" placeholder="Keyword">
+                            <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                    <!-- Search Form End -->
+    
+                  
+    
+                    <!-- Recent Post Start -->
+                    <div class="mb-4 wow slideInUp" data-wow-delay="0.1s" style="margin-left:30px;">
+                    <h5 class="section-title-sm pb-2" >Recent Post</h5>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img/tally.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails.php" class="small ms-2">What’s new in Tally Prime 5.0?</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img\bdetails1.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails1.php" class="small ms-2">Working with reports in Tally Prime</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img\bdetails2.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails2.php" class="small ms-2">Discover Tally Prime: Simplyfing Business</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img/e-way-bill.jpeg" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails3.php" class="small ms-2">E-Way Bill in Tally Prime</a>
+                    </div>
+                    
+                </div>
+                    <!-- Recent Post End -->
+    
+                    <!-- Tags Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s" style="margin-left:20px;">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Tag Cloud</h3>
+                        </div>
+                        <div class="d-flex flex-wrap m-n1">
+                            <a href="" class="btn btn-light m-1">Design</a>
+                            <a href="" class="btn btn-light m-1">Development</a>
+                            <a href="" class="btn btn-light m-1">Marketing</a>
+                            <a href="" class="btn btn-light m-1">SEO</a>
+                            <a href="" class="btn btn-light m-1">Writing</a>
+                            <a href="" class="btn btn-light m-1">Consulting</a>
+                            <a href="" class="btn btn-light m-1">Design</a>
+                            <a href="" class="btn btn-light m-1">Development</a>
+                            <a href="" class="btn btn-light m-1">Marketing</a>
+                            <a href="" class="btn btn-light m-1">SEO</a>
+                            <a href="" class="btn btn-light m-1">Writing</a>
+                            <a href="" class="btn btn-light m-1">Consulting</a>
+                        </div>
+                    </div>
+                    <!-- Tags End -->
 
     <!-- Second Container: Search Section -->
-    <div class="search-section">
-      <p style="text-align: center; margin: 10px">Recent Posts</p>
-      <br />
-      <div class="something">
-        <a href="blogdetails.php"
-          ><img
-            style="width: 200px; height: 100px"
-            src="img/tally.png"
-            alt=""
-          />
-          <p style="text-align: center">click here</p></a
-        >
-      </div>
-      <br />
-      <div class="something">
-        <a href="blogdetails2.php"
-          ><img
-            style="width: 200px; height: 100px"
-            src="img/bdetails2.png"
-            alt=""
-          />
-          <p style="text-align: center">click here</p></a
-        >
-      </div>
-      <br />
-      <div class="something">
-        <a href="blogdetails3.php"
-          ><img
-            style="width: 200px; height: 100px"
-            src="img/e-way-bill.jpeg"
-            alt=""
-          />
-          <p style="text-align: center">click here</p></a
-        >
-      </div><br>
-      <div class="something">
-        <a href="blogdetails4.php"><img style="width: 200px;height: 100px;" src="img/shortcut.png" alt=""><p style="text-align: center;">click here</p></a>
-      </div>
-      <br>
-     
-    </div>
   </div>
 </div>
 

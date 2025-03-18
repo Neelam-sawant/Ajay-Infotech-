@@ -78,7 +78,7 @@
 
 
 <!-- what is tally start -->
-<div style="background-color: #e7eaf6" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+<div style="background-color:  rgb(253, 253, 253)" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
   <div class="container py-5">
       <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
           <h1 class="mb-0">What is Tally On Mobile ?</h1>

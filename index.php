@@ -41,26 +41,8 @@
             <div class="carousel-item active">
                 <img style="left: 0%;top: 0%; right: 0%; width:100% ;"  src="img/Tally prime 5.0.png" alt="Image">
                 <div class="carousel-caption-top" 
-    style="text-align: center; position: absolute; top: 400px; left: 50%; transform: translateX(-50%); width: 100%;">
-    <div class="p-3" style="max-width: 900px;">
-        <a href="blogdetails.php" 
-            style="font-size: 18px; padding: 12px 30px; border-radius: 5px; margin: 10px; background-color: #2bb1e0; 
-                   border: 2px solid #2bb1e0; color: white; text-decoration: none; display: inline-block;
-                   transition: all 0.3s ease-in-out;"
-            onmouseover="this.style.backgroundColor='#2bb1e0'; this.style.borderColor='#2bb1e0';" 
-            onmouseout="this.style.backgroundColor='#2bb1e0'; this.style.borderColor='#2bb1e0';">
-            To Know More
-        </a>
-
-        <a href="maincontact.php" 
-            style="font-size: 18px; padding: 12px 30px; border-radius: 5px; margin: 10px; background-color: transparent;
-                   border: 2px solid #2bb1e0; color: #2bb1e0; text-decoration: none; display: inline-block;
-                   transition: all 0.3s ease-in-out;"
-            onmouseover="this.style.backgroundColor='#2bb1e0'; this.style.color='white';" 
-            onmouseout="this.style.backgroundColor='transparent'; this.style.color='#2bb1e0';">
-            Contact Us
-        </a>
-    </div>
+    style="text-align: center; position: absolute; top: 75%; left: 50%; transform: translateX(-50%); width: 100%;">
+    
 </div>
 
 
@@ -113,8 +95,8 @@
 <!-- Text and Description Start for Tally -->
 
 <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s" >
-    <div class style="margin: 100px;">
-        <div class="row g-5" style="margin-bottom: -78px;margin-top: 20px;">
+    <div class style="margin-left: 100px; margin-right: 100px;">
+        <div class="row g-3" style="margin-bottom: -78px;margin-top: 20px;">
             <div class="col-lg-7">
             
                 <div class="section-title position-relative pb-3 mb-5">
@@ -124,10 +106,7 @@
                     
                 </div>
                 <p class="mb-4">Ajay Infotech Pvt Ltd is a proud Tally Three-Star Partner, specializing in delivering high-quality Tally solutions. We offer expert implementation, support, and consultation services to help businesses optimize their accounting and management processes. Our certification underscores our commitment to excellence and customer satisfaction in leveraging Tally software.</p>
-                
-                
-                <a href="contact.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact
-                    Us</a>
+                 
             </div>
             <div class="col-lg-5" style="min-height: 500px;">
                 <div class="position-relative h-100">
@@ -140,7 +119,7 @@
 </div>
 
 
-
+ 
 
 
 
@@ -193,7 +172,6 @@
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.05s">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
-            <h1 class="mb-3">What Our Clients Say About Our Digital Services</h1>
             <h5 class="fw-bold text-primary text-uppercase">Testimonial</h5>
         </div>
         <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
@@ -321,7 +299,7 @@
     <section class="product-services services" style="background:#fff;padding:60px 0">
         <div class="col-xl-10 offset-xl-1">
             <div class="col-sm-12 section-header section-title text-center position-relative pb-3 mb-4 mx-auto">
-                <h2 class="text-primary fw-bold text-primary text-uppercase">We Cater Your Need</h2>
+                <h2 class="text-primary fw-bold text-primary text-uppercase">We Cater Your Needs</h2>
             </div>
             <div class="mt-3">
                 <ul class="nav nav-tabs p-0 tab-navn">

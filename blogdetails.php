@@ -77,7 +77,7 @@
   }
 
   .accordion-background {
-    background-color: #e7eaf6;
+    background-color:  rgb(253, 253, 253);
     width: 100%; /* Full width */
     padding: 20px;
   }
@@ -141,197 +141,98 @@
 
   
 <!-- blog details page start -->
-<div class="accordion-background">
-  <div class="main-container">
-    <!-- First Container: Image and Text -->
-    <div class="image-text-container">
-      <img src="img/tally.png" alt="Image" class="image" />
-      <h1 class="text-below-image">
-        TallyPrime Release 5.0: What’s New!
-      </h1>
-      <h5 class="text-below-image">Overview</h5>
-      <p class="text-below-image">
-        Stay ahead with TallyPrime Release 5.0, packed with new features and enhancements designed to streamline your accounting, GST compliance, and overall business management. Whether you're in India, the Middle East, or Bangladesh, there’s something here for you!
-      </p>
-      <h3 class="text-below-image">
-        Master Your Accounting and Compliance Needs With Connected GST
-      </h3>
-      <p class="text-below-image">
-        Welcome to an effortless GST compliance experience. Balancing your books with GST requirements is
-        now easier than ever, all within the existing flow of TallyPrime.
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-8">
+                    <!-- Blog Detail Start -->
+                    <div class="mb-5">
+                        <img class="img-fluid w-100 rounded mb-5" src="img/tally.png" alt="">
+                        <h1 class="mb-4">What's New in Tally Prime</h1>
+                        <p>TallyPrime 5.0 introduces several enhancements designed to streamline business operations and improve user experience.  
 
-      </p>
-      <h3 class="text-below-image">
-        Key Features:
-      </h3>
-      <p class="text-below-image">
-        <li><b>Simpler Uploads & Downloads:</b> Upload GSTR-1, GSTR-3B, and CMP-08 directly from TallyPrime to the
-          GST portal. Download GSTR-1, GSTR-3B, GSTR-2A, and GSTR-2B in just a couple of clicks.
-          </li>
-          <br>
-          <li><b>Effortless Filing:</b> File your GSTR-1 directly from TallyPrime without even opening the portal. Choose
-            your filing method such as DSC or EVC.</li>
-            <br>
-          <li><b>Real-Time Party Information:</b> Swiftly create and validate party ledgers using real-time details from
-              the portal. No more manual entry of party information. Just fill the GSTIN/UIN of the party</li>
-          <br>
-          <li><b>Key Insights on ITC:</b> Track your ITC at risk with great accuracy for one or even hundreds of suppliers
-            using Bills Payable. Similarly, with Bills Receivable, track the status of invoice uploads against the
-            pending bills of a party. Gain further clarity with detailed reports such as Ledger Vouchers – GST
-            and Ledger Outstandings – GST, and other predefined saved views.</li>
-            
-      </p>
+Automated Tax Calculation (TDS under Section 194Q): The software now automatically calculates and deducts TDS for purchases exceeding ₹50 lakhs annually, reducing manual computations and ensuring compliance.  
 
-      <h3 class="text-below-image">Benefits</h3>
-      <p class="text-image-below">
-        <li>Resolve mismatches and rejections effortlessly to ensure smooth filing and upload or download.</li>
-        <li>Save time with automated processes, such as upload, download, and party validation, which are
-          securely connected to the GST portal.
-          </li>
-        <li>Stay informed with real-time clarity in your compliance and financial transactions directly within
-          TallyPrime.</li>
-        <li>Ensure compliance with minimal effort, leaving you with more time to focus on your business
-          growth</li>
-          <br>
-          The best part is that you can choose from the best of both worlds, that is, Connected GST as well as the
-          existing offline features, as per your convenien
-      </p>
-      <h3 class="text-below-image">Automated Tax Calculation To Comply With TDS Section 194Q</h3>
-        <p class="text-below-image">
-          Experience a hassle-free deduction of tax to comply with the Finance Bill’s Section 194Q for TDS
-          purchases of goods. This includes:
-          <br>
-          <li>Automated computation of TDS on purchases exceeding Rs. 50 lakhs annually, based on the Nature
-            of Payment.
-          </li>
-          <li>Handling TDS exemptions on purchases from Government entities eligible for exemptions under
-            Section 194Q.
-            </li>
-          <li>Updating TDS Nature of Payment for one or more parties from a common report within Form 26Q.
-          </li>
-          <li>Recording advance payments from parties with TDS-integrated Stat Adjustment option for better
-            reporting in Form 26Q.
-            </li>
-        </p>
-        <h3 class="text-below-image">
-          Tally Plug In Management Within Tally Prime
-        </h3>
-        <p class="text-below-image">
-          Tally Plug-ins developed by Tally Solutions come with additional capabilities for specific business needs
-          that extend beyond the existing features of TallyPrime. Get easy access to Tally Plug-ins, such as
-          TallyCapital that comes deployed by default, without the hassle of any manual deployment process. Know
-          about the plug-ins, check plug-in statuses, and more from the new Tally Plug-In Management report.
-          Use the TallyCapital plug-in to check your credit score, check your loan eligibility, and apply for a
-          business loan, whenever you need one. Get in touch with your Tally Partner to know more.
-        </p>
-        <h3 class="text-below-image"> Improved Payment Management</h3>
-        <p class="text-below-image">
-          <b>Sort Pending Bills:</b> Organize pending bills by due dates, bill dates, or balances to avoid late fees.
-          <br>
-          <b>Stripe View for Better Readability:</b> Use Stripe View to highlight alternating rows in large reports and vouchers for easier reading.
-        </p>
-        <h3 class="text-below-image">Instant Notifications</h3>
-        <p class="text-below-image">
-          <b>New Bell Icon:</b> Stay updated with critical tasks like GST uploads, TSS renewals, and license management through a centralized Notifications report.
-          <br>
-          <b>Configurable Alerts:</b> Customize the Bell icon to receive notifications your way.
-        </p>
-        <br>
+Tally Plug-In Management: A new system allows users to manage Tally Plug-Ins, extending the software's capabilities to meet specific business needs. For example, the TallyCapital plug-in enables users to check credit scores and apply for loans directly within TallyPrime.  
 
+Enhanced Payment Management: Users can now sort pending bills by due dates, bill dates, or outstanding balances, ensuring timely payments and reducing the risk of late fees.  
 
-        <!-- prodcut improvment start -->
-        <h1 class="text-below-image">Product Improvements</h1>
-        <h3 class="text-below-image"><li>Data Migration</li></h3>
-        <p class="text-below-image">
-          <b>Seamless Upgrade: </b>Easily move from TallyPrime Release 3.0 or later to Release 5.0 without the need for data migration.
-        </p>
+Improved Notification System: A centralized notification system provides timely alerts for critical tasks, such as GST filing deadlines and TSS renewals, helping businesses stay on top of their responsibilities.  
 
-        <h3 class="text-below-image"><li>Enhanced Performance</li></h3>
-        <p class="text-below-image">
-          <b>Faster Bulk Processing:</b>  Enjoy improved speed and reliability during data import, synchronization, bank reconciliation, and more.
-        </p>
+Connected GST Compliance: The addition of Connected GST code and enhancements like the Progress Bar and Stripe View improve the user experience during GST return processes.  
 
-        <h3 class="text-below-image"><li>Optimized Edit Logs</li></h3>
-        <p class="text-below-image">
-          <b>Efficient Data Management:</b> Updates in Price Level and Bank Reconciliation now create fewer unnecessary logs, reducing data volume.
-        </p>
-
-        <h3 class="text-below-image"><li>WhatsApp Integration</li></h3>
-        <p class="text-below-image">
-          <b>Auto-filled Contact:</b> Default WhatsApp numbers are now automatically filled when sending Payment or Receipt vouchers.
-        </p>
-        <!-- prodcut improvment end -->
-         <br>
-        
-        <!-- GST updates start -->
-         <h1 class="text-below-image">GST Updates</h1>
-         <h3 class="text-below-image"><li>Improved GST Transaction Management</li></h3>
-         <p class="text-below-image">
-          <b>Non-GST Transactions:</b> Automatically mark non-GST transactions as Not Relevant in GST reports.
-          <br>
-          <b>Bulk Resolution:</b> Resolve multiple Uncertain Transactions together, saving time.
-         </p>
-         <h3 class="text-below-image"><li>Enhanced GST Report Classification</li></h3>
-         <p class="text-below-image">
-          <b>Supplier Invoice Management:</b> Transactions without Supplier Invoice No. or Date are now better categorized in GSTR-3B and GSTR-2A/B Reconciliation reports.</p>
-
-
-         <h3 class="text-below-image"><li>Export Options</li></h3>
-         <p class="text-below-image">
-          <b>Old Format Availability:</b> Export GSTR-2A and GSTR-2B Reconciliation reports to Excel using the old format.
-
-         </p>
-        <!-- GST updates end -->
-         <br>
-        <!-- Regional Feature start -->
-         <h1 class="text-below-image">Regional Features</h1>
-          <p class="text-below-image">
-            <b>Indian Users: </b>Access Connected GST and TDS Section 194Q features.
-            <br>
-            <b>Middle East & Bangladesh Users:</b> Use TallyPrime in your native language on different networked computers.
-
-          </p>
- 
-        <!-- Regional Feature end -->
-
-    </div>
+These features collectively enhance TallyPrime 5.0's functionality, making it a more efficient and user-friendly solution for businesses.</p>
+                        
+                    </div>
+                    <!-- Blog Detail End -->
+    
+                   
+                    <!-- Comment List End -->
+    
+                    <!-- Comment Form Start -->
+                    
+                    <!-- Comment Form End -->
+                </div>
+    
+                <!-- Sidebar Start -->
+                <div class="col-lg-4">
+                    <!-- Search Form Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="input-group" style="margin-left:20px;">
+                            <input type="text" class="form-control p-3" placeholder="Keyword">
+                            <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                    <!-- Search Form End -->
+    
+                  
+    
+                    <!-- Recent Post Start -->
+                    <div class="mb-4 wow slideInUp" data-wow-delay="0.1s" style="margin-left:30px;">
+                    <h5 class="section-title-sm pb-2" >Recent Post</h5>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img/tally.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails.php" class="small ms-2">What’s new in Tally Prime 5.0?</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img\bdetails1.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails1.php" class="small ms-2">Working with reports in Tally Prime</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img\bdetails2.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails2.php" class="small ms-2">Discover Tally Prime: Simplyfing Business</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img/e-way-bill.jpeg" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails3.php" class="small ms-2">E-Way Bill in Tally Prime</a>
+                    </div>
+                    
+                </div>
+                    <!-- Recent Post End -->
+    
+                    <!-- Tags Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s" style="margin-left:20px;">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Tag Cloud</h3>
+                        </div>
+                        <div class="d-flex flex-wrap m-n1">
+                            <a href="" class="btn btn-light m-1">Design</a>
+                            <a href="" class="btn btn-light m-1">Development</a>
+                            <a href="" class="btn btn-light m-1">Marketing</a>
+                            <a href="" class="btn btn-light m-1">SEO</a>
+                            <a href="" class="btn btn-light m-1">Writing</a>
+                            <a href="" class="btn btn-light m-1">Consulting</a>
+                            <a href="" class="btn btn-light m-1">Design</a>
+                            <a href="" class="btn btn-light m-1">Development</a>
+                            <a href="" class="btn btn-light m-1">Marketing</a>
+                            <a href="" class="btn btn-light m-1">SEO</a>
+                            <a href="" class="btn btn-light m-1">Writing</a>
+                            <a href="" class="btn btn-light m-1">Consulting</a>
+                        </div>
+                    </div>
+                    <!-- Tags End -->
 
     <!-- Second Container: Search Section -->
-    <div class="search-section">
-      <p style="text-align: center;margin: 10px;">Recent Posts</p>
-      <br>
-      <div class="something">
-        <a href="blogdetails1.php"><img style="width: 200px;height: auto;" src="img\bdetails1.png" alt=""><p style="text-align: center;">click here</p></a>
-      </div>
-      <br>
-      <div class="something">
-        <a href="blogdetails3.php"
-          ><img
-            style="width: 200px; height: 100px"
-            src="img/bdetails2.png"
-            alt=""
-          />
-          <p style="text-align: center">click here</p></a
-        >
-      </div>
-      <br>
-
-      <div class="something">
-        <a href="blogdetails2.php"><img style="width: 200px;height: auto;" src="img/e-way-bill.jpeg" alt=""><p style="text-align: center;">click here</p></a>
-      </div>
-      <br>
-      <div class="something">
-        <a href="blogdetails4.php"
-          ><img
-            style="width: 200px; height: 100px"
-            src="img/shortcut.png"
-            alt=""
-          />
-          <p style="text-align: center">click here</p></a
-        >
-      </div>
-      <br>
-    </div>
    
   </div>
 </div>

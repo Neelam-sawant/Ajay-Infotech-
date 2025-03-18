@@ -89,7 +89,7 @@
       <div class="row justify-content-end">
           <div class="col-lg-8 col-md-6">
               <div class="d-flex align-items-center justify-content-center" style="height: 75px;margin-right: 100px;">
-                  <p style="margin-right: 220px;" class="mb-0">&copy; <a class="text-white border-bottom" href="#">ajayinfotech.in</a>. All Rights Reserved.
+                  <p style="margin-right: 220px;" class="mb-0">&copy; <a class="text-white border-bottom" href="#">2010-205. ajayinfotech.in</a>. All Rights Reserved.
                       
                   </p>
               </div>

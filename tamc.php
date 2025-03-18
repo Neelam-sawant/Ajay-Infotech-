@@ -81,7 +81,7 @@
       </div>
     </div>
     <!-- image + description end -->
-    <div style="background-color: #e7eaf6;">
+    <div style="background-color:  rgb(253, 253, 253);">
     <!-- Key benefits start here -->
     <h1 class="mb-5 text-uppercase" style="text-align: center">Key Benefits</h1>
 

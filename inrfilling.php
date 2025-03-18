@@ -41,11 +41,11 @@
 </head>
 
 <body>
-   <!-- Spinner Start -->
+   <!-- Spinner Start 
    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
     <div class="spinner"></div>
 </div>
-<!-- Spinner End -->
+ Spinner End -->
 
 
 
@@ -71,14 +71,9 @@
 
 
 
-<div
-  style="background-color: #e7eaf6"
-  class="container-fluid custom-description-image py-5 wow fadeInUp"
-  data-wow-delay="0.1s"
->
-  <div class="container py-5">
+
     <!-- First Component -->
-    <div class="row g-5 mt-5">
+    <div class="row g-5 mt-5"  style="margin-left:100px;">
       <!-- Image Column on the Left -->
       <div class="row g-5 mt-5 align-items-center" style="gap: 10px;">
     <!-- Image Column -->
@@ -87,8 +82,8 @@
     <div class="col-lg-5">
         <div class="h-100">
             <img 
-                class="w-100 rounded custom-image-size wow zoomIn"
-                style="object-fit: cover; border-radius: 18px; height: auto;"
+                class="rounded custom-image-size wow zoomIn"
+                style="width:80%; margin-right:20px;"
                 data-wow-delay="0.9s"
                 src="img/inrf1.webp" 
                 alt="Image"
@@ -101,10 +96,10 @@
         <div class="section-title position-relative pb-3 mb-5">
             <h1 class="mb-0">INR Filling</h1>
         </div>
-        <p class="mb-4">
+        <p class="mb-4" style="width:80%;margin-right:50px;">
             INR Filling with Tally is the process of managing and filing International Normalized Ratio (INR) data, typically related to financial transactions, using Tally software. Tally is a comprehensive business management software widely used for accounting, inventory management, and statutory compliance. In the context of INR filling, Tally helps businesses accurately record, manage, and report financial transactions that involve INR, ensuring compliance with relevant financial regulations and tax laws.
         </p>
-        <p class="mb-0">
+        <p class="mb-0" style="width:80%;margin-right:50px;">
             The software simplifies the process by automating calculations, generating necessary reports, and filing returns, saving time and reducing errors. With Tally, businesses can streamline their financial operations, maintain accurate records, and ensure that their INR-related filings are completed efficiently and correctly.
         </p>
         <a href="maincontact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">
@@ -121,10 +116,10 @@
 
 
     <!-- key benefits start  -->
-     <h1 class="mb-5 mt-5 text-uppercase" style="text-align: center">Key Benefits</h1>
+     <h1 class="mb-5 mt-5 text-uppercase" style="text-align: center; width:100%" >Key Benefits</h1>
 
     <!-- cards for key benefits start -->
-    <div class="container">
+    <div class="container" style="width:100%;margin-right:100px;">
       <div class="row">
         <!-- Card 1 -->
         <div class="col-md-4">
@@ -256,8 +251,8 @@
 
 <!-- Accordion for Tally Information start -->
 
-<div class="accordion accordion-flush mac" id="accordionFlushExample">
-    <h1 class="mb-5 text-uppercase" style="text-align: center">FAQ</h1>
+<div class="accordion accordion-flush mac" style="width:100%; margin-right:120px;" id="accordionFlushExample">
+    <h1 class="mb-5 text-uppercase" style="text-align: center; width:100%">FAQ</h1>
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingOne">
         <button

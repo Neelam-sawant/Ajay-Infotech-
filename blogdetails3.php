@@ -79,7 +79,7 @@
   }
 
   .accordion-background {
-    background-color: #e7eaf6;
+    background-color:  rgb(253, 253, 253);
     width: 100%; /* Full width */
     padding: 20px;
   }
@@ -145,79 +145,91 @@
 
 <!-- Full Screen Search End -->
 
+
 <!-- blog details page start -->
-<div class="accordion-background">
-  <div class="main-container">
-    <!-- First Container: Image and Text -->
-    <div class="image-text-container">
-      <img src="img\e-way-bill.jpeg" alt="Image" class="image" />
-      <h1 class="text-below-image">E-Way Bill TallyPrime</h1>
-      <div class="eway-bill-info">
-    <ul>
-        <li>The e-Way Bill system, introduced by the government, simplifies GST compliance by ensuring seamless movement of goods. An e-Way Bill document must be carried while transporting goods between locations, containing essential details like the Bill number.</li>
-        <li>Tally Prime streamlines the e-Way Bill process by integrating it with regular invoicing, eliminating the need for additional expertise.</li>
-        <li>The system applies to GST-registered businesses and enrolled transporters, requiring an e-Way Bill for goods exceeding Rs. 50,000 in value, whether for supply, non-supply reasons, or inward supply from unregistered sellers.</li>
-    </ul>
-</div><div class="eway-bill-header">
-    <h2>What Is E-Way Bill Report?</h2>
-</div>
-<div class="eway-bill-info">
-    <p>
-        The e-Way Bill report is a one-stop shop for your e-Way Bill needs in <strong>TallyPrime</strong>. You can view the e-Way Bill status of your transactions, and take the next steps accordingly. You can perform operations such as e-Way Bill generation and cancellation for one or many transactions. The e-Way Bill report also allows you to view the transactions where the details are incomplete or incorrect, and update the required information.
-    </p>
-</div>
 
-    </div>
-
-    <!-- Second Container: Search Section -->
-    <div class="search-section">
-      <p style="text-align: center; margin: 10px">Recent Posts</p>
-      <br />
-      <div class="something">
-        <a href="blogdetails.php"
-          ><img
-            style="width: 200px; height: 100px"
-            src="img/tally.png"
-            alt=""
-          />
-          <p style="text-align: center">click here</p></a
-        >
-      </div>
-      <br>
-      <div class="something">
-        <a href="blogdetails1.php"
-          ><img
-            style="width: 200px; height: 100px"
-            src="img/bdetails1.png"
-            alt=""
-          />
-          <p style="text-align: center">click here</p></a
-        >
-      </div>
-      <br />
-      <div class="something">
-        <a href="blogdetails2.php"
-          ><img
-            style="width: 200px; height: 100px"
-            src="img/bdetails2.png"
-            alt=""
-          />
-          <p style="text-align: center">click here</p></a
-        >
-      </div>
-      <br />
-      <div class="something">
-        <a href="blogdetails4.php"
-          ><img
-            style="width: 200px; height: 100px"
-            src="img/shortcut.png"
-            alt=""
-          />
-          <p style="text-align: center">click here</p></a
-        >
-      </div>
-      <br>
-    </div>
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-8">
+                    <!-- Blog Detail Start -->
+                    <div class="mb-5">
+                        <img class="img-fluid w-100 rounded mb-5" src="img/e-way-bill.jpeg" alt="">
+                        <h1 class="mb-4">E-Way Bill in Tally Prime</h1>
+                        <p><strong>E-Way Bill TallyPrime </strong>
+The e-Way Bill system, introduced by the government, simplifies GST compliance by ensuring seamless movement of goods. An e-Way Bill document must be carried while transporting goods between locations, containing essential details like the Bill number.
+Tally Prime streamlines the e-Way Bill process by integrating it with regular invoicing, eliminating the need for additional expertise.
+The system applies to GST-registered businesses and enrolled transporters, requiring an e-Way Bill for goods exceeding Rs. 50,000 in value, whether for supply, non-supply reasons, or inward supply from unregistered sellers.
+<br><strong>What Is E-Way Bill Report?</strong>
+The e-Way Bill report is a one-stop shop for your e-Way Bill needs in TallyPrime. You can view the e-Way Bill status of your transactions, and take the next steps accordingly. You can perform operations such as e-Way Bill generation and cancellation for one or many transactions. The e-Way Bill report also allows you to view the transactions where the details are incomplete or incorrect, and update the required information.</p>
+                    </div>
+                    <!-- Blog Detail End -->
+    
+                   
+                    <!-- Comment List End -->
+    
+                    <!-- Comment Form Start -->
+                    
+                    <!-- Comment Form End -->
+                </div>
+    
+                <!-- Sidebar Start -->
+                <div class="col-lg-4">
+                    <!-- Search Form Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="input-group" style="margin-left:20px;">
+                            <input type="text" class="form-control p-3" placeholder="Keyword">
+                            <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                    <!-- Search Form End -->
+    
+                  
+    
+                    <!-- Recent Post Start -->
+                    <div class="mb-4 wow slideInUp" data-wow-delay="0.1s" style="margin-left:30px;">
+                    <h5 class="section-title-sm pb-2" >Recent Post</h5>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img/tally.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails.php" class="small ms-2">What’s new in Tally Prime 5.0?</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img\bdetails1.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails1.php" class="small ms-2">Working with reports in Tally Prime</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img\bdetails2.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails2.php" class="small ms-2">Discover Tally Prime: Simplyfing Business</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img/e-way-bill.jpeg" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails3.php" class="small ms-2">E-Way Bill in Tally Prime</a>
+                    </div>
+                    
+                </div>
+                    <!-- Recent Post End -->
+    
+                    <!-- Tags Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s" style="margin-left:20px;">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Tag Cloud</h3>
+                        </div>
+                        <div class="d-flex flex-wrap m-n1">
+                            <a href="" class="btn btn-light m-1">Design</a>
+                            <a href="" class="btn btn-light m-1">Development</a>
+                            <a href="" class="btn btn-light m-1">Marketing</a>
+                            <a href="" class="btn btn-light m-1">SEO</a>
+                            <a href="" class="btn btn-light m-1">Writing</a>
+                            <a href="" class="btn btn-light m-1">Consulting</a>
+                            <a href="" class="btn btn-light m-1">Design</a>
+                            <a href="" class="btn btn-light m-1">Development</a>
+                            <a href="" class="btn btn-light m-1">Marketing</a>
+                            <a href="" class="btn btn-light m-1">SEO</a>
+                            <a href="" class="btn btn-light m-1">Writing</a>
+                            <a href="" class="btn btn-light m-1">Consulting</a>
+                        </div>
+                    </div>
+                
   </div>
 </div>
 

@@ -72,7 +72,7 @@
 
 
 <div
-  style="background-color: #e7eaf6"
+  style="background-color:  rgb(253, 253, 253)"
   class="container-fluid custom-description-image py-5 wow fadeInUp"
   data-wow-delay="0.1s"
 >
@@ -87,14 +87,15 @@
             data-wow-delay="0.9s"
             src="img/gfilling.png"
             alt="Image"
+            style="height: 90%; width:25%; padding-right:20px;"
           />
         </div>
       </div>
 
       <!-- Text Column on the Right -->
       <div class="col-lg-7">
-        <div class="section-title position-relative pb-3 mb-5">
-          <h1 class="mb-0" style="margin-left : 10px;">GST Filling</h1>
+        <div class="section-title position-relative pb-3 mb-5" style="margin-left : 10px;">
+          <h1 class="mb-0">GST Filling</h1>
         </div>
         <p class="mb-4"  style="margin-left : 10px;">
             <b>GST Filing with Tally</b> involves using Tally's integrated GST features to manage and automate the filing process, ensuring accuracy and compliance. TallyPrime, the latest version of Tally, provides a comprehensive solution for GST accounting, making it easier for businesses to file GST returns directly from their accounting software.

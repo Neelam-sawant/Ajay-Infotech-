@@ -78,7 +78,7 @@
   }
 
   .accordion-background {
-    background-color: #e7eaf6;
+    background-color:  rgb(253, 253, 253);
     width: 100%; /* Full width */
     padding: 20px;
   }
@@ -149,124 +149,126 @@
   
 
   <!-- blog details page start -->
-<div class="accordion-background">
-  <div class="main-container">
-    <!-- First Container: Image and Text -->
-    <div class="image-text-container">
-      <img src="img/bdetails2.png" alt="Image" class="image" />
-      <h1 class="text-below-image">
-        Discover TallyPrime: Simplifying Business
-      </h1>
-      <p class="text-below-image">
-        Are you ready to streamline your business operations effortlessly? Welcome to TallyPrime – your ultimate solution for efficient business management. Let’s delve into the remarkable features of TallyPrime that make it your go-to tool for smooth sailing in the business world.
-      </p>
-      <p class="text-below-image">
-        <b>1. Simple Navigations</b> TallyPrime offers a user-friendly interface, ensuring seamless navigation for both beginners and seasoned users. Say goodbye to complexity and embrace simplicity with TallyPrime.
-      </p>
-      <p class="text-below-image">
-        <b>2. Improved Accessibility:</b>  With TallyPrime, access your business data anytime, anywhere. Whether you’re in the office or on the go, stay connected to your business effortlessly.
-      </p>
-      <p class="text-below-image">
-        <b>3. Enhanced Security:</b> Protect your valuable business data with TallyPrime’s advanced security features. Rest assured knowing that your information is safeguarded against unauthorized access.
-      </p>
-      <p class="text-below-image">
-        <b>4. Powerful Reporting:</b> Make informed decisions with TallyPrime’s robust reporting capabilities. Gain valuable insights into your business performance and drive growth effectively.
-      </p>
-      <p class="text-below-image">
-        <b>5. Multi-Tasking:</b>  TallyPrime enables you to multitask with ease, allowing you to accomplish more in less time. Boost your productivity and stay ahead of the competition with TallyPrime.
-      </p>
-      <p class="text-below-image">
-        <b>6. Customization Options:</b> Tailor TallyPrime to suit your specific business needs with customizable features. Adapt TallyPrime to fit seamlessly into your unique workflow.
-      </p>
-      <p class="text-below-image">
-        <b>7. Integration Flexibility:</b> Seamlessly integrate TallyPrime with other business applications to enhance efficiency and streamline processes. Enjoy unparalleled flexibility with TallyPrime’s integration capabilities.
-      </p>
-      <p class="text-below-image">
-        <b>8. Continuous Updates:</b> Stay ahead of the curve with TallyPrime’s regular updates and enhancements. Benefit from the latest features and functionalities to keep your business at the forefront of innovation.
-      </p>
-      <p class="text-below-image">
-        Let’s take a quick look at the TallyPrime features & patterns like Basis of Values and Go To that will help you to work efficiently with minimal learning. Understand these features & patterns so that you can try any feature in the product.
 
+  <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-8">
+                    <!-- Blog Detail Start -->
+                    <div class="mb-5">
+                        <img class="img-fluid w-100 rounded mb-5" src="img/bdetails2.png" alt="">
+                        <h1 class="mb-4">Discover TallyPrime: Simplifying Business</h1>
+                        <p>
+Are you ready to streamline your business operations effortlessly? Welcome to TallyPrime – your ultimate solution for efficient business management. Let’s delve into the remarkable features of TallyPrime that make it your go-to tool for smooth sailing in the business world.
+<br>
+1. Simple Navigations TallyPrime offers a user-friendly interface, ensuring seamless navigation for both beginners and seasoned users. Say goodbye to complexity and embrace simplicity with TallyPrime.
+<br>
+2. Improved Accessibility: With TallyPrime, access your business data anytime, anywhere. Whether you’re in the office or on the go, stay connected to your business effortlessly.
+<br>
+3. Enhanced Security: Protect your valuable business data with TallyPrime’s advanced security features. Rest assured knowing that your information is safeguarded against unauthorized access.
+<br>
+4. Powerful Reporting: Make informed decisions with TallyPrime’s robust reporting capabilities. Gain valuable insights into your business performance and drive growth effectively.
+<br>
+5. Multi-Tasking: TallyPrime enables you to multitask with ease, allowing you to accomplish more in less time. Boost your productivity and stay ahead of the competition with TallyPrime.
+<br>
+6. Customization Options: Tailor TallyPrime to suit your specific business needs with customizable features. Adapt TallyPrime to fit seamlessly into your unique workflow.
+<br>
+7. Integration Flexibility: Seamlessly integrate TallyPrime with other business applications to enhance efficiency and streamline processes. Enjoy unparalleled flexibility with TallyPrime’s integration capabilities.
+<br>
+8. Continuous Updates: Stay ahead of the curve with TallyPrime’s regular updates and enhancements. Benefit from the latest features and functionalities to keep your business at the forefront of innovation.
+<br>
+Let’s take a quick look at the TallyPrime features & patterns like Basis of Values and Go To that will help you to work efficiently with minimal learning. Understand these features & patterns so that you can try any feature in the product.
 
+Once you install TallyPrime, activate the license, create a Company, and then you can start using TallyPrime features and record your business transactions. To make use of the flexibility of TallyPrime and enhance your productivity, take a quick look at the interaction experiences and understand the patterns.
 
+What’s more, TallyPrime also has a Dashboard that gives you a detailed view of your business health and take data-driven decisions with the gamut of tiles that cater to your diverse business requirements.
+<br>
+To know how use Dashboard to your utmost business benefit, refer to the Use Dashboard in TallyPrime to Analyse Business Information and Data Trends topic.
 
+Home screen that you see when you open TallyPrime includes the top menu, Go To/Switch To buttons, Gateway of Tally, and buttons on the right hand side. These options aid in finding and opening different ledgers, vouchers, and reports that help you accomplish your business tasks. There are multiple ways in which you can reach the desired destination. You can choose the ways you prefer.
 
+Navigation across TallyPrime widely uses Enter key and Escape key. While there are different ways in which you can reach a destination, pressing Enter will take you to the next level of information, and Escape will take you back to the previous level, until you reach Gateway of Tally. In addition to that, the same Escape key will let you close TallyPrime, with a confirmation. Similarly, you can use different key combinations to achieve what you want. In fact, you can navigate and use TallyPrime features completely using a keyboard.
 
+Data entry for recording different types of transactions are made similar to enhance learning, and retention of knowledge. Master creation is made simple by using similar actions wherever possible, and multiple ways to reach the create options.
 
+Reports are presented in a hierarchical manner for easy analysis. While TallyPrime provides a large number of reports, reading and understanding the reports are simplified with similar interactions. When you open a report, you will get the summary data for the most relevant report period. From there you can change the report period, presentation format, and so on, up to the value that forms the basis of the report. Consistent interactions make it easier for you to navigate, and memorise the steps.
 
+Sharing data in printed formats, or in electronic file formats through e-mail, WhatsApp or export is one of the useful TallyPrime features available by default. You can share individual vouchers, or reports, as well as in bulk, with just a few key presses. Sending pay slips to your employees, or reminder letters to your parties either through e-mail or WhatsApp are equally simple in TallyPrime.
 
+Easy setup enables you to start using TallyPrime for recording your business transactions in a couple of minutes. While there are many features available out-of-the-box, you can decide to start with the minimal set, right away. You can start using the other TallyPrime features as and when you come across a business need. You can explore and use many features as your business grows and diversifies. This facility helps you to start simple, and gradually add more features as needed. You can switch many features on and off as you want or require. Alternatively, you can start using all the TallyPrime features in the beginning, if needed.
 
-
-
-
-
-
-
-
-
-
-      </p>
-      <P class="text-below-image">
-        Once you install TallyPrime, activate the license, create a Company, and then you can start using TallyPrime features and record your business transactions. To make use of the flexibility of TallyPrime and enhance your productivity, take a quick look at the interaction experiences and understand the patterns.
-      </P>
-      <P class="text-below-image">
-        What’s more, TallyPrime also has a Dashboard that gives you a detailed view of your business health and take data-driven decisions with the gamut of tiles that cater to your diverse business requirements.
-      </P>
-      <P class="text-below-image">
-        To know how use Dashboard to your utmost business benefit, refer to the Use Dashboard in TallyPrime to Analyse Business Information and Data Trends topic.
-      </P>
-      <P class="text-below-image">
-        Home screen that you see when you open TallyPrime includes the top menu, Go To/Switch To buttons, Gateway of Tally, and buttons on the right hand side. These options aid in finding and opening different ledgers, vouchers, and reports that help you accomplish your business tasks. There are multiple ways in which you can reach the desired destination. You can choose the ways you prefer.
-      </P>
-      <P class="text-below-image">
-        Navigation across TallyPrime widely uses Enter key and Escape key. While there are different ways in which you can reach a destination, pressing Enter will take you to the next level of information, and Escape will take you back to the previous level, until you reach Gateway of Tally. In addition to that, the same Escape key will let you close TallyPrime, with a confirmation. Similarly, you can use different key combinations to achieve what you want. In fact, you can navigate and use TallyPrime features completely using a keyboard.
-      </P>
-      <P class="text-below-image">
-        Data entry for recording different types of transactions are made similar to enhance learning, and retention of knowledge. Master creation is made simple by using similar actions wherever possible, and multiple ways to reach the create options.
-      </P>
-      <P class="text-below-image">
-        Reports are presented in a hierarchical manner for easy analysis. While TallyPrime provides a large number of reports, reading and understanding the reports are simplified with similar interactions. When you open a report, you will get the summary data for the most relevant report period. From there you can change the report period, presentation format, and so on, up to the value that forms the basis of the report. Consistent interactions make it easier for you to navigate, and memorise the steps.
-      </P>
-      <P class="text-below-image">
-        Sharing data in printed formats, or in electronic file formats through e-mail, WhatsApp or export is one of the useful TallyPrime features available by default. You can share individual vouchers, or reports, as well as in bulk, with just a few key presses. Sending pay slips to your employees, or reminder letters to your parties either through e-mail or WhatsApp are equally simple in TallyPrime.
-      </P>
-      <P class="text-below-image">
-        Easy setup enables you to start using TallyPrime for recording your business transactions in a couple of minutes. While there are many features available out-of-the-box, you can decide to start with the minimal set, right away. You can start using the other TallyPrime features as and when you come across a business need. You can explore and use many features as your business grows and diversifies. This facility helps you to start simple, and gradually add more features as needed. You can switch many features on and off as you want or require. Alternatively, you can start using all the TallyPrime features in the beginning, if needed.
-      </P>
-      <P class="text-below-image">
-        Set up for personal preferences is another flexibility that you get to in order to use the application comfortably. Such configurations can be done independently for every installation of TallyPrime using F12 Configurations. Different types of ledgers and vouchers can have different configurations. Similarly, you can set your preferences for reports, printing, and other data communication options.
-      </P>
-    </div>
+Set up for personal preferences is another flexibility that you get to in order to use the application comfortably. Such configurations can be done independently for every installation of TallyPrime using F12 Configurations. Different types of ledgers and vouchers can have different configurations. Similarly, you can set your preferences for reports, printing, and other data communication options.</p>
+                        
+                    </div>
+                    <!-- Blog Detail End -->
+    
+                   
+                    <!-- Comment List End -->
+    
+                    <!-- Comment Form Start -->
+                    
+                    <!-- Comment Form End -->
+                </div>
+    
+                <!-- Sidebar Start -->
+                <div class="col-lg-4">
+                    <!-- Search Form Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="input-group" style="margin-left:20px;">
+                            <input type="text" class="form-control p-3" placeholder="Keyword">
+                            <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                    <!-- Search Form End -->
+    
+                  
+    
+                    <!-- Recent Post Start -->
+                    <div class="mb-4 wow slideInUp" data-wow-delay="0.1s" style="margin-left:30px;">
+                    <h5 class="section-title-sm pb-2" >Recent Post</h5>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img/tally.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails.php" class="small ms-2">What’s new in Tally Prime 5.0?</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img\bdetails1.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails1.php" class="small ms-2">Working with reports in Tally Prime</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img\bdetails2.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails2.php" class="small ms-2">Discover Tally Prime: Simplyfing Business</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img/e-way-bill.jpeg" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="blogdetails3.php" class="small ms-2">E-Way Bill in Tally Prime</a>
+                    </div>
+                    
+                </div>
+                    <!-- Recent Post End -->
+    
+                    <!-- Tags Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s" style="margin-left:20px;">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Tag Cloud</h3>
+                        </div>
+                        <div class="d-flex flex-wrap m-n1">
+                            <a href="" class="btn btn-light m-1">Design</a>
+                            <a href="" class="btn btn-light m-1">Development</a>
+                            <a href="" class="btn btn-light m-1">Marketing</a>
+                            <a href="" class="btn btn-light m-1">SEO</a>
+                            <a href="" class="btn btn-light m-1">Writing</a>
+                            <a href="" class="btn btn-light m-1">Consulting</a>
+                            <a href="" class="btn btn-light m-1">Design</a>
+                            <a href="" class="btn btn-light m-1">Development</a>
+                            <a href="" class="btn btn-light m-1">Marketing</a>
+                            <a href="" class="btn btn-light m-1">SEO</a>
+                            <a href="" class="btn btn-light m-1">Writing</a>
+                            <a href="" class="btn btn-light m-1">Consulting</a>
+                        </div>
+                    </div>
+                    <!-- Tags End -->
 
     <!-- Second Container: Search Section -->
-    <div class="search-section">
-      <p style="text-align: center;margin: 10px;">Recent Posts</p>
-      <br>
-      <div class="something">
-        <a href="blogdetails.php"><img style="width: 200px;height: 100px;" src="img/tally.png" alt=""><p style="text-align: center;">click here</p></a>
-      </div>
-      <br>
-     
-      <div class="something">
-        <a href="blogdetails1.php"><img style="width: 200px;height: 100px;" src="img/bdetails1.png" alt=""><p style="text-align: center;">click here</p></a>
-      </div>
-      <br>
-      <div class="something">
-        <a href="blogdetails3.php"><img style="width: 200px;height: 100px;" src="img/e-way-bill.jpeg" alt=""><p style="text-align: center;">click here</p></a>
-      </div>
-      <br>
-      <div class="something">
-        <a href="blogdetails4.php"
-          ><img
-            style="width: 200px; height: 100px"
-            src="img/shortcut.png"
-            alt=""
-          />
-          <p style="text-align: center">click here</p></a
-        >
-      </div>
-      <br>
-    </div>
    
   </div>
 </div>
