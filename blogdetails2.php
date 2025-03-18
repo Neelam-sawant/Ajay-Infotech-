@@ -269,8 +269,9 @@ Set up for personal preferences is another flexibility that you get to in order 
                     <!-- Tags End -->
 
     <!-- Second Container: Search Section -->
-   
-  </div>
+    </div>
+</div>
+</div>
 </div>
 
 

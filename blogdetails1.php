@@ -229,9 +229,10 @@ Enter TallyPrime, your trusted companion in decoding the language of your busine
                     <!-- Tags End -->
 
     <!-- Second Container: Search Section -->
-  </div>
+    </div>
 </div>
-
+</div>
+</div>
 
 
 <!-- contact start -->

@@ -230,7 +230,9 @@ The e-Way Bill report is a one-stop shop for your e-Way Bill needs in TallyPrime
                         </div>
                     </div>
                 
-  </div>
+                    </div>
+</div>
+</div>
 </div>
 
 

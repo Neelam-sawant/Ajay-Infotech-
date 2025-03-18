@@ -561,35 +561,29 @@
 
 <style>
     .carousel-container {
-        display: flex;
-        overflow: hidden;
-        width: 100%; /* Adjust width as needed */
-        position: relative;
-    }
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
 
-    .carousel-wrapper {
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-        width: fit-content;
-    }
+.carousel-wrapper {
+    display: flex;
+    width: calc(25% * 9 * 3); /* Double for smooth looping */
+    animation: scroll 15s linear infinite;
+}
 
-    .custom-carousel-item {
-        min-width: 25%; /* Must match container width */
-    }
+.custom-carousel-item {
+    min-width: 25%;
+    flex-shrink: 0; /* Prevent shrinking */
+}
 
-    .btn {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background: rgba(0, 0, 0, 0.5);
-        color: white;
-        border: none;
-        cursor: pointer;
-        padding: 100px;
-    }
+/* Auto-scrolling keyframes */
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-225%); } /* Moves left after 9 images */
+}
 
-    #prev { left: 10px; }
-    #next { right: 10px; }
 </style>
 
 <div class="container">

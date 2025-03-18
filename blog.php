@@ -296,7 +296,7 @@
     
     </div>
 </div>
-
+</div>
 
 <!-- blog cards end -->
 
@@ -324,6 +324,14 @@
 
 
 <!-- footer start -->
+ <style>
+    footer {
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+ </style>
 <?php include 'footer.php' ?>
   <!-- Footer End -->
 
@@ -336,7 +344,7 @@
 
 <!-- JavaScript Libraries -->
 <?php include 'linkscript.php' ?>
-</body>
+
 </body>
 
 </html>

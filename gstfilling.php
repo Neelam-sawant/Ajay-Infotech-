@@ -80,17 +80,17 @@
     <!-- First Component -->
     <div class="row g-5 mt-5">
       <!-- Image Column on the Left -->
-      <div class="col-lg-5" style="min-height: 500px">
-        <div class="position-relative h-100">
-          <img
-            class="position-absolute w-100 h-80 rounded custom-image-size wow zoomIn "
+      <div class="col-lg-5">
+    <div class="position-relative">
+        <img
+            class="rounded wow zoomIn"
             data-wow-delay="0.9s"
             src="img/gfilling.png"
             alt="Image"
-            style="height: 90%; width:25%; padding-right:20px;"
-          />
-        </div>
-      </div>
+            style="margin-left:30px;width: 80%; height: 30%; object-fit: contain; margin-right: 10px;"
+        />
+    </div>
+</div>
 
       <!-- Text Column on the Right -->
       <div class="col-lg-7">

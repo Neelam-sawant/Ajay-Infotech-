@@ -236,7 +236,8 @@ These features collectively enhance TallyPrime 5.0's functionality, making it a 
    
   </div>
 </div>
-
+</div>
+</div>
 
 <!-- contact start -->
 

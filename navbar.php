@@ -10,15 +10,15 @@
     background-color: #343a40; /* Dark background */
     z-index: 1050; /* Ensure it stays above other elements */
     height: 35px; /* Reduce height */
-    line-height: 20px; /* Center text vertically */
-    font-size: 14px; /* Adjust font size */
+    line-height: 18px; /* Center text vertically */
+    font-size: 15px; /* Adjust font size */
     padding: 0 10px;
 }
 
 /* Fixed Navbar */
 .navbar {
     position: fixed;
-    top: 30px; /* Adjust based on top bar height */
+    top: 35px; /* Adjust based on top bar height */
     left: 0;
     width: 100%;
     background-color: #333; /* Navbar background */
@@ -120,6 +120,7 @@ body {
           </div>
       </nav>
   <!--Navbar End-->
-
+<br>
+<br>
   <!-----Complete Navbar End----->
 

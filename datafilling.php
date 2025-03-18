@@ -51,9 +51,9 @@
 >
   <div class="container py-5">
     <!-- First Component -->
-    <div class="row g-5 mt-5 d-flex align-items-center" style="gap: 10px; flex-wrap: nowrap;">
+    <div class="row g-5 mt-5 d-flex align-items-center" style="gap: 30px; flex-wrap: nowrap;">
     <!-- Image Column on the Left -->
-    <div class="col-lg-5" style="min-height: 500px;">
+    <div class="col-lg-5">
         <div class="h-100">
             <img 
                 class="w-100 rounded custom-image-size wow zoomIn"
@@ -61,7 +61,7 @@
                 data-wow-delay="0.9s"
                 src="img/de1.webp" 
                 alt="Image"
-                style="height:80%; width:30%;"
+                style="height:80%; width:30%; height: 30%; object-fit: contain; margin-right: 10px;"
             />
         </div>
     </div>
