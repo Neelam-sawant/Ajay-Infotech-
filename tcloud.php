@@ -90,9 +90,9 @@
 
 <!-- text and image start -->
 <div
-  style="background-color:  rgb(253, 253, 253)"
+  style="background-color:  rgb(253, 253, 253); margin-left:25px; margin-right:25px;"
   class="container-fluid py-5 wow fadeInUp"
-  data-wow-delay="0.1s"
+  data-wow-delay="0.1s" 
 >
   <div class="container py-5">
     <div class="row g-5">
@@ -259,9 +259,8 @@
       </div>
 
       Tally on cloud image and description start -->
-
-      <!-- first component start -->
-      <div class="row g-5 mt-5">
+ <!-- first component start -->
+ <div class="row g-5 mt-5">
         <!-- Image Column Now on the Left -->
         <div class="col-lg-5" style="height: 250px;">
           <div class="position-relative h-100">
@@ -289,7 +288,7 @@
       <!-- second component start -->
       <div class="row g-5 mt-5">
         <div class="col-lg-7">
-          <div class="section-title position-relative pb-3 mb-5" style="margin-left:40px;">
+          <div class="section-title position-relative pb-3 mb-5" style="margin-left:40px;" >
             <h1 class="mb-0">Complete security</h1>
           </div>
           <h5 class="mb-4" style="margin-left:40px;">
@@ -340,7 +339,6 @@
       <!-- Tally on cloud image and description end -->
     </div>
   </div>
-
   <!-- Cards of self achivements start -->
 
   <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
