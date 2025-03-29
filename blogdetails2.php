@@ -156,7 +156,7 @@
                 <div class="col-lg-8">
                     <!-- Blog Detail Start -->
                     <div class="mb-5 position-relative">
-    <img class="img-fluid w-100 rounded mb-5" src="img/bdetails1.png" alt="">
+    <img class="img-fluid w-100 rounded mb-5" src="img/bdetails21.png" alt="">
 
     <a class="position-absolute bg-primary text-white rounded-end py-1 px-3" 
        style="top: 20px; left: 0; z-index: 10;" 
