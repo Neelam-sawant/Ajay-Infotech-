@@ -156,7 +156,7 @@
                 <div class="col-lg-8">
                     <!-- Blog Detail Start -->
                     <div class="mb-5">
-                        <img class="img-fluid w-100 rounded mb-5" src="img/bdetails2.png" alt="">
+                        <img class="img-fluid w-100 rounded mb-5" src="img/bdetails21.png" alt="">
                         <h1 class="mb-4">Discover TallyPrime: Simplifying Business</h1>
                         <p>
 Are you ready to streamline your business operations effortlessly? Welcome to TallyPrime – your ultimate solution for efficient business management. Let’s delve into the remarkable features of TallyPrime that make it your go-to tool for smooth sailing in the business world.
@@ -235,7 +235,7 @@ Set up for personal preferences is another flexibility that you get to in order 
                         <a href="blogdetails1.php" class="small ms-2">Working with reports in Tally Prime</a>
                     </div>
                     <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img\bdetails2.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="img\bdetails21.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
                         <a href="blogdetails2.php" class="small ms-2">Discover Tally Prime: Simplyfing Business</a>
                     </div>
                     <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">

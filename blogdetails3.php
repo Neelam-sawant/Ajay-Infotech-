@@ -198,7 +198,7 @@ The e-Way Bill report is a one-stop shop for your e-Way Bill needs in TallyPrime
                         <a href="blogdetails1.php" class="small ms-2">Working with reports in Tally Prime</a>
                     </div>
                     <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img\bdetails2.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="img\bdetails21.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
                         <a href="blogdetails2.php" class="small ms-2">Discover Tally Prime: Simplyfing Business</a>
                     </div>
                     <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">

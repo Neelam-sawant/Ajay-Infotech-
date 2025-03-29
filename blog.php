@@ -216,7 +216,7 @@
                     <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/bdetails2.png" alt="" style="width:100%; height:250px;">
+                                <img class="img-fluid" src="img/bdetails21.png" alt="" style="width:100%; height:250px;">
                                 <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="blogdetails2.php">17 March 2025</a>
                             </div>
                             <div class="p-3">
@@ -281,7 +281,7 @@
                         <a href="blogdetails1.php" class="small ms-2">Working with reports in Tally Prime</a>
                     </div>
                     <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img/bdetails2.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="img/bdetails21.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
                         <a href="blogdetails2.php" class="small ms-2">Discover Tally Prime: Simplyfing Business</a>
                     </div>
                     <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
