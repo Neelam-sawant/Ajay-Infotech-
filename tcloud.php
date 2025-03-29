@@ -99,7 +99,7 @@
       <div class="col-lg-7">
         <div class="section-title position-relative pb-3 mb-5">
           <h5 class="fw-bold text-primary text-uppercase">Tally on Cloud</h5>
-          <h1 class="mb-0">for seamless Accounting</h1>
+          <h1 class="mb-0">For Seamless Accounting</h1>
         </div>
         <p class="mb-4">T24*7 Access to Tally and Business Data</p>
         <p class="mb-4">Inbuilt Firewall, Anti-virus and auto Data backup</p>
