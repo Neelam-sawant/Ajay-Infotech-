@@ -146,8 +146,13 @@
             <div class="row g-5">
                 <div class="col-lg-8">
                     <!-- Blog Detail Start -->
-                    <div class="mb-5">
+                    <div class="mb-5 position-relative">
                         <img class="img-fluid w-100 rounded mb-5" src="img/tally.png" alt="">
+                        <a class="position-absolute bg-primary text-white rounded-end py-1 px-3" 
+       style="top: 20px; left: 0; z-index: 10;" 
+       href="blogdetails2.php">
+        17 March 2025
+    </a>
                         <h1 class="mb-4">What's New in Tally Prime</h1>
                         <p>TallyPrime 5.0 introduces several enhancements designed to streamline business operations and improve user experience.  
 

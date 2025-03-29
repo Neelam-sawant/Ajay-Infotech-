@@ -155,9 +155,17 @@
             <div class="row g-5">
                 <div class="col-lg-8">
                     <!-- Blog Detail Start -->
-                    <div class="mb-5">
-                        <img class="img-fluid w-100 rounded mb-5" src="img/bdetails21.png" alt="">
-                        <h1 class="mb-4">Discover TallyPrime: Simplifying Business</h1>
+                    <div class="mb-5 position-relative">
+    <img class="img-fluid w-100 rounded mb-5" src="img/bdetails1.png" alt="">
+
+    <a class="position-absolute bg-primary text-white rounded-end py-1 px-3" 
+       style="top: 20px; left: 0; z-index: 10;" 
+       href="blogdetails2.php">
+        17 March 2025
+    </a>
+
+    <h1 class="mb-4">Working with Reports in TallyPrime</h1>
+    <p>In every business journey, insights are the guiding stars, and reports serve as the map to navigate...</p>
                         <p>
 Are you ready to streamline your business operations effortlessly? Welcome to TallyPrime – your ultimate solution for efficient business management. Let’s delve into the remarkable features of TallyPrime that make it your go-to tool for smooth sailing in the business world.
 <br>
