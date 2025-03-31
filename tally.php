@@ -78,7 +78,10 @@
     
 
 
-
+<div class="aiheaderimage">
+    <img src="img/Tally Pime backgrornd image.png"  class="header-image">
+    <h1 class="title">Tally</h1>
+</div>
 
 
 <!-- Text and Description Start for Tally -->

@@ -98,7 +98,6 @@ data-wow-delay="0.1s"
     class="section-title text-center position-relative pb-3 mb-5 mx-auto"
     
   >
-    <h5 class="fw-bold text-primary text-uppercase">Tally Prime Server</h5>
     <p class="mb-0">
       Unleash the power of TallyPrime with a Client-Server Architecture
     </p>
@@ -137,7 +136,7 @@ data-wow-delay="0.1s"
           <div class="position-relative h-100">
             <img
               class="position-absolute w-100 h-100 rounded custom-image-size wow zoomIn"
-              data-wow-delay="0.9s"
+              data-wow-delay="0.5s"
               src="img/tpserver2.png"
             />
           </div>
@@ -153,14 +152,9 @@ data-wow-delay="0.1s"
             >
           </div>
           <p class="mb-4">
-            Multiple users will be able to simultaneously load companies, save
-            transactions, export reports, print reports, import data, take
-            backup, and perform other data-related activities without
-            experiencing any downtime. This will directly result in optimal
-            utilization of man-hours as the velocity at which a task gets
-            completed will increase. Further, the users will be able to
-            seamlessly work on the same data. Your Data will always be
-            real-time, consistent, and accurate.
+          In a traditional multi-user setup, system slowdowns and data access conflicts are common when multiple users try to access and modify data simultaneously. TallyPrime Server eliminates these issues by ensuring seamless concurrency. Users can load companies, save transactions, generate reports, print data, export files, and even take backups without any downtime. This efficient handling of multiple operations at once results in optimal utilization of man-hours, as tasks are completed at a much faster pace.
+
+Additionally, multiple users can work on the same data file simultaneously without any risk of discrepancies. Since the system ensures that data is always real-time and consistent, businesses can make decisions based on the latest available information. Whether it is accountants recording transactions while another team is generating financial statements, or a manager analyzing reports while entries are being made, TallyPrime Server ensures smooth and efficient business operations.
           </p>
         </div>
       </div>
@@ -177,20 +171,16 @@ data-wow-delay="0.1s"
             >
           </div>
           <p class="mb-4">
-            When data files are managed through TallyPrime Server, the
-            location of the data on the server is not required. The name of
-            the data server is sufficient to access and operate TallyPrime.
-            Operations over the company data like backup and restore are
-            controlled with server-level permissions available with
-            authorization only. This ensures better control over user access
-            to data.
+          One of the biggest concerns for businesses handling sensitive financial data is security. With TallyPrime Server, data access is controlled in a structured manner, ensuring that only authorized personnel can perform certain operations. Unlike traditional setups where users need direct access to data files stored on a shared server, TallyPrime Server allows users to work without knowing the exact location of the data. Instead, they can simply connect through the server name, reducing the risk of accidental deletions or modifications.
+
+Furthermore, critical operations such as taking backups, restoring data, or modifying company settings require explicit authorization. This ensures that only those with the necessary permissions can make significant changes, safeguarding against unauthorized access. Businesses dealing with financial reports, taxation, and audits benefit greatly from such controlled access, ensuring compliance and preventing data breaches. 
           </p>
         </div>
         <div class="col-lg-5" style="min-height: 500px">
           <div class="position-relative h-100">
             <img
               class="position-absolute w-100 h-100 rounded custom-image-size wow zoomIn"
-              data-wow-delay="0.9s"
+              data-wow-delay="0.5s"
               src="img/tpserver3.png"
             />
           </div>
@@ -204,7 +194,7 @@ data-wow-delay="0.1s"
           <div class="position-relative h-100">
             <img
               class="position-absolute w-100 h-100 rounded custom-image-size wow zoomIn"
-              data-wow-delay="0.9s"
+              data-wow-delay="0.5s"
               src="img/tpserver4.png"
             />
           </div>
@@ -216,13 +206,9 @@ data-wow-delay="0.1s"
             <p class="mb-0">Minimizing instances of system unavailability</p>
           </div>
           <p class="mb-4">
-            Continue recording transactions or viewing reports while taking
-            backup with no compromise on speed or access or accuracy. It also
-            limits discrepancies at the client end to the client systems and
-            ensures that neither data on the server nor the operations of
-            other users get impacted. Thus, it improves work productivity and
-            business performance by avoiding disruption of work and ensuring
-            zero downtime.
+          Downtime can severely impact business productivity, especially when it comes to financial transactions and reporting. TallyPrime Server enhances reliability by ensuring that business operations continue without interruption, even during critical processes such as data backup. Unlike traditional systems, where taking a backup might require users to pause their work, TallyPrime Server allows transactions to be recorded, reports to be generated, and data to be accessed without any slowdowns.
+
+Another key advantage is that any errors or system failures on a client machine remain isolated to that system. This means that issues on one user’s computer will not affect the overall data integrity or disrupt other users working on the same data. By minimizing downtime and preventing data loss, TallyPrime Server ensures business continuity and smooth workflow execution.
           </p>
         </div>
       </div>
@@ -239,19 +225,16 @@ data-wow-delay="0.1s"
             >
           </div>
           <p class="mb-4">
-            A comprehensive monitoring capability allows authorized users to
-            manage user sessions, such as who is logged in and activities in
-            progress. Also, with the ability to track, monitor user
-            activities/sessions and even disconnect users, if required, it
-            helps to optimize processes or system usage for enhanced
-            productivity.
+          Optimizing business processes is crucial for maintaining efficiency and improving performance. TallyPrime Server provides a real-time monitoring capability that allows administrators to oversee user sessions and track system usage. Business owners or IT administrators can see which users are logged in, what operations they are performing, and how resources are being utilized. This visibility helps in making informed decisions about optimizing processes and managing system loads effectively.
+
+Additionally, administrators can identify inactive users or sessions consuming unnecessary resources and disconnect them if required. This prevents system slowdowns and ensures that computing resources are allocated efficiently. By monitoring and optimizing usage patterns, businesses can maximize productivity, minimize bottlenecks, and improve overall performance.
           </p>
         </div>
         <div class="col-lg-5" style="min-height: 500px">
           <div class="position-relative h-100">
             <img
               class="position-absolute w-100 h-100 rounded custom-image-size wow zoomIn"
-              data-wow-delay="0.9s"
+              data-wow-delay="0.5s"
               src="img/tpserver5.png"
             />
           </div>
@@ -280,10 +263,10 @@ data-wow-delay="0.1s"
     <div class="col-md-4">
       <div class="business">
         <img
-          src="https://tallysolutions.com/wp-content/uploads/2019/08/Icon-4-Blue.svg"
+          src="img\employee_912318.png"
           class="img-fluid"
           alt="Tally"
-          style="display: block; margin: auto;"
+          style="display: block; margin-left:40%; height:35px; width:auto;"
         />
         <p class="para-text">
           You are a growing business with 10+ employees that perform various operations simultaneously
@@ -293,10 +276,10 @@ data-wow-delay="0.1s"
     <div class="col-md-4">
       <div class="business">
         <img
-          src="https://tallysolutions.com/wp-content/uploads/2019/08/Icon-4-Blue.svg"
+          src="img\account_4132735.png"
           class="img-fluid"
           alt="Tally"
-          style="display: block; margin: auto;"
+          style="display: block; margin-left:40%; height:35px; width:auto;"
         />
         <p class="para-text">
           A business where multiple users are connected to the same data and
@@ -308,10 +291,10 @@ data-wow-delay="0.1s"
     <div class="col-md-4">
       <div class="business">
         <img
-          src="https://tallysolutions.com/wp-content/uploads/2019/08/Icon-4-Blue.svg"
+          src="img\networking_1736397.png"
           class="img-fluid"
           alt="Tally"
-          style="display: block; margin: auto;"
+          style="display: block; margin-left:40%; height:35px; width:auto;"
         />
         <p class="para-text">
           A business with multiple branches and head office. All the

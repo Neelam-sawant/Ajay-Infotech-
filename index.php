@@ -39,7 +39,7 @@
     <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousell-inner">
             <div class="carousel-item active">
-                <img style="left: 0%;top: 0%; right: 0%; width:100% ;"  src="img/Tally prime 5.0.png" alt="Image">
+                <img style="left: 0%;top: 0%; right: 0%; width:100% ; margin-top: 1.5%;"  src="img\bgtally6.png" alt="Image">
                 <div class="carousel-caption-top" 
     style="text-align: center; position: absolute; top: 75%; left: 50%; transform: translateX(-50%); width: 100%;">
     

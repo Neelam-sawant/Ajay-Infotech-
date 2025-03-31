@@ -54,18 +54,19 @@
 
 
 <!-- About Start -->
-<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="margin-left:25px; margin-right:25px;">
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-lg-7">
                 <div class="section-title position-relative pb-3 mb-5">
-                    <h5 class="fw-bold text-primary text-uppercase">About Tally</h5>
-                    <h1 class="mb-0">The Best Products and Services</h1>
+                    <h5 class="fw-bold text-primary text-uppercase">What we do</h5>
+                    <h1 class="mb-0">At Ajay Infotech?</h1>
                 </div>
-                <p class="mb-4">Tally's fully connected e-way bill solution is simple, seamless and reliable with
-                    zero manual work. Tally being one of the recognised ISO certified GSP (GST Suvidha Provider),
-                    TallyPrime directly integrates with the e-way portal to seamlessly generate e-way bill for you
-                    without the need to do it manually.</p>
+                <p class="mb-4" style="margin-right:10px;">Ajay Infotech was founded in 2010 with a single mission: to be the most successful Tally Prime partner. We approach each of our clients with fresh eyes to develop together. We formed 500+ strong relations. We all are one whole big family. Come on in, join our family for smooth accounting and zero misunderstanding.
+
+We assure you that you won’t regret joining our family. We don’t believe in time-bonded work; we will try to help you at any time. We give online support on the spot, and if your problems are still not solved, we personally visit your place to help you out. We make sure that you work smoothly.
+
+Though we’ve grown since our founding, we’re still the same agency at heart. Let us help make your dreams a reality. Are you ready to get smooth with your accounting work? Give us a call today and see what we can do for you.</p>
                 <div class="row g-0 mb-3">
                     <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
                         <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Award Winning</h5>
