@@ -212,7 +212,7 @@ The e-Way Bill report is a one-stop shop for your e-Way Bill needs in TallyPrime
                     </div>
                     <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
                         <img class="img-fluid" src="img/tally 6.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
-                        <a href="blogdetails3.php" class="small ms-2">What's new in Tally Prime 6.0?</a>
+                        <a href="blogdetails4.php" class="small ms-2">What's new in Tally Prime 6.0?</a>
                     </div>
                 </div>
                     <!-- Recent Post End -->
