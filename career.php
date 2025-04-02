@@ -110,7 +110,7 @@
 <div class="">
     <div class="container">
         <div class="center-content">
-            <h1 class="center-heading text-primary mb-1">Career</h1>
+            <br>
             <p class="center-paragraph">Get In Touch</p>
             <p class="center-paragraph">Our People are Our Strength & Our Inspiration</p>
         </div>

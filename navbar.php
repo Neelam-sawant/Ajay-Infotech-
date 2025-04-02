@@ -110,6 +110,7 @@ body {
                   <div class="nav-item dropdown">
                       <a href="about.php" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
                       <div class="dropdown-menu m-0">
+                      <a href="about.php" class="dropdown-item">About Ajay Infotech</a>
                           <a href="gallery.php" class="dropdown-item">Gallery</a>
                       </div>
                   </div>
