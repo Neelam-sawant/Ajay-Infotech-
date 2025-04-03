@@ -71,6 +71,17 @@
                   </div>
                   <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
                       <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                          <h3 class="text-light mb-0">Policies</h3>
+                      </div>
+                      <div class="link-animated d-flex flex-column justify-content-start">
+                          <a class="text-light mb-2" href="term.php"><i class="bi bi-arrow-right text-primary me-2"></i>Terms & Conditions</a>
+                          <a class="text-light mb-2" href="privacy.php"><i class="bi bi-arrow-right text-primary me-2"></i>Privacy Policy</a>
+                          <a class="text-light mb-2" href="refund.php"><i class="bi bi-arrow-right text-primary me-2"></i>Refund & Cancellation Policy</a>
+                          <a class="text-light" href="maincontact.php"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                      <div class="section-title section-title-sm position-relative pb-3 mb-4">
                           <h3 class="text-light mb-0">Popular Links</h3>
                       </div>
                       <div class="link-animated d-flex flex-column justify-content-start">

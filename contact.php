@@ -71,7 +71,7 @@
                 <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s">
                     <div class="ps-4">
                         <h5 class="mb-2" style="font-size: 50px;">Headquarter</h5>
-                        <h4 class="text-primary mb-0">A-220, Redbricks Business Plaza, Above Chroma, Virar West.</h4>
+                        <h4 class="text-primary mb-0">A-220, Redbricks Business Plaza, Above Croma, Virar West.</h4>
                     </div>
                 </div>
                 <br>
