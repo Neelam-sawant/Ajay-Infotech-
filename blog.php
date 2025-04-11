@@ -181,7 +181,7 @@
             <!-- Blog list Start -->
             <div class="col-lg-8">
                 <div class="row g-4">
-                    <!-- Blog Item Start -->
+                    <!-- Blog Item Start 
                     <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
@@ -195,9 +195,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Blog Item End -->
-                    
-                    <!-- Blog Item Start -->
+            
                     <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
@@ -211,8 +209,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Blog Item End -->
-                     <!-- Blog Item Start -->
+                
                     <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
@@ -226,9 +223,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Blog Item End -->
-                    
-                     <!-- Blog Item Start -->
+                 
                      <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
@@ -242,7 +237,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Blog Item End -->
+               Blog Item End -->
                     <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
@@ -252,7 +247,7 @@
                             <div class="p-3">
                                 <h5 class="mb-2">What's new in Tally Prime 6.0?</h5>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
-                                <a class="text-uppercase small fw-bold" href="blogdetails4.php">Read More <i class="bi bi-arrow-right"></i></a>
+                                <a class="text-uppercase small fw-bold" href="tallyprime6.php">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -303,7 +298,7 @@
                 </div>
                 Categories End -->
 
-                <!-- Recent Post Start -->
+                <!-- Recent Post Start -
                 <div class="mb-4 wow slideInUp" data-wow-delay="0.1s" style="margin-left:30px;">
                     <h5 class="section-title-sm pb-2" >Recent Post</h5>
                     <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
@@ -327,7 +322,7 @@
                         <a href="blogdetails4.php" class="small ms-2">What's new in Tally Prime 6.0?</a>
                     </div>
                 </div>
-                <!-- Recent Post End -->
+                 Recent Post End -->
             </div>
             <!-- Sidebar End -->
     

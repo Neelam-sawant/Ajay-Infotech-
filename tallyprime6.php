@@ -213,7 +213,7 @@
     
                   
     
-                    <!-- Recent Post Start -->
+                    <!-- Recent Post Start 
                     <div class="mb-4 wow slideInUp" data-wow-delay="0.1s" style="margin-left:30px;">
                     <h5 class="section-title-sm pb-2" >Recent Post</h5>
                     <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
@@ -238,7 +238,7 @@
                     </div>
                     
                 </div>
-                    <!-- Recent Post End -->
+                    Recent Post End -->
     
                     <!-- Tags Start -->
                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s" style="margin-left:20px;">
