@@ -196,19 +196,7 @@
                         </div>
                     </div>
             
-                    <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
-                        <div class="blog-item bg-light rounded overflow-hidden">
-                            <div class="blog-img position-relative overflow-hidden">
-                                <img class="img-fluid" src="img\bdetails1.png" alt="" style="width:100%; height:250px;">
-                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="blogdetails1.php">17 March 2025</a>
-                            </div>
-                            <div class="p-3">
-                                <h5 class="mb-2">Working with reports in Tally Prime</h5>
-                                <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
-                                <a class="text-uppercase small fw-bold" href="blogdetails1.php">Read More <i class="bi bi-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                   
                 
                     <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
                         <div class="blog-item bg-light rounded overflow-hidden">
@@ -238,6 +226,19 @@
                         </div>
                     </div>
                Blog Item End -->
+               <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
+                        <div class="blog-item bg-light rounded overflow-hidden">
+                            <div class="blog-img position-relative overflow-hidden">
+                                <img class="img-fluid" src="img\bdetails1.png" alt="" style="width:100%; height:250px;">
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="blogdetails1.php">17 March 2025</a>
+                            </div>
+                            <div class="p-3">
+                                <h5 class="mb-2">Working with reports in Tally Prime</h5>
+                                <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
+                                <a class="text-uppercase small fw-bold" href="reportsintally.php">Read More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
@@ -297,7 +298,17 @@
                     </div>
                 </div>
                 Categories End -->
-
+                <div class="recent-blogs" style="padding-left:20px;">
+                    <h3>Recent Blogs</h3>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img/bdetails1.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="reportsintallyprime.php" class="small ms-2">Working with reports in Tally Prime</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img/bdetails1.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="tallyprime6.php" class="small ms-2">What's new in Tally Prime 6.0?</a>
+                    </div>
+                    </div>
                 <!-- Recent Post Start -
                 <div class="mb-4 wow slideInUp" data-wow-delay="0.1s" style="margin-left:30px;">
                     <h5 class="section-title-sm pb-2" >Recent Post</h5>
@@ -305,10 +316,7 @@
                         <img class="img-fluid" src="img/tally.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
                         <a href="blogdetails.php" class="small ms-2">What’s new in Tally Prime 5.0?</a>
                     </div>
-                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img/bdetails1.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
-                        <a href="blogdetails1.php" class="small ms-2">Working with reports in Tally Prime</a>
-                    </div>
+                  
                     <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
                         <img class="img-fluid" src="img/bdetails21.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
                         <a href="blogdetails2.php" class="small ms-2">Discover Tally Prime: Simplyfing Business</a>
