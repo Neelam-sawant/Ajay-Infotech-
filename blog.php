@@ -230,12 +230,12 @@
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img\bdetails1.png" alt="" style="width:100%; height:250px;">
-                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="blogdetails1.php">17 March 2025</a>
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="reportsintallyprime.php">17 March 2025</a>
                             </div>
                             <div class="p-3">
                                 <h5 class="mb-2">Working with reports in Tally Prime</h5>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
-                                <a class="text-uppercase small fw-bold" href="reportsintally.php">Read More <i class="bi bi-arrow-right"></i></a>
+                                <a class="text-uppercase small fw-bold" href="reportsintallyprime.php">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
