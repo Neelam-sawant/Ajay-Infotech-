@@ -71,13 +71,13 @@
 
       <!-- Text Column on the Right -->
       <div class="col-lg-7 m-5">
-        <div class="section-title position-relative pb-3 mb-5">
+        <div class="section-title position-relative pb-3 mb-5" style="margin: 40px;">
           <h1 class="mb-0">Tally AMC (Tally Support)</h1>
         </div>
-        <p class="mb-4">
+        <p class="mb-4" style="margin: 40px;">
           Continue recording transactions or viewing reports while taking backup with no compromise on speed, access, or accuracy. It also limits discrepancies at the client end to the client systems and ensures that neither data on the server nor the operations of other users get impacted. Thus, improves work productivity and business performance by avoiding disruption of work and ensuring zero downtime.
         </p>
-        <a href="maincontact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact Us</a>
+        <a href="maincontact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.5s" style="margin: 40px;">Contact Us</a>
       </div>
     </div>
     <!-- image + description end -->

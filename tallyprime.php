@@ -9,9 +9,6 @@
 <head>
     <meta charset="utf-8">
     <?php include 'linkcss.php'; ?>
-
-
-
 </head>
 
 <body>
@@ -21,13 +18,10 @@
 </div>
 <!-- Spinner End -->
 
-
 <!-----Complete Navbar Start----->
 
 <?php include 'navbar.php'; ?>
   <!-----Complete Navbar End----->
-
-
 <!-- background name display Start -->
   <div class="aiheaderimage">
     <img src="img/Tally Pime backgrornd image.png"  class="header-image">
@@ -37,94 +31,93 @@
 
 
 
-
-
-
-
 <!-- Text and Description Start for Tally -->
 <div style="background-color:rgb(253, 253, 253);" class="container-fluid py-5 wow fadeInUp bgti" data-wow-delay="0.1s">
   <div class="container py-5"  >
 
     <!-- First Component -->
-    <div class="row g-5">
-      <div class="col-lg-7">
-        <div class="section-title position-relative pb-3 mb-5">
-          <h5 class="fw-bold text-primary text-uppercase">About Tally Prime</h5>
-          <h1 class="mb-0">Why Tally Prime ?</h1>
-        </div>
-        <p class="mb-4">
-          At Tally, we believe in the power of technology to make business
-          owners efficient, empowered and happier, so they can focus on what
-          matters most for their business. We design our products to focus on
-          just that - to make our products work for you, and not the other way
-          around.
-        </p>
-        <p>
-          TallyPrime takes this to a new level, making your start to automation,
-          or your switch to Tally simpler than ever before. You can discover the
-          product much more easily and make the product do more for you, without
-          learning anything new. There is greater flexibility as the product
-          adapts to your business and your way of working. And the overall look
-          and feel will only make you love the product even more.
-        </p>
+<!-- First Component -->
+<div class="container">
+  <div class="row g-5 align-items-center" style="margin-left:30px; margin-right:30px;">
+    <div class="col-lg-7">
+      <div class="section-title position-relative pb-3 mb-5">
+        <h5 class="fw-bold text-primary text-uppercase">About Tally Prime</h5>
+        <h1 class="mb-0">Why Tally Prime?</h1>
       </div>
-      <div class="col-lg-5" style="min-height: 500px">
-        <div class="position-relative h-100">
-          <img
-            class="position-absolute w-100 h-100 rounded wow zoomIn"
-            data-wow-delay="0.9s"
-            src=" img/TallyPrime.svg"
-            style="object-fit: contain; margin-left: 10px;"
-          />
-        </div>
-      </div>
+      <p class="mb-4">
+        At Tally, we believe in the power of technology to make business
+        owners efficient, empowered and happier, so they can focus on what
+        matters most for their business. We design our products to focus on
+        just that — to make our products work for you, and not the other way
+        around.
+      </p>
+      <p>
+        TallyPrime takes this to a new level, making your start to automation,
+        or your switch to Tally simpler than ever before. You can discover the
+        product much more easily and make the product do more for you, without
+        learning anything new. There is greater flexibility as the product
+        adapts to your business and your way of working. And the overall look
+        and feel will only make you love the product even more.
+      </p>
     </div>
-
-    <!-- Second Component -->
-    <div class="row g-5 mt-5">
-      <!-- Image Column Now on the Left -->
-      <div class="col-lg-5" style="min-height: 500px">
-        <div class="position-relative h-100">
-          <img
-            class="position-absolute w-100 h-100 rounded wow zoomIn"
-            data-wow-delay="0.9s"
-            src="img/TallyPrime2.svg"
-            style="object-fit: contain; margin-left: 10px;"
-          />
-        </div>
-      </div>
-      <!-- Text Column Now on the Right -->
-      <div class="col-lg-7">
-        <div class="section-title position-relative pb-3 mb-5">
-          <h1 class="mb-0">Simple to learn, easier to use</h1>
-        </div>
-        <p class="mb-4">
-          Getting started with TallyPrime is extremely simple. You can setup the application in less than a minute and get started with invoicing even faster. It just works the way you expect it to. And with the consistency and intuitiveness in design, you will be able to discover more and learn easily, as you are using TallyPrime.
-        </p>
-      </div>
+    <div class="col-lg-5">
+      <img
+        class="img-fluid rounded wow zoomIn"
+        data-wow-delay="0.9s"
+        src="img/TallyPrime.svg"
+        style="object-fit: contain; max-height: 500px;"
+      />
     </div>
+  </div>
+</div>
 
+<!-- Second Component -->
+<div class="container mt-5">
+  <div class="row g-5 align-items-center">
+    <div class="col-lg-5">
+      <img
+        class="img-fluid rounded wow zoomIn"
+        data-wow-delay="0.9s"
+        src="img/TallyPrime2.svg"
+        style="object-fit: contain; max-height: 500px;"
+      />
+    </div>
+    <div class="col-lg-7">
+      <div class="section-title position-relative pb-3 mb-5">
+        <h1 class="mb-0">Simple to learn, easier to use</h1>
+      </div>
+      <p class="mb-4">
+        Getting started with TallyPrime is extremely simple. You can set up the application in less than a minute and begin invoicing almost immediately. It just works the way you expect it to. Designed with consistency and intuitiveness at its core, TallyPrime ensures that whether you’re a beginner or an experienced user, you’ll be able to pick it up and start using it without formal training.
+        <br><br>
+        From navigating menus to configuring features, everything feels natural and logical. You don’t need to memorize complex steps — the software guides you along the way. As you work, you’ll discover more features naturally, making it easier to do more with less effort. The clutter-free interface also ensures you stay focused on your tasks without distractions.
+      </p>
+    </div>
+  </div>
+</div>
+ 
     <!-- Third Component -->
-    <div class="row g-5 mt-5">
-      <div class="col-lg-7">
-        <div class="section-title position-relative pb-3 mb-5">
-          <h1 class="mb-0">Insightful, actionable & customizable reports</h1>
-        </div>
-        <p class="mb-4">
-          TallyPrime comes with a diverse set of readily available business reports with powerful and actionable insights, helping you make informed decisions for your business growth. Be it business relationships, cash or inventory, these reports will help you manage all these aspects better with extremely easy discovery and navigation.
-        </p>
+    <div class="container">
+  <div class="row g-5 mt-5 align-items-center">
+    <div class="col-lg-7" style="margin-left:30px;">
+      <div class="section-title position-relative pb-3 mb-5">
+        <h1 class="mb-0">Insightful, actionable & customizable reports</h1>
       </div>
-      <div class="col-lg-5" style="min-height: 500px">
-        <div class="position-relative h-100">
-          <img
-            class="position-absolute w-100 h-100 rounded wow zoomIn"
-            data-wow-delay="0.9s"
-            src="img/TallyPrime3.png"
-            style="object-fit: contain"
-          />
-        </div>
-      </div>
+      <p class="mb-4">
+        TallyPrime offers a comprehensive range of insightful business reports that are both instantly accessible and highly actionable. Whether it's financial statements, inventory summaries, cash flow analysis, or customer and supplier aging reports — you get a real-time view of your business health.
+        <br><br>
+        These reports aren't just static — they’re dynamic and fully customizable, allowing you to filter, compare periods, drill down into details, and even configure formats to suit your decision-making needs. With simple shortcuts and intuitive grouping, you can navigate from a top-level summary right down to the transaction level with ease. This level of visibility empowers you to spot trends, identify issues early, and take timely action for better business outcomes.
+      </p>
     </div>
+    <div class="col-lg-4">
+      <img
+        src="img/TallyPrime3.png"
+        class="img-fluid rounded wow zoomIn"
+        data-wow-delay="0.9s"
+        style="object-fit: contain; max-height: 400px;"
+      />
+    </div>
+  </div>
+</div>
 
     <!-- Fourth Component -->
     <div class="row g-5 mt-5">
@@ -188,9 +181,9 @@
 </div>
 
 
-<div class="row g-5 mt-5 align-items-center">
+<div class="row g-5 mt-5 align-items-center" style="margin-left:30px; margin-right:30px;">
     <div class="col-lg-5">
-        <video style="border-radius: 18px; width: 50%; height: auto; object-fit: cover;" 
+        <video style="border-radius: 18px; width: 50%; height: auto; object-fit: cover; margin-right:10px;"
                class="w-100 rounded wow zoomIn" 
                autoplay 
                muted 
@@ -205,7 +198,7 @@
     </div>
 </div>
 
-<div class="row g-5 mt-5 align-items-center">
+<div class="row g-5 mt-5 align-items-center" style="margin-left:30px; margin-right:30px;">
     <div class="col-lg-7">
         <p class="mb-4">
             Effortlessly import your ledgers and transactions from Excel into TallyPrime with just a few simple steps. TallyPrime offers exceptional flexibility, allowing you to import your data seamlessly regardless of how it is organized or structured in Excel. 
@@ -222,7 +215,7 @@
     </div>
 </div>
 
-<div class="row g-5 mt-5 align-items-center">
+<div class="row g-5 mt-5 align-items-center" style="margin-left:30px; margin-right:30px;">
     <div class="col-lg-5">
         <video style="border-radius: 18px; width: 100%; height: auto; object-fit: cover;" 
                class="w-100 rounded wow zoomIn" 

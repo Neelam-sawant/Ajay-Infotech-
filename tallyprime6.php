@@ -8,12 +8,6 @@
 
   <!-- styling start -->
 <style>
-
-
-
-
-
-
   .main-container {
     display: flex;
     flex-direction: row;
@@ -99,9 +93,6 @@
 </style>
 <!-- styling end -->
 
-
-
-
 <script>
     // Check if the URL contains "success=true" and show an alert
     window.onload = function() {
@@ -111,30 +102,18 @@
         }
     };
   </script>
-  
-
 </head>
 
-
 <body>
-  
-
-  
   <!-- Spinner Start -->
   <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
     <div class="spinner"></div>
 </div>
 <!-- Spinner End -->
 
-
-
-
-
-
 <!-- Navbar & Carousel Start -->
 <?php include 'navbar.php' ?>
 <!-- Navbar & Carousel end -->
-
 
 <!-- background name display start -->
 <div class="aiheaderimage">
@@ -144,7 +123,6 @@
 <!-- background name display end -->
 
 <!-- Full Screen Search End -->
-
 
 <!-- blog details page start -->
 
@@ -214,11 +192,15 @@
                     <div class="recent-blogs" style="padding-left:20px;">
                     <h3>Recent Blogs</h3>
                     <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img\banreconcilation.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="bankReconciliation.php" class="small ms-2">Bank Reconciliation In TallyPrime 6.0</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
                         <img class="img-fluid" src="img/bdetails1.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
                         <a href="reportsintallyprime.php" class="small ms-2">Working with reports in Tally Prime</a>
                     </div>
                     <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img/bdetails1.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="img/tally 6.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
                         <a href="tallyprime6.php" class="small ms-2">What's new in Tally Prime 6.0?</a>
                     </div>
                     </div>
@@ -276,47 +258,25 @@
 </div>
 </div>
 
-
-
 <!-- contact start -->
 
 <?php include 'contact.php' ?>
-
-  
   
   <!-- contact end -->
-
-
-
 
 <!-- Vendor Start -->
 <?php include 'vendor.php' ?>
 <!-- Vendor End -->
 
-
-
-
-
-
-
-
-
 <!-- footer start -->
 <?php include 'footer.php' ?>
   <!-- Footer End -->
 
-
-
-
-
-
 <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
-
 
 <!-- JavaScript Libraries -->
 <?php include 'linkscript.php' ?>
-
-
+  
 </body>
 
 

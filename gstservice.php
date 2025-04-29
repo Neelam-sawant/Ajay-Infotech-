@@ -68,7 +68,7 @@ data-wow-delay="0.1s"
 >
 <div class="container py-5">
     <div class="row g-5">
-      <div class="col-lg-7">
+      <div class="col-lg-7" style="padding-right:20px;">
         <div class="section-title position-relative pb-3 mb-5">
           <h5 class="fw-bold text-primary text-uppercase">What Is</h5>
           <h1 class="mb-3">GST Services ?</h1>

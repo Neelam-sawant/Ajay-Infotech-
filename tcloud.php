@@ -207,7 +207,7 @@
           <div class="section-title position-relative pb-3 mb-5">
             <h1 class="mb-0">Cloud Hosting</h1>
           </div>
-          <p class="mb-0">
+          <p class="mb-0" style="margin-right:10px;">
           Our cloud hosting solution is designed to provide a secure, scalable, and high-performance environment for businesses. The scalable cloud server is built on a highly protected infrastructure, featuring a next-generation firewall that eliminates the risk of data corruption, breaches, or unauthorized modifications. With advanced security measures in place, businesses can operate with confidence, knowing their data is safeguarded at all times.
 
 Speed and reliability are at the core of our hosting service. We utilize top-tier data centers equipped with specialized servers that are optimized for high-speed performance. With redundant connectivity in place, our system ensures smooth operation with minimal latency and maximum uptime. This allows businesses to run critical applications efficiently without worrying about slowdowns or unexpected downtimes.
@@ -270,7 +270,7 @@ Our fully managed services take the burden of cloud maintenance off your shoulde
           <div class="section-title position-relative pb-3 mb-5">
             <h1 class="mb-0">Speed And Reliability</h1>
           </div>
-          <p class="mb-0"> Our cloud infrastructure is hosted in world-class data centers that are engineered to deliver exceptional speed and reliability. By leveraging cutting-edge technology and redundant network connections, we ensure that services run smoothly without interruptions. Businesses can expect high-speed performance with reduced latency, allowing them to operate seamlessly.
+          <p class="mb-0" style="margin-right:110px;"> Our cloud infrastructure is hosted in world-class data centers that are engineered to deliver exceptional speed and reliability. By leveraging cutting-edge technology and redundant network connections, we ensure that services run smoothly without interruptions. Businesses can expect high-speed performance with reduced latency, allowing them to operate seamlessly.
 
 Furthermore, our specialized servers are optimized for high-performance computing, ensuring that applications load quickly and function efficiently. The redundant connectivity system ensures continuous access to cloud services, even in the case of unforeseen network failures. This level of reliability guarantees that businesses remain operational without disruptions, maintaining productivity and efficiency.
 
@@ -280,9 +280,9 @@ Furthermore, our specialized servers are optimized for high-performance computin
       <!-- first component end -->
       <br>
       <!-- second component start -->
-      <div class="row g-5 mt-5">
+      <div class="row g-5 mt-5" style="margin-left:40px;">
         <div class="col-lg-7">
-          <div class="section-title position-relative pb-3 mb-5" style="margin-left:40px;" >
+          <div class="section-title position-relative pb-3 mb-5">
             <h1 class="mb-0">Complete security</h1>
           </div>
           <p class="mb-0">Security is a top priority in our cloud hosting service. We provide a robust security infrastructure that includes built-in firewalls, real-time antivirus protection, and intrusion detection systems. These advanced security measures work together to create a secure cloud environment that prevents unauthorized access and cyber threats.
@@ -295,7 +295,7 @@ Additionally, automatic data backup facilities ensure that all critical business
               class="position-absolute w-10s0 h-100 rounded wow zoomIn"
               data-wow-delay="0.9s"
               src="img/tcloud4.png"
-              style="object-fit: contain"
+              style="object-fit: contain; margin-left:40px;"
             />
           </div>
         </div>
@@ -322,7 +322,7 @@ Additionally, automatic data backup facilities ensure that all critical business
           <div class="section-title position-relative pb-3 mb-5">
             <h1 class="mb-0">Most Economical</h1>
           </div>
-          <p class="mb-0">
+          <p class="mb-0" style="margin-right:110px;">
           Our cloud hosting service is designed to be cost-effective, offering an affordable pricing model that caters to businesses of all sizes. With a pay-as-you-go structure, clients only pay for the resources they use, eliminating unnecessary costs and hidden fees. This flexible pricing model makes cloud hosting accessible to startups, small businesses, and enterprises alike.
 
 By providing enterprise-grade cloud solutions at a fraction of traditional hosting costs, we ensure that businesses get the best value for their investment. Our cloud services not only enhance operational efficiency but also reduce overall IT expenses, making it the most economical choice for companies looking to scale without overspending.
@@ -399,7 +399,7 @@ By providing enterprise-grade cloud solutions at a fraction of traditional hosti
 
   <!-- cards for reduce costs start  -->
   <div class="container">
-    <div class="row">
+    <div class="row" style="margin-left:40px;">
       <div class="col-md-4">
         <div
           class="card"

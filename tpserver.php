@@ -69,23 +69,6 @@
 </div>
 <!-- background name display end -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <!-- Tally Prime Server Section Start -->
 <div
 style="background-color:rgb(255, 255, 255)"

@@ -119,63 +119,65 @@
 
     <!-- first component start -->
 
-    <div class="container py-5">
-       <div class="row g-5">
-         <div class="col-lg-7">
-           <div class="section-title position-relative pb-3 mb-5">
-             <h1 class="mb-0">Decentralised Setup</h1>
-           </div>
-           <p class="mb-0">
-               Tally Data Synchronization capabilities ensure worry-free data sharing between Branches and Head Office in decentralised architecture.
-               We will not only do the initial configuration for the Server and Client organisations, but we will also manage it as part of the post-implementation service to ensure data integrity in the most dynamic environments. We have created a method for Masters management to prevent repetition and, as a result, mistakes.
-               When Tally is applied at a remote site, security and controls are of the utmost significance and are entirely taken care of, supplemented by the preservation of a transaction log showing the history of modifications needed for auditing.
-               
-               
-           </p>
-           <p class="mb-0">
-               We also comprehend and design a transaction workflow that includes Verification and Authorization processes as required. For eg, a buying order raised in the factory is sent to the head office for verification before being returned to the factory to be sent to the vendor.
+    <div class="container py-5" style="margin-left:40px; margin-right:40px;">
+  <div class="row align-items-center g-5">
+    <!-- Text Column -->
+    <div class="col-lg-7">
+      <div class="section-title position-relative pb-3 mb-4">
+        <h1 class="mb-0">Decentralised Setup</h1>
+      </div>
+      <p class="mb-3">
+        Tally Data Synchronization capabilities ensure worry-free data sharing between Branches and Head Office in decentralised architecture.
+        We will not only do the initial configuration for the Server and Client organisations, but we will also manage it as part of the post-implementation service to ensure data integrity in the most dynamic environments. We have created a method for Masters management to prevent repetition and, as a result, mistakes.
+        When Tally is applied at a remote site, security and controls are of the utmost significance and are entirely taken care of, supplemented by the preservation of a transaction log showing the history of modifications needed for auditing.
+      </p>
+      <p class="mb-0">
+        We also comprehend and design a transaction workflow that includes Verification and Authorization processes as required. For example, a purchase order raised in the factory is sent to the head office for verification before being returned to the factory to be sent to the vendor.
+      </p>
+    </div>
 
-
-           </p>
-         </div>
-         <div class="col-lg-5" style="min-height: 550px;">
-           <div class="position-relative h-100">
-             <img
-               class="position-absolute w-100 h-100 rounded wow zoomIn"
-               data-wow-delay="0.9s"
-               src="img/tsync.gif"
-               style="object-fit: contain;"
-             />
-           </div>
-         </div>
-       </div>
+    <!-- Image Column -->
+    <div class="col-lg-5 text-center">
+      <img
+        class="img-fluid rounded wow zoomIn"
+        data-wow-delay="0.9s"
+        src="img/tsync.gif"
+        alt="Decentralized Setup"
+        style="max-height: 400px; object-fit: contain;"
+      />
+    </div>
+  </div>
+</div>
 
     <!-- first component end -->
 
     <!-- second component start -->
 
     <div class="container py-5">
-       <div class="row g-5">
-         <div class="col-lg-5" style="min-height: 500px">
-           <div class="position-relative h-100">
-             <img
-               class="position-absolute w-100 h-100 rounded wow zoomIn"
-               data-wow-delay="0.9s"
-               src="img/sync1.png"
-               style="object-fit: contain"
-             />
-           </div>
-         </div>
-         <div class="col-lg-7">
-           <div class="section-title position-relative pb-3 mb-5">
-             <h1 class="mb-0">Centralized Setup</h1>
-           </div>
-           <p class="mb-4">
-               An ideal setup but only in 100% connected environment through leased line or MPLS or good broadband. It simplifies the data management but requires powerful Server at the centre. We recommends Tally Server 9 or Tally Prime Server to be installed to maintain good performance of the system.
-           </p>
-         </div>
-       </div>
-     </div>
+  <div class="row align-items-center">
+    <!-- Image Column -->
+    <div class="col-lg-4 text-center">
+      <img
+        src="img/sync1.png"
+        alt="Centralized Setup"
+        class="img-fluid wow zoomIn"
+        data-wow-delay="0.9s"
+        style="max-height: 200px; object-fit: contain;"
+      />
+    </div>
+
+    <!-- Text Column -->
+    <div class="col-lg-8">
+      <div class="section-title position-relative pb-3 mb-3">
+        <h1 class="mb-0">Centralized Setup</h1>
+      </div>
+      <p>
+        An ideal setup but only in 100% connected environment through leased line or MPLS or good broadband. It simplifies the data management but requires powerful Server at the centre. We recommends Tally Server 9 or Tally Prime Server to be installed to maintain good performance of the system.
+      </p>
+    </div>
+  </div>
+</div>
+
      
        <br>
        <br><br><br>
