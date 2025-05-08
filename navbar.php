@@ -31,8 +31,8 @@ body {
 }
 </style>
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark px-5 d-none d-lg-block top-bar">
-    <div class="row gx-0">
+    <div class="container-fluid bg-dark px-5 d-block top-bar">
+    <div class="row gx-0"> 
         <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
             <div class="d-inline-flex align-items-center" style="height: 45px;">
                 <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+91 9029005996</small>

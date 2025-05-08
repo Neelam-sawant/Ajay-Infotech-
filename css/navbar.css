@@ -86,6 +86,7 @@
         position: fixed;
         background: #003b64;
     }
+
 /*light blue line below active navbar item */
     .navbar-dark .navbar-nav .nav-link::before {
         position: absolute;
