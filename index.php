@@ -4,6 +4,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <?php include 'linkcss.php'; ?>
   
 
@@ -75,7 +76,6 @@
         </div>
     </div>
     </div>
-
     
 <br>
 <br>
@@ -112,12 +112,11 @@
             <div class="col-lg-5" style="min-height: 500px;">
                 <div class="position-relative h-100">
                     <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
-                        src="img/certificate.png" style="object-fit: cover;height: 80% !important;border-radius: 18px !important;">
+                        src="img/certificate.png" style="object-fit: cover;height: 80% !important;border-radius: 18px !important;" alt='certificate'>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+
 
 
  
@@ -493,7 +492,6 @@
             </div>
         </div>
     </section>
-    
 <!-- accordion end -->
 
 
@@ -815,6 +813,7 @@
 
 
 
+</div>
 <!-- Events carousel end -->
 
 <br><br><br><br>

@@ -30,7 +30,15 @@ body {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-
+body {
+    overflow: scroll; /* or auto */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
 /*Horizontal Rule (<hr>) Styling*/
 hr {
     margin:1rem 0;

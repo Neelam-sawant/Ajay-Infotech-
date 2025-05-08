@@ -1,8 +1,7 @@
 
 <!-- Vendor Start -->
  <br><br><br><br>
-<div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
-    <div class="container mb-5">
+<div class="container-fluid wow fadeInUp" data-wow-delay="0.1s" style="margin-left:50px; margin-right:50px;">
         <div class="bg-white">
             <div class="owl-carousel vendor-carousel">
                 <img class="vimg" src="img/v1.png" alt="Vendor Image 1">

@@ -38,7 +38,7 @@
 
             <!-- Contact Form -->
             <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-                <form action="./test1.php" method="post">
+                <form action="./submit.php" method="post">
                     <!-- Name and Email on same row -->
                     <div class="row">
                         <div class="col-md-6">
