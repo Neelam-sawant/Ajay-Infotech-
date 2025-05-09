@@ -37,7 +37,7 @@
 <!--Navbar End-->
 
 <!--Carousel Start-->
-    <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousell-inner">
             <div class="carousel-item active">
                 <img style="left: 0%;top: 0%; right: 0%; width:100% ; margin-top: 1.5%;"  src="img\bgtally6.png" alt="Image">
@@ -79,55 +79,38 @@
     
 <br>
 <br>
-    
-
 <!-- Carousel End -->
-
-
-
-<!-- marquee start 
-  <div class="container marquee" style="margin: 100px;">
-    <marquee behavior="" direction="" style="color: blue;"><a href="#"><img style="height: 20px;" src="img/marquee.png" alt=""> Get 10% off on a 2-Years TSS Subscription Save Upto 2700 INR</a></marquee>
-</div> 
- marquee end -->
-
-
-
 <!-- Text and Description Start for Tally -->
+<!-- Main Content Section -->
+<div class="container-fluid wow fadeInUp pt-5 mt-4" data-wow-delay="0.1s">
 
-<div class="container-fluid wow fadeInUp" data-wow-delay="0.1s" >
-        <div class="row g-3" style="margin-bottom: -78px;margin-top: 5%;margin-left: 10%; margin-right: 10%;">
-            <div class="col-lg-7">
-            
-                <div class="section-title position-relative pb-3 mb-5">
-                    <h1 class="mb-0" >Ajay Infotech</h1>
-                    <br>
-                    <h5 class="fw-bold text-primary text-uppercase">Trusted Tally 3 Star Partner</h5>
-                    
-                </div>
-                <p class="mb-4" style="margin-right:5%">Ajay Infotech Pvt Ltd is a proud Tally Three-Star Partner, specializing in delivering high-quality Tally solutions. We offer expert implementation, support, and consultation services to help businesses optimize their accounting and management processes. Our certification underscores our commitment to excellence and customer satisfaction in leveraging Tally software.</p>
-                 
+    <div class="row g-3 px-3 px-md-5 mb-5">
+        <!-- Text Content -->
+        <div class="col-lg-7">
+            <div class="section-title position-relative pb-3 mb-4">
+                <h1 class="mb-0">Ajay Infotech</h1>
+                <h5 class="fw-bold text-primary text-uppercase mt-3">Trusted Tally 3 Star Partner</h5>
             </div>
-            <div class="col-lg-5" style="min-height: 450px;">
-                <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
-                        src="img/certificate.png" style="object-fit: cover;height: 80% !important;border-radius: 18px !important;" alt='certificate'>
-                </div>
-            </div>
+            <p class="mb-4 pe-md-5">
+                Ajay Infotech Pvt Ltd is a proud Tally Three-Star Partner, specializing in delivering high-quality Tally solutions.
+                We offer expert implementation, support, and consultation services to help businesses optimize their accounting and
+                management processes. Our certification underscores our commitment to excellence and customer satisfaction in leveraging Tally software.
+            </p>
         </div>
 
-
-
- 
-
-
-
+        <!-- Certificate Image -->
+        <div class="col-lg-5">
+            <div class="position-relative h-100">
+                <img src="img/certificate.png" class="img-fluid rounded shadow wow zoomIn" data-wow-delay="0.9s" alt="Certificate">
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <!-- vendor start -->
 <?php include 'vendor.php' ?>
 <!-- vendor end -->
-
 
 <!-- Our Value start -->
 <div class="values-section-title text-center section-title position-relative pb-3 mb-5 mx-auto">
@@ -162,8 +145,6 @@
     </div>
 </div>
 <!-- Our values end -->
-
-
 
 <!-- testimonials start -->
 
@@ -295,8 +276,8 @@
 <!-- accordion start -->
   
 
-    <section class="product-services services" style="background:#fff;padding:10%;">
-        <div class="col-xl-10 offset-xl-1">
+    <section class="product-services services" style="background:#fff;">
+        <div class="col-xl-10 offset-xl-1" style="margin: 0 10% 0 10%;">
             <div class="col-sm-12 section-header section-title text-center position-relative pb-3 mb-4 mx-auto">
                 <h2 class="text-primary fw-bold text-primary text-uppercase">We Cater Your Needs</h2>
             </div>

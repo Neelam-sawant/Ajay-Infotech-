@@ -3,9 +3,9 @@
   <div class="">
       <div class="row-replacer">
           <div class="col-lg-4 col-md-6 footer-about">
-              <div class="d-flex flex-column align-items-center justify-content-start text-center h-100 p-4">
+              <div class="d-flex flex-column align-items-center justify-content-start text-center h-100 p-4" style="margin-left:10%;">
                   <a href="index.php" class="navbar-brand">
-                      <h1 class="m-0 text-white"><i class="fa  me-2"><img style="margin-top: 20px;" src="img/AILOGO.png" alt="">
+                      <h1 class="m-0 text-white"><i class="fa  me-2"><img style="margin-top: 5%;" src="img/AILOGO.png" alt="">
                       </i><br>Ajay Infotech</h1>
                   </a>
                   <p class="mt-3 mb-4">Simple Solutions For Complex Problems <br> Want to Become Our Family Member? Join Us.</p>
@@ -20,7 +20,7 @@
           </div>
           
           <div class="col-lg-8 col-md-6">
-              <div class="row-replacer">
+              <div class="row-replacer" style="margin-left:10%;">
                   <div class="col-lg-4 col-md-12 pt-5 mb-5">
                       <div class="section-title section-title-sm position-relative pb-3 mb-4">
                           <h3 class="text-light mb-0">Get In Touch</h3>
@@ -50,7 +50,6 @@
                           <p class="mb-0">Virar</p>
                       </div>
                       
-                      
                       <!-- <div class="d-flex mt-4">
                           <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                           <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -58,7 +57,7 @@
                           <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram fw-normal"></i></a>
                       </div> -->
                   </div>
-                  <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                  <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5" style="margin-left:0%;">
                       <div class="section-title section-title-sm position-relative pb-3 mb-4">
                           <h3 class="text-light mb-0">Quick Links</h3>
                       </div>
@@ -69,7 +68,7 @@
                           <a class="text-light" href="maincontact.php"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                       </div>
                   </div>
-                  <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                  <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5"  style="margin-left:0%;">
                       <div class="section-title section-title-sm position-relative pb-3 mb-4">
                           <h3 class="text-light mb-0">Policies</h3>
                       </div>
@@ -80,7 +79,7 @@
                           <a class="text-light" href="maincontact.php"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                       </div>
                   </div>
-                  <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                  <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5" style="margin-left:0%;">
                       <div class="section-title section-title-sm position-relative pb-3 mb-4">
                           <h3 class="text-light mb-0">Popular Links</h3>
                       </div>
@@ -97,10 +96,10 @@
 
 <div class="container-fluid text-white" style="background: #061429;">
   <div class="container text-center">
-      <div class="row justify-content-end">
+      <div class="row justify-content-center">
           <div class="col-lg-8 col-md-6">
-              <div class="d-flex align-items-center justify-content-center" style="height: 75px;margin-right: 100px;">
-                  <p style="margin-right: 220px;" class="mb-0">&copy; <a class="text-white border-bottom" href="#">2010-2025. ajayinfotech.in</a>. All Rights Reserved.
+              <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                  <p style="" class="mb-0">&copy; <a class="text-white border-bottom" href="#">2010-2025. ajayinfotech.in</a>.<br> All Rights Reserved.
                       
                   </p>
               </div>
