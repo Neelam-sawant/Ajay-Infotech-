@@ -65,8 +65,10 @@
                           <a class="text-light mb-2" href="index.php"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
                           <a class="text-light mb-2" href="about.php"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
                           <a class="text-light mb-2" href="blog.php"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                          <a class="text-light" href="maincontact.php"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
-                      </div>
+                          <a class="text-light  mb-2" href="career.php"><i class="bi bi-arrow-right text-primary me-2"></i>Career</a>
+                          <a class="text-light mb-2" href="downloadpage.php"><i class="bi bi-arrow-right text-primary me-2"></i>Download</a>
+                          <a class="text-light mb-2" href="maincontact.php"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                        </div>
                   </div>
                   <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5"  style="margin-left:0%;">
                       <div class="section-title section-title-sm position-relative pb-3 mb-4">

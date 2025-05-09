@@ -39,12 +39,12 @@ body {
                 <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@ajayinfotech.in</small>
             </div>
         </div>
-        <div class="col-lg-4 text-center text-lg-end">
+        <!-- <div class="col-lg-4 text-center text-lg-end">
             <div class="d-inline-flex align-items-center" style="height: 45px;">
                 <a class="me-3 text-light" href="career.php">Career</a>
                 <a class="me-3 text-light" href="downloadpage.php">Download</a>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
   <!-- Topbar End -->
