@@ -38,7 +38,7 @@
     <!-- First Component -->
 <!-- First Component -->
 <div class="container">
-  <div class="row g-5 align-items-center" style="margin-left:30px; margin-right:30px;">
+  <div class="row g-5 align-items-center">
     <div class="col-lg-7">
       <div class="section-title position-relative pb-3 mb-5">
         <h5 class="fw-bold text-primary text-uppercase">About Tally Prime</h5>
@@ -65,7 +65,7 @@
         class="img-fluid rounded wow zoomIn"
         data-wow-delay="0.9s"
         src="img/TallyPrime.svg"
-        style="object-fit: contain; max-height: 500px;"
+        style="object-fit: contain; max-height: 500px; margin-left: 20%;"
       />
     </div>
   </div>
