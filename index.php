@@ -96,8 +96,7 @@
 <!-- Text and Description Start for Tally -->
 
 <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s" >
-    <div class style="margin-left: 100px; margin-right: 100px;">
-        <div class="row g-3" style="margin-bottom: -78px;margin-top: 20px;">
+        <div class="row g-3" style="margin-bottom: -78px;margin-top: 5%;margin-left: 10%; margin-right: 10%;">
             <div class="col-lg-7">
             
                 <div class="section-title position-relative pb-3 mb-5">
@@ -106,10 +105,10 @@
                     <h5 class="fw-bold text-primary text-uppercase">Trusted Tally 3 Star Partner</h5>
                     
                 </div>
-                <p class="mb-4">Ajay Infotech Pvt Ltd is a proud Tally Three-Star Partner, specializing in delivering high-quality Tally solutions. We offer expert implementation, support, and consultation services to help businesses optimize their accounting and management processes. Our certification underscores our commitment to excellence and customer satisfaction in leveraging Tally software.</p>
+                <p class="mb-4" style="margin-right:5%">Ajay Infotech Pvt Ltd is a proud Tally Three-Star Partner, specializing in delivering high-quality Tally solutions. We offer expert implementation, support, and consultation services to help businesses optimize their accounting and management processes. Our certification underscores our commitment to excellence and customer satisfaction in leveraging Tally software.</p>
                  
             </div>
-            <div class="col-lg-5" style="min-height: 500px;">
+            <div class="col-lg-5" style="min-height: 450px;">
                 <div class="position-relative h-100">
                     <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
                         src="img/certificate.png" style="object-fit: cover;height: 80% !important;border-radius: 18px !important;" alt='certificate'>
@@ -171,13 +170,13 @@
 <!-- Testimonial Start -->
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.05s">
     <div class="container py-5">
-        <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
+        <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 80%;">
             <h5 class="fw-bold text-primary text-uppercase">Testimonial</h5>
         </div>
         <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
             <div class="testimonial-item bg-light my-4">
                 <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                    <img class="img-fluid rounded" src="img/testimonial-1.jpg" style="width: 60px; height: 60px;" >
+                    <img class="img-fluid rounded" src="img/testimonial-1.jpg" style="width: 10%; height: 10%;" >
                     <div class="ps-4">
                         <h4 class="text-primary mb-1">Client Name</h4>
                         <small class="text-uppercase">Profession</small>
@@ -199,7 +198,7 @@
             </div>
             <div class="testimonial-item bg-light my-4">
                 <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                    <img class="img-fluid rounded" src="img/testimonial-3.jpg" style="width: 60px; height: 60px;" >
+                    <img class="img-fluid rounded" src="img/testimonial-3.jpg" style="width: 10%; height: 10%;" >
                     <div class="ps-4">
                         <h4 class="text-primary mb-1">Client Name</h4>
                         <small class="text-uppercase">Profession</small>
@@ -221,7 +220,7 @@
             </div>
             <div class="testimonial-item bg-light my-4">
                 <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                    <img class="img-fluid rounded" src="img/testimonial-4.jpg" style="width: 60px; height: 60px;" >
+                    <img class="img-fluid rounded" src="img/testimonial-4.jpg" style="width: 10%; height: 10% ;" >
                     <div class="ps-4">
                         <h4 class="text-primary mb-1">Client Name</h4>
                         <small class="text-uppercase">Profession</small>
@@ -243,7 +242,7 @@
             </div>
             <div class="testimonial-item bg-light my-4">
                 <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                    <img class="img-fluid rounded" src="img/testimonial-4.jpg" style="width: 60px; height: 60px;" >
+                    <img class="img-fluid rounded" src="img/testimonial-4.jpg" style="width: 10%; height: 10%;" >
                     <div class="ps-4">
                         <h4 class="text-primary mb-1">Client Name</h4>
                         <small class="text-uppercase">Profession</small>
@@ -265,7 +264,7 @@
             </div>
             <div class="testimonial-item bg-light my-4">
                 <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                    <img class="img-fluid rounded" src="img/testimonial-4.jpg" style="width: 60px; height: 60px;" >
+                    <img class="img-fluid rounded" src="img/testimonial-4.jpg" style="width: 10%; height: 10%;" >
                     <div class="ps-4">
                         <h4 class="text-primary mb-1">Client Name</h4>
                         <small class="text-uppercase">Profession</small>
@@ -296,7 +295,7 @@
 <!-- accordion start -->
   
 
-    <section class="product-services services" style="background:#fff;padding:60px 0">
+    <section class="product-services services" style="background:#fff;padding:10%;">
         <div class="col-xl-10 offset-xl-1">
             <div class="col-sm-12 section-header section-title text-center position-relative pb-3 mb-4 mx-auto">
                 <h2 class="text-primary fw-bold text-primary text-uppercase">We Cater Your Needs</h2>
@@ -812,8 +811,8 @@
 
 
 
-
 </div>
+
 <!-- Events carousel end -->
 
 <br><br><br><br>
