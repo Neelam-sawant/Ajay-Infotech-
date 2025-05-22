@@ -268,24 +268,9 @@
                     </div>
                     <!-- Search Form End -->
                     <div class="recent-blogs" style="padding-left:20px;">
-                    <h3>Recent Blogs</h3>
-                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img\tallyoncloudblog.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
-                        <a href="tallyoncloud.php" class="small ms-2">How Tally on Cloud can suport business growth and Expansion</a>
-                    </div>
-                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img\banreconcilation.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
-                        <a href="bankReconciliation.php" class="small ms-2">Bank Reconciliation In TallyPrime 6.0</a>
-                    </div>
-                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img/bdetails1.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
-                        <a href="reportsintallyprime.php" class="small ms-2">Working with reports in Tally Prime</a>
-                    </div>
-                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img/tally 6.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
-                        <a href="tallyprime6.php" class="small ms-2">What's new in Tally Prime 6.0?</a>
-                    </div>
-                    </div>
+   <div class="recent-blogs" style="padding-left:20px;">
+                    <?php include 'recentblogs.php' ?>
+                    </div>                    </div>
                     <!-- Recent Post Start 
                     <div class="mb-4 wow slideInUp" data-wow-delay="0.1s" style="margin-left:30px;">
                     <h5 class="section-title-sm pb-2" >Recent Post</h5>

@@ -116,11 +116,11 @@
 <!-- Navbar & Carousel end -->
 
 <!-- background name display start -->
-<div class="aiheaderimage" style="text-align: center;">
-    <img src="img/Tally Pime backgrornd image.png" class="header-image" alt="Tally Background Image">
-    <h3 class="title" style="text-align: center;">How Tally on Cloud can support Business Growth and Expansion?</h3>
+<div class="aiheaderimage">
+    <img src="img/Tally Pime backgrornd image.png"  class="header-image">
+    <h1 class="title">TallyPrime Transaction Authorisation
+</h1>
 </div>
-
 <!-- background name display end -->
 
 <!-- Full Screen Search End -->
@@ -133,38 +133,62 @@
                 <div class="col-lg-8">
                     <!-- Blog Detail Start -->
                     <div class="mb-5 position-relative">
-                        <img class="img-fluid w-100 rounded mb-5" src="img\tallyoncloudblog.png" alt="">
+                        <img class="img-fluid w-100 rounded mb-5" src="img/trans-auth.png" alt="">
                         <a class="position-absolute bg-primary text-white rounded-end py-1 px-3" 
        style="top: 20px; left: 0; z-index: 10;" 
-       href="tallyoncloud.php">
-        08 May 2025
+       href="transaction-auth.php">
+        22 May 2025
     </a>
-                        <h1 class="mb-4">How Tally on Cloud can support Business Growth and Expansion?</h1>
-                        <p>In an era where agility and scalability define success, businesses are increasingly shifting towards cloud-based solutions to stay competitive. One such transformation gaining momentum is the migration of Tally accounting software to the cloud. <strong>Tally on Cloud</strong> is not just a technological upgrade; it is a strategic move that can significantly enhance a business's potential to grow and expand efficiently.</p>
+                        <h1 class="mb-4">TallyPrime Transaction Authorisation
+</h1>
+                      <p>
+            TallyPrime has introduced a powerful feature called <strong>Transaction Authorisation</strong> that enhances the security and control over business operations. This feature allows businesses to implement a maker-checker mechanism, ensuring that every transaction passes through a defined approval workflow before being finalized.
+        </p>
 
-    <h3>1. Remote Accessibility and Flexibility</h3>
-    <p>With Tally on Cloud, businesses can access their accounting data from anywhere, at any time, using any internet-enabled device. This flexibility empowers teams to collaborate in real-time, even if they are working from different locations. For growing businesses with multiple branches or remote employees, this level of accessibility ensures continuity and efficiency in operations.</p>
+        <h2>What is Transaction Authorisation?</h2>
+        <p>
+            Transaction Authorisation in TallyPrime is a process where every transaction (like a Sales Invoice, Purchase Entry, Payment, etc.) created by one user (the maker) is sent for approval by another user (the checker or authoriser).
+        </p>
 
-    <h3>2. Scalability Without Infrastructure Costs</h3>
-    <p>Traditionally, expanding business operations required significant investment in hardware, software, and IT personnel. Cloud-based Tally eliminates the need for physical servers and reduces the dependency on in-house IT infrastructure. As the business grows, cloud resources can be scaled up easily, supporting expansion without incurring heavy upfront costs.</p>
+        <h2>Why Is It Important?</h2>
+        <ul>
+            <li>Prevents unauthorized or incorrect entries</li>
+            <li>Improves accuracy and auditability</li>
+            <li>Ensures compliance with internal financial controls</li>
+            <li>Helps in delegating responsibilities efficiently</li>
+        </ul>
 
-    <h3>3. Enhanced Data Security and Backup</h3>
-    <p>Security is a top concern for any business. Tally on Cloud offers advanced security features like end-to-end encryption, multi-factor authentication, and automated data backups. This ensures that critical financial data is protected against threats like data breaches, system failures, or accidental deletions, giving business owners peace of mind.</p>
+        <h2>How to Enable Transaction Authorisation in TallyPrime</h2>
+        <ol>
+            <li>Go to <strong>Gateway of Tally &gt; F11: Features &gt; Security Control</strong>.</li>
+            <li>Enable <strong>Use TallyVault Password</strong> and <strong>Set Users and Passwords</strong>.</li>
+            <li>Create roles for ‘Data Entry’ and ‘Authoriser’ with appropriate permissions.</li>
+            <li>Enable the option <strong>Set rules for authorisation</strong> in security control.</li>
+        </ol>
 
-    <h3>4. Real-Time Collaboration and Centralized Data</h3>
-    <p>Cloud hosting provides a centralized platform where all users can access updated information simultaneously. This real-time collaboration minimizes errors, reduces redundancies, and enhances productivity. As businesses expand into new markets or regions, maintaining consistency in data and operations becomes critical, which cloud-based Tally facilitates effortlessly.</p>
+        <h2>Typical Workflow</h2>
+        <ol>
+            <li>User A (Data Entry Operator) creates a voucher.</li>
+            <li>Voucher is marked as <strong>Pending for Authorisation</strong>.</li>
+            <li>User B (Authoriser) logs in and views all pending vouchers.</li>
+            <li>Authoriser approves or rejects the transaction.</li>
+            <li>Once approved, the voucher becomes part of books.</li>
+        </ol>
 
-    <h3>5. Cost-Efficient and Time-Saving</h3>
-    <p>Operating Tally on Cloud reduces operational overheads related to hardware maintenance, software upgrades, and IT staffing. Cloud service providers handle the technical aspects, allowing businesses to focus on core activities. Additionally, the quick deployment and minimal downtime mean businesses can adapt to changes rapidly.</p>
+        <h2>Benefits of Using This Feature</h2>
+        <ul>
+            <li>Better internal control system</li>
+            <li>Reduces errors and fraudulent entries</li>
+            <li>Ensures management oversight on sensitive transactions</li>
+        </ul>
 
-    <h3>6. Compliance and Up-to-Date Features</h3>
-    <p>Cloud solutions often come with automated updates and patches, ensuring that your Tally software is always compliant with the latest tax laws and accounting standards. This is especially beneficial for businesses operating in multiple regions with varying regulatory requirements.</p>
+        <h2>Conclusion</h2>
+        <p>
+            The Transaction Authorisation feature in TallyPrime is a game changer for businesses that want to enforce strict financial discipline and governance. It empowers management to review and approve transactions before they impact financial reports — ensuring better accountability and accuracy.
+        </p>
 
-    <h3>Conclusion</h3>
-    <p><strong>Tally on Cloud</strong> is more than a convenience—it’s a growth enabler. By offering flexibility, scalability, security, and cost savings, it lays a strong foundation for businesses aiming to expand their operations without technological limitations. Whether you’re a small enterprise planning to scale or a large organization looking to streamline multi-location accounting, migrating Tally to the cloud can be a game-changer in your growth journey.</p>
-
-    <p><strong>Ready to take your business to the next level? Consider switching to Tally on Cloud and unlock new possibilities for success.</strong></p>
-  </div>
+        <p><strong>Start using Transaction Authorisation in TallyPrime today and strengthen your business controls.</strong></p>
+                    </div>
                     <!-- Blog Detail End -->
     
                    
@@ -186,9 +210,8 @@
                     </div>
                     <!-- Search Form End -->
     
-                    <div class="recent-blogs" style="padding-left:20px;">
-                    <?php include 'recentblogs.php' ?>
-                    </div>
+                  
+    
                     <!-- Recent Post Start 
                     <div class="mb-4 wow slideInUp" data-wow-delay="0.1s" style="margin-left:30px;">
                     <h5 class="section-title-sm pb-2" >Recent Post</h5>
@@ -215,7 +238,9 @@
                     
                 </div>
                     Recent Post End -->
-    
+                          <div class="recent-blogs" style="padding-left:20px;">
+                    <?php include 'recentblogs.php' ?>
+                    </div>
                     <!-- Tags Start -->
                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s" style="margin-left:20px;">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">

@@ -229,11 +229,26 @@
                <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
-                                <img class="img-fluid" src="img\tallyoncloudblog.png" alt="" style="width:100%; height:250px;">
-                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="bankReconciliation.php">05 May 2025</a>
+                                <img class="img-fluid" src="img\trans-auth.png" alt="" style="width:100%; height:250px;">
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="transaction-auth.php">05 May 2025</a>
                             </div>
                             <div class="p-3">
-                                <h5 class="mb-2">How Tally on Cloud can support Business for Growht and Expansion
+                                <h5 class="mb-2">TallyPrime Transaction Authorisation
+
+                                </h5>
+                                <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
+                                <a class="text-uppercase small fw-bold" href="transaction-auth.php">Read More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+               <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
+                        <div class="blog-item bg-light rounded overflow-hidden">
+                            <div class="blog-img position-relative overflow-hidden">
+                                <img class="img-fluid" src="img\tallyoncloudblog.png" alt="" style="width:100%; height:250px;">
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="bankReconciliation.php">31 April 2025</a>
+                            </div>
+                            <div class="p-3">
+                                <h5 class="mb-2">How Tally on Cloud can support Business for Growth and Expansion
                                 </h5>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
                                 <a class="text-uppercase small fw-bold" href="tallyoncloud.php">Read More <i class="bi bi-arrow-right"></i></a>
@@ -313,56 +328,9 @@
                         <button class="btn btn-primary px-3"><i class="bi bi-search"></i></button>
                     </div>
                 </div>
-                <!-- Search Form End -->
-
-                <!-- Categories Start 
-                <div class="mb-4 wow slideInUp" data-wow-delay="0.1s" style="margin-left:30px;">
-                    <h5 class="section-title-sm pb-2">Categories</h5>
-                    <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action">Web Design</a>
-                        <a href="#" class="list-group-item list-group-item-action">Web Development</a>
-                        <a href="#" class="list-group-item list-group-item-action">Keyword Research</a>
-                        <a href="#" class="list-group-item list-group-item-action">Email Marketing</a>
-                    </div>
-                </div>
-                Categories End -->
-                <div class="recent-blogs" style="padding-left:20px;">
-                    <h3>Recent Blogs</h3>
-                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img\banreconcilation.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
-                        <a href="bankReconciliation.php" class="small ms-2">Bank Reconciliation In TallyPrime 6.0</a>
-                    </div>
-                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img/bdetails1.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
-                        <a href="reportsintallyprime.php" class="small ms-2">Working with reports in Tally Prime</a>
-                    </div>
-                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img/tally 6.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
-                        <a href="tallyprime6.php" class="small ms-2">What's new in Tally Prime 6.0?</a>
-                    </div>
-                    </div>
-                <!-- Recent Post Start -
-                <div class="mb-4 wow slideInUp" data-wow-delay="0.1s" style="margin-left:30px;">
-                    <h5 class="section-title-sm pb-2" >Recent Post</h5>
-                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img/tally.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
-                        <a href="blogdetails.php" class="small ms-2">What’s new in Tally Prime 5.0?</a>
-                    </div>
-                  
-                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img/bdetails21.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
-                        <a href="blogdetails2.php" class="small ms-2">Discover Tally Prime: Simplyfing Business</a>
-                    </div>
-                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img/e-way-bill.jpeg" style="width: 120px; height: 60px; object-fit: cover;" alt="">
-                        <a href="blogdetails3.php" class="small ms-2">E-Way Bill in Tally Prime</a>
-                    </div>
-                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img/tally 6.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
-                        <a href="blogdetails4.php" class="small ms-2">What's new in Tally Prime 6.0?</a>
-                    </div>
-                </div>
-                 Recent Post End -->
+             <div class="recent-blogs" style="padding-left:20px;">
+                    <?php include 'recentblogs.php' ?>
+                    </div>              
             </div>
             <!-- Sidebar End -->
     
