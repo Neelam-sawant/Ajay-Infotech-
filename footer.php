@@ -101,7 +101,7 @@
       <div class="row justify-content-center">
           <div class="col-lg-8 col-md-6">
               <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
-                  <p style="" class="mb-0">&copy; <a class="text-white border-bottom" href="#">2010-2025. ajayinfotech.in</a>.<br> All Rights Reserved.
+                  <p style="" class="mb-0">&copy; <a class="text-white" href="#">2010-2025. <span style="color: #2bb1e0;"> ajayinfotech.in </span></a>. All Rights Reserved.
                       
                   </p>
               </div>
