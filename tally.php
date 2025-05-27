@@ -257,8 +257,8 @@
                 Tally Partner in Mumbai, we bring a wealth of experience and knowledge, ensuring you receive
                 top-notch support and guidance at every step.</p>
             <br><br>
-            <a href="contact.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Ajay Infotech
-                Team <i class="bi bi-arrow-right-short"></i></a>
+            <!-- <a href="contact.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Ajay Infotech
+                Team <i class="bi bi-arrow-right-short"></i></a> -->
         </div>
         <div class="unique-right">
             <!-- First Row of Cards -->

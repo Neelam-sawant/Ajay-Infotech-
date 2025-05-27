@@ -134,7 +134,7 @@
               <img style="height: 50px;width: 50px;" src="img/tamc4.svg" class="card-img-top" alt="Image">
             </div>
             <div class="card-body">
-              <h5 class="card-title mb-0">Free Synergy Add-on Modules</h5>
+              <h5 class="card-title mb-0">Free Add-on Modules</h5>
               <p class="card-text mb-0">Enjoy two additional features that enhance the functionality of your Tally software.</p>
             </div>
           </div>

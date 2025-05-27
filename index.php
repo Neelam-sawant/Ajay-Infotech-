@@ -40,7 +40,7 @@
 <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousell-inner">
             <div class="carousel-item active">
-                <img style="left: 0%;top: 0%; right: 0%; width:100% ; margin-top: 1.5%;"  src="img\bgtally6.png" alt="Image">
+                <img style="left: 0%;top: 0%; right: 0%; width:100% ; margin-top: 1.5%;"  src="img\test.png" alt="Image">
                 <div class="carousel-caption-top" 
     style="text-align: center; position: absolute; top: 75%; left: 50%; transform: translateX(-50%); width: 100%;">
     
@@ -306,14 +306,14 @@
                                 <div class="item">
                                     <h5>Tally Software</h5>
                                     <p class="item-description">This business software is ideally suited for SMEs, effectively supporting trading, distribution, manufacturing, and service industries. Key modules include Financial Accounting and Management, Banking, Inventory Management, Payroll, and Statutory compliance for streamlined operations.</p>
-                                    <a href="tally.html" class="read-more" >Read More</a>
+                                    <a href="tally.php" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="item">
                                     <h5>Tally Server 9 Or Tally Prime Server</h5>
                                     <p class="item-description">For medium and large organizations aiming for operational efficiency, Tally Server 9 or TallyPrime is essential. These robust solutions provide secure, concurrent data access for multiple users, enabling your team to work without disruptions.</p>
-                                    <a href="tpserver.html" class="read-more" >Read More</a>
+                                    <a href="tpserver.php" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
@@ -339,7 +339,7 @@
                                 <div class="item">
                                     <h5>Tally AMC / Annual Support Cover</h5>
                                     <p class="item-description">A business continuity program for your organisation from a team who knows Tally Best. You do your business peacefully while we take care of your software. Select a plan suitable to you.</p>
-                                    <a href="tamc.html" class="read-more" >Read More</a>
+                                    <a href="tamc.php" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
@@ -347,21 +347,21 @@
                                     <h5>Tally Data Synchronization</h5>
                                     <p>
                                         Decide on architecture Type : Centralized / Decentralized / Hybrid, we will set it up for your Multi Location Organization. Sync Data periodically or directly enter data into Central Tally Server.</p>
-                                        <a href="tsynchronization.html" class="read-more" >Read More</a>
+                                        <a href="tsynchronization.php" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="item">
                                     <h5>Tally ERP 9 and TallyPrime Training</h5>
                                     <p class="item-description">Corporate training programs for your staff to ensure use of Tally.ERP 9 and TallyPrime to the fullest. A basket of training modules to choose from depending on your need & profile of the team.</p>
-                                    <a href="tctraining.html" class="read-more" >Read More</a>
+                                    <a href="tctraining.php" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="item">
                                     <h5>Tally Support – Onsite & Remote</h5>
                                     <p class="item-description">We offer Tally installation, data synchronization, migration, and ongoing support. Our engineers provide training and assistance, available onsite or remotely for your complete convenience.</p>
-                                    <a href="tamc.html" class="read-more" >Read More</a>
+                                    <a href="tamc.php" class="read-more" >Read More</a>
                                 </div>
                             </div>
                         </div>
