@@ -36,8 +36,35 @@
   <div class="container py-5"  >
 
     <!-- First Component -->
+     <div class="container">
+  <div class="row g-5 align-items-center">
+    <div class="col-lg-7">
+      <div class="section-title position-relative pb-3 mb-5">
+        <h5 class="fw-bold text-primary text-uppercase">Latest Updates</h5>
+        <h1 class="mb-0">Features in Recent TallyPrime Releases</h1>
+      </div>
+      <p class="mb-4">
+        TallyPrime continues to evolve with each release, making your business processes even smoother, faster, and smarter. From enhanced reporting capabilities to greater automation and compliance, TallyPrime’s latest updates are tailored to meet modern business needs.
+      </p>
+      <ul class="mb-4">
+        <li><strong>Auto Bank Reconciliation:</strong> Instantly match transactions and reduce errors.</li>
+        <li><strong>e-Invoicing Support:</strong> Generate IRN and QR codes directly from Tally.</li>
+        <li><strong>Secure Remote Access:</strong> Work from anywhere with full data control.</li>
+        <li><strong>Improved GST Reporting:</strong> Enhanced validation and simplified filing.</li>
+        <li><strong>Optimized Performance:</strong> Faster load times and smoother navigation.</li>
+      </ul>
+      <p>
+        With every release, TallyPrime empowers you to manage your finances and compliance with minimal effort and maximum confidence.
+      </p>
+    </div>
+    <!-- <div class="col-lg-5 text-center">
+      <img class="img-fluid rounded" src="assets/img/tally-features.png" alt="TallyPrime Features">
+    </div> -->
+  </div>
+</div>
+
 <!-- First Component -->
-<div class="container">
+<div class="container" style="margin-top:100px;">
   <div class="row g-5 align-items-center">
     <div class="col-lg-7">
       <div class="section-title position-relative pb-3 mb-5">
