@@ -263,14 +263,14 @@
         <div class="unique-right">
             <!-- First Row of Cards -->
             <div class="custom-card">
-                <img src="img/t1.png" class="custom-card-img" alt="...">
+                <img src="img/t1.png" class="custom-card-img" alt="server-stack">
                 <div class="custom-card-body">
                     <h5 class="custom-card-title">13 + Years</h5>
                     <p class="custom-card-text">13 Years of Excellence in Tally Service</p>
                 </div>
             </div>
             <div class="custom-card">
-                <img src="img/t2.png" class="custom-card-img" alt="...">
+                <img src="img/t2.png" class="custom-card-img" alt="users">
                 <div class="custom-card-body">
                     <h5 class="custom-card-title">1000 + Users</h5>
                     <p class="custom-card-text">Trusted by Over 1000 + Users Worldwide</p>
@@ -279,14 +279,14 @@
 
             <!-- Second Row of Cards -->
             <div class="custom-card">
-                <img src="img/t3.jfif" class="custom-card-img" alt="...">
+                <img src="img/t3.png" class="custom-card-img" alt="wrench">
                 <div class="custom-card-body">
                     <h5 class="custom-card-title">70k + Support Ticket Resolved</h5>
                     <p class="custom-card-text">Support System is our First Priority</p>
                 </div>
             </div>
             <div class="custom-card">
-                <img src="img/t4.png" class="custom-card-img" alt="...">
+                <img src="img/t4.png" class="custom-card-img" alt="cart">
                 <div class="custom-card-body">
                     <h5 class="custom-card-title">20 + Customized Products</h5>
                     <p class="custom-card-text">20 + Customized For Business Sucess</p>
