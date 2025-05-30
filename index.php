@@ -101,7 +101,7 @@
         <!-- Certificate Image -->
         <div class="col-lg-5">
             <div class="position-relative h-100">
-                <img src="img/certificate.png" class="img-fluid rounded shadow wow zoomIn" data-wow-delay="0.9s" alt="Certificate">
+                <img src="img\certificate.png" class="img-fluid rounded shadow wow zoomIn" data-wow-delay="0.9s" alt="Certificate">
             </div>
         </div>
     </div>
@@ -421,7 +421,7 @@
                                 <div class="item">
                                     <h5>Tally Customization</h5>
                                     <p class="item-description">Customize your Tally.ERP 9 to align with your business needs through tailored invoice and voucher formats, specialized reports, and the addition of new fields. Strengthen controls and security while developing new functionalities to optimize processes, ensuring Tally integrates into your operational framework for enhanced efficiency.</p>
-                                    <a href="tcustomization.html" class="read-more" >Read More</a>
+                                    <a href="tcustomization.php" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
@@ -429,7 +429,7 @@
                                     <h5>Tally GST</h5>
                                 <p class="item-description">Business dynamics in India are poised for change with the introduction of the Goods and Services Tax (GST). Effective from July 1st, GST simplifies the taxation process and creates a unified market across the country. Tally GST equips businesses with essential tools to ensure compliance and streamline financial operations in this evolving landscape.
                                 </p>
-                                <a href="gstfilling.html" class="read-more" >Read More</a>
+                                <a href="gstfilling.php" class="read-more" >Read More</a>
                             </div>
                             </div>
                         </div>

@@ -512,8 +512,7 @@ By providing enterprise-grade cloud solutions at a fraction of traditional hosti
 <!-- Footer End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
-
+    <?php include 'backtop.php' ?>
 
     <?php include 'linkscript.php' ?>
 </body>
