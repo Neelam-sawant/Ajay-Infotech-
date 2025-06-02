@@ -147,6 +147,18 @@ h6,
     text-align: center;
 }
 
+.carousel-inner img {
+    height: 80vh; /* You can change this value as needed */
+    /* object-fit: cover; Ensures images fill the area without distortion */
+    width: 100%; /* Full width */
+  }
+
+  @media (max-width: 768px) {
+    .carousel-inner img {
+      height: 25vh; /* Smaller height for smaller screens */
+    }
+  }
+
 @media (max-width: 576px) {
     .btn {
         font-size: 12px; /* Further adjust font size for extra small screens */

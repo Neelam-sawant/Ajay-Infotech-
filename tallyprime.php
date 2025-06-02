@@ -38,23 +38,30 @@
     <!-- First Component -->
      <div class="container">
   <div class="row g-5 align-items-center">
+    <div class="col-lg-5">
+      <img
+        class="img-fluid rounded wow zoomIn m-0 p-5"
+        data-wow-delay="0.9s"
+        src="img/tallprime6.png"
+        style="object-fit: contain; max-height: 500px; margin-left: 20%;"
+      />
+    </div>
     <div class="col-lg-7">
       <div class="section-title position-relative pb-3 mb-5">
         <h5 class="fw-bold text-primary text-uppercase">Latest Updates</h5>
-        <h1 class="mb-0">Features in Recent TallyPrime Releases</h1>
+        <h1 class="mb-0">Features in TallyPrime 6.0</h1>
       </div>
       <p class="mb-4">
-        TallyPrime continues to evolve with each release, making your business processes even smoother, faster, and smarter. From enhanced reporting capabilities to greater automation and compliance, TallyPrime’s latest updates are tailored to meet modern business needs.
+        TallyPrime 6.0 launches a transformed Banking experience with an exciting new capability: Connected Banking. With enhanced Bank Reconciliation and automated accounting using Bank Statements, you can now devote quality time to the growth of your business.
       </p>
       <ul class="mb-4">
-        <li><strong>Auto Bank Reconciliation:</strong> Instantly match transactions and reduce errors.</li>
-        <li><strong>e-Invoicing Support:</strong> Generate IRN and QR codes directly from Tally.</li>
-        <li><strong>Secure Remote Access:</strong> Work from anywhere with full data control.</li>
-        <li><strong>Improved GST Reporting:</strong> Enhanced validation and simplified filing.</li>
-        <li><strong>Optimized Performance:</strong> Faster load times and smoother navigation.</li>
+        <li>Enhanced Bank Reconciliation.</li>
+        <li>Automated Accounting Using Bank Statements.</li>
+        <li>Integrated Payments and Accounting.</li>
+        <li>Connected Banking.</li>
       </ul>
       <p>
-        With every release, TallyPrime empowers you to manage your finances and compliance with minimal effort and maximum confidence.
+        TallyPrime Release 6.0 is live! Experience PrimeBanking with enhanced reconciliation & connected experience | Data Split is now smoother with robust verification | For GCC, print bilingual invoices with or without VAT.
       </p>
     </div>
     <!-- <div class="col-lg-5 text-center">

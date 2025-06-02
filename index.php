@@ -28,55 +28,56 @@
     </div>
     <!-- Spinner End -->
 
-
-
-
-
 <!-- NavbarStart -->
 <?php include 'navbar.php'; ?>
 <!--Navbar End-->
 
-<!--Carousel Start-->
-<div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousell-inner">
-            <div class="carousel-item active">
-                <img style="left: 0%;top: 0%; right: 0%; width:100% ; margin-top: 1.5%;"  src="img\bgtally6.png" alt="Image">
-                <div class="carousel-caption-top" 
-    style="text-align: center; position: absolute; top: 75%; left: 50%; transform: translateX(-50%); width: 100%;">
-    
+<div class="carousel-inner" >
+    <div class="carousel-item active" data-bs-interval="2000" >
+      <img src="img/bgtally6.png" class="d-block w-100" alt="First Slide" >
+    </div>
 </div>
 
-
-            </div>
-            <!--
-            <div class="carousel-item">
-                    <img class="w-100" src="img/Tally prime 5.0.png" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-LEFT justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-uppercase mb-3 animated slideInDown">Stay Updated</h5>
-                            <h1 class="animated zoomIn" >Tally Prime 5.0</h1>
-                            <a href="blogdetails.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">To Know More</a>
-                            <a href="contact.html" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-
-
-            <div class="carousel-item">
-                <img class="w-100" src="img/carousel-2.jpg" alt="Image">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <div class="p-3" style="max-width: 900px;">
-                        <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5>
-                        <h1 class="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Digital Solution</h1>
-                        <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a>
-                        <a href="contact.html" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
-                    </div>
-                </div>
-            </div> -->
-        </div>
+<!--Carousel Start-->
+<!-- <div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators" >
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner" >
+    <div class="carousel-item active" data-bs-interval="2000" >
+      <img src="img/bgtally6.png" class="d-block w-100" alt="First Slide" >
+      <div class="carousel-caption d-none d-md-block text-start mb-3 ms-3">
+        <button class="btn btn-primary me-2" style="padding: 12px 24px; font-size: 1.1rem;">Learn More</button>
+        <button class="btn btn-primary" style="padding: 12px 24px; font-size: 1.1rem;">Contact</button>
+      </div>
     </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="img/Tally prime 5.0.png" class="d-block w-100" alt="Second Slide" >
+      <div class="carousel-caption d-none d-md-block text-start mb-3 ms-3">
+        <button class="btn btn-primary me-2" style="padding: 12px 24px; font-size: 1.1rem;">Learn More</button>
+        <button class="btn btn-primary" style="padding: 12px 24px; font-size: 1.1rem;">Contact</button>
+      </div>
     </div>
-    
+    <div class="carousel-item" >
+      <img src="img/carousel-2.jpg" class="d-block w-100" alt="third Slide" >
+      <div class="carousel-caption d-none d-md-block text-start mb-3 ms-3">
+        <button class="btn btn-primary me-2" style="padding: 12px 24px; font-size: 1.1rem;">Learn More</button>
+        <button class="btn btn-primary" style="padding: 12px 24px; font-size: 1.1rem;">Contact</button>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> -->
+
 <br>
 <br>
 <!-- Carousel End -->
