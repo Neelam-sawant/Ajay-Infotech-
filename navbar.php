@@ -73,6 +73,7 @@ body {
                     <h6 class="dropdown-title">Tally</h6>
                 </a>
                 <a href="./tallyprime.php" class="dropdown-item">Tally Prime</a>
+                <a href="./tallyfeatures.php" class="dropdown-item">Tally Features</a>
                 <a href="tpserver.php" class="dropdown-item">Tally Prime Server</a>
                 <a href="tmobile.php" class="dropdown-item">Tally On Mobile</a>
                 <a href="tcloud.php" class="dropdown-item">Tally On Cloud</a>
