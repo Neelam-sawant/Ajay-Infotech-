@@ -19,27 +19,27 @@
         <div class="section-title section-title-sm">
           <h3 class="text-light mb-0">Get In Touch</h3>
         </div>
-        <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
+        <div class="link-animated d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-telephone text-primary me-2"></i>
           <p class="mb-0">+91-9324753025</p>
         </div>
-        <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
+        <div class="link-animated d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-telephone text-primary me-2"></i>
           <p class="mb-0">+91-7977787937</p>
         </div>
-        <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
+        <div class="link-animated d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-telephone text-primary me-2"></i>
-          <p class="mb-0">+91-9321300250</p>
+          <p class="mb-0">+91-9321300253</p>
         </div>
-        <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
+        <div class="link-animated d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-envelope-open text-primary me-2"></i>
           <p class="mb-0">info@ajayinfotech.in</p>
         </div>
-        <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
+        <div class="link-animated d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-geo-alt text-primary me-2"></i>
           <p class="mb-0">Mira Road</p>
         </div>
-        <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
+        <div class="link-animated d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-geo-alt text-primary me-2"></i>
           <p class="mb-0">Virar</p>
         </div>

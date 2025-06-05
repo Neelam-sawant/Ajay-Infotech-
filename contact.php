@@ -9,7 +9,7 @@
 
         <div class="row g-5 mt-5">
             <!-- Contact Information -->
-            <div class="col-lg-6">
+            <!-- <div class="col-lg-6">
                 <div class="row g-5">
                     <div class="col-lg-12 mb-5 mt-5">
                         <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
@@ -34,12 +34,14 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Contact Form -->
-            <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
+            <?php
+                include "form-contact.php"; 
+            ?>
+            <!-- <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
                 <form action="./submit.php" method="post">
-                    <!-- Name and Email on same row -->
                     <div class="row">
                         <div class="col-md-6">
                             <input type="text" id="name" name="name" class="form-control" placeholder="Your Name">
@@ -48,20 +50,17 @@
                             <input type="email" id="email" name="email" class="form-control" placeholder="Your Email">
                         </div>
                     </div>
-                    <!-- Subject on its own row -->
                     <div class="form-group mt-3">
                         <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
                     </div>
-                    <!-- Message textarea on its own row -->
                     <div class="form-group mt-3">
                         <textarea id="message" name="message" class="form-control" rows="4" placeholder="Message"></textarea>
                     </div>
-                    <!-- Submit button -->
                     <div class="form-group mt-3">
                         <button class="btn btn-primary w-100 py-3" type="submit" value="Submit">Send Message</button>
                     </div>
                 </form>
-            </div>
+            </div> -->
         </div>
 
         <!-- Row containing address and maps side by side -->

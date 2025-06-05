@@ -269,9 +269,12 @@
   
 
     <!-- fourth text with video end -->
-
+    
+    
   </div>
+ 
 </div>
+
 <!-- Text and Description ends for Tally -->
 
 
@@ -283,7 +286,7 @@
 
 
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="container py-5">
+    <div class="container text-center py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
             <h5 class="fw-bold text-primary text-uppercase">Tally Prime Products </h5>
         </div>
@@ -307,7 +310,7 @@
                                 class="fa fa-check text-primary pt-1"></i></div>
                         <!-- <div class="d-flex justify-content-between mb-2"><span>Tally On Cloud</span><i
                                 class="fa fa-check text-primary pt-1"></i></div> -->
-                        <a href="contact.html" class="btn btn-primary py-2 px-4 mt-4">Buy Now</a>
+                        <a href="#buy" class="btn btn-primary py-2 px-4 mt-4">Buy Now</a>
                     </div>
                 </div>
             </div>
@@ -330,7 +333,7 @@
                                 class="fa fa-check text-primary pt-1"></i></div>
                         <!-- <div class="d-flex justify-content-between mb-2"><span>Tally Synchronization</span><i
                                 class="fa fa-check text-primary pt-1"></i></div> -->
-                        <a href="contact.html" class="btn btn-primary py-2 px-4 mt-4">Buy Now</a>
+                        <a href="#buy" class="btn btn-primary py-2 px-4 mt-4">Buy Now</a>
                     </div>
                 </div>
             </div>
@@ -373,7 +376,9 @@
 
 
 
-    
+    <?php
+      include "form-buy-tally.php";
+    ?>
 <!-- footer start -->
 <?php include 'footer.php' ?>
 <!-- Footer End -->

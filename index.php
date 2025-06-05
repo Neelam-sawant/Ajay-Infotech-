@@ -153,7 +153,8 @@
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.05s">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 80%;">
-            <h5 class="fw-bold text-primary text-uppercase">Testimonial</h5>
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.05s">
+            <h5 class="fw-bold text-primary text-uppercase ">Testimonial</h5>
         </div>
         <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
             <div class="testimonial-item bg-light my-4">
@@ -900,8 +901,3 @@ setInterval(() => {
 
 
 <!-- home page end here -->
-
-
-
-
-

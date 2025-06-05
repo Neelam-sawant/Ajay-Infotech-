@@ -1,5 +1,3 @@
-
-
 <!-----Complete Navbar Start----->
 <style>
 .top-bar {
@@ -125,4 +123,3 @@ body {
 <br>
 <br>
   <!-----Complete Navbar End----->
-
