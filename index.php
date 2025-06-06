@@ -110,50 +110,21 @@
 
 
 <!-- vendor start -->
-<?php include 'vendor.php' ?>
+<?php
+    include "vendor.php";
+?>
 <!-- vendor end -->
 
-<!-- Our Value start -->
-<div class="values-section-title text-center section-title position-relative pb-3 mb-5 mx-auto">
-    <h5 class="fw-bold text-primary text-uppercase">Our Values</h5>
-</div>
+<?php
+    include "our-value.php";
+?>
 
-<!-- Our values start -->
-<div class="custom-values-container">
-    <div class="custom-value-item">
-        <img src="img/trust.png" alt="Trust">
-        <p>Trust</p>
-    </div>
-    <div class="custom-value-item">
-        <img src="img/ov2.png" alt="Honesty">
-        <p>Honesty</p>
-    </div>
-    <div class="custom-value-item">
-        <img src="img/tp.png" alt="Integrity">
-        <p>Transparency</p>
-    </div>
-    <div class="custom-value-item">
-        <img src="img/auction.png" alt="Transparency">
-        <p>Ethical Framework</p>
-    </div>
-    <div class="custom-value-item">
-        <img src="img/rating.png" alt="Ethical Framework">
-        <p>Customer Satisfaction</p>
-    </div>
-    <div class="custom-value-item">
-        <img src="img/badge.png" alt="Team Work">
-        <p>Team Work</p>
-    </div>
-</div>
-<!-- Our values end -->
-
-<!-- testimonials start -->
 
 <!-- Testimonial Start -->
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.05s">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 80%;">
-<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.05s">
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.05s">
             <h5 class="fw-bold text-primary text-uppercase ">Testimonial</h5>
         </div>
         <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
