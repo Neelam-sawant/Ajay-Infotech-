@@ -121,7 +121,7 @@
 
 
 <?php
-include "testimonial.php";
+    include "testimonial.php";
 ?>
 
 
@@ -390,146 +390,10 @@ include "testimonial.php";
 </script>
 
 <!-- awards carousel start -->
-
-
-<style>
-    .carousel-container {
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-}
-
-.carousel-wrapper {
-    display: flex;
-    width: calc(25% * 9 * 3); /* Double for smooth looping */
-    animation: scroll 15s linear infinite;
-}
-
-.custom-carousel-item {
-    min-width: 25%;
-    flex-shrink: 0; /* Prevent shrinking */
-}
-
-/* Auto-scrolling keyframes */
-@keyframes scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-225%); } /* Moves left after 9 images */
-}
-
-</style>
-
-<div class="container">
-    <div class="col-sm-12 section-header section-title text-center position-relative pb-3 mb-4 mx-auto">
-        <h2 class="text-primary text-center">Awards</h2>
-    </div>
-    <div class="custom-carousel">
-        <!--<div class="carousel-controls">
-            <button class="carousel-control-prev custom-btn btn-pink btn-floating" id="prev" type="button">
-                <i class="fas fa-angle-left fa-lg"></i>
-            </button>
-            <button class="carousel-control-next custom-btn btn-pink btn-floating" id="next" type="button">
-                <i class="fas fa-angle-right fa-lg"></i>
-            </button>
-        </div> -->
-        <div class="custom-carousel-inner" id="carousel">
-            <div class="custom-carousel-item">
-                <img class="custom-card-img-top" src="Awards and certificats/Awards and certificats/Remove background project (2).png" alt="Award 1" />
-            </div>
-            <div class="custom-carousel-item">
-                <img class="custom-card-img-top" src="Awards and certificats/Awards and certificats/Remove background project-1 (1).png" alt="Award 2" />
-            </div>
-            <div class="custom-carousel-item">
-                <img class="custom-card-img-top" src="Awards and certificats/Awards and certificats/Remove background project-1 (2).png" alt="Award 3" />
-            </div>
-            <div class="custom-carousel-item">
-                <img class="custom-card-img-top" src="Awards and certificats/Awards and certificats/Remove background project-1 (3).png" alt="Award 4" />
-            </div>
-            <div class="custom-carousel-item">
-                <img class="custom-card-img-top" src="Awards and certificats/Awards and certificats/Remove background project-1 (4).png" alt="Award 5" />
-            </div>
-            <div class="custom-carousel-item">
-                <img class="custom-card-img-top" src="Awards and certificats/Awards and certificats/Remove background project-1 (5).png" alt="Award 4" />
-            </div>
-            <div class="custom-carousel-item">
-                <img class="custom-card-img-top" src="Awards and certificats/Awards and certificats/Remove background project-1 (6).png" alt="Award 5" />
-            </div>
-            <div class="custom-carousel-item">
-                <img class="custom-card-img-top" src="Awards and certificats/Awards and certificats/Remove background project-1 (7).png" alt="Award 6" />
-            </div>
-            <div class="custom-carousel-item">
-                <img class="custom-card-img-top" src="Awards and certificats/Awards and certificats/Remove background project-1 (8).png" alt="Award 6" />
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const carousel = document.getElementById("carousel");
-        const items = document.querySelectorAll(".custom-carousel-item");
-        const totalItems = items.length;
-
-        // Clone first and last elements
-        const firstClone = items[0].cloneNode(true);
-        const lastClone = items[totalItems - 1].cloneNode(true);
-        carousel.appendChild(firstClone); // Clone first to end
-        carousel.insertBefore(lastClone, items[0]); // Clone last to start
-
-        let index = 1; // Start at real first image
-        let isTransitioning = false;
-
-        // Get updated list after cloning
-        const allItems = document.querySelectorAll(".custom-carousel-item");
-        const itemWidth = allItems[0].offsetWidth; 
-
-        // Set initial position
-        carousel.style.transform = `translateX(-${itemWidth}px)`;
-
-        function slideCarousel(direction) {
-            if (isTransitioning) return;
-            isTransitioning = true;
-            index += direction;
-            carousel.style.transition = "transform 0.5s ease-in-out";
-            carousel.style.transform = `translateX(-${index * itemWidth}px)`;
-
-            setTimeout(() => {
-                if (index >= totalItems + 1) {
-                    // Instantly jump back to real first image
-                    carousel.style.transition = "none";
-                    index = 1;
-                    carousel.style.transform = `translateX(-${index * itemWidth}px)`;
-                } else if (index <= 0) {
-                    // Instantly jump back to real last image
-                    carousel.style.transition = "none";
-                    index = totalItems;
-                    carousel.style.transform = `translateX(-${index * itemWidth}px)`;
-                }
-                isTransitioning = false;
-            }, 500);
-        }
-
-        // Auto-slide every 3 seconds
-        let autoSlide = setInterval(() => slideCarousel(1), 3000);
-
-        // Navigation buttons
-        document.getElementById("next").addEventListener("click", function () {
-            clearInterval(autoSlide);
-            slideCarousel(1);
-            autoSlide = setInterval(() => slideCarousel(1), 3000);
-        });
-
-        document.getElementById("prev").addEventListener("click", function () {
-            clearInterval(autoSlide);
-            slideCarousel(-1);
-            autoSlide = setInterval(() => slideCarousel(1), 3000);
-        });
-    });
-</script>
-
-
+<?php
+    include "awards.php";
+?>
 <!-- Awards carousel end -->
-<br><br><br><br>
 <!-- Events carousel start -->
 <style>
     .awards-carousel {
