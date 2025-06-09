@@ -79,28 +79,36 @@ $('.back-to-top').click(function () {
     return false;
 });
 
-// Testimonials carousel
-$(".testimonial-carousel").owlCarousel({
-    autoplay: true,
-    smartSpeed: 1500,
-    dots: true,
-    loop: true,
-    center: true,
-    responsive: {
-        0:{
-            items:1
-        },
-        576:{
-            items:1
-        },
-        768:{
-            items:2
-        },
-        992:{
-            items:3
-        }
+// Testimonial carousel section start here 
+function equalizeTestimonialHeights() {
+  var maxHeight = 0;
+  $('.testimonial-item').css('height', 'auto').each(function () {
+    maxHeight = Math.max(maxHeight, $(this).outerHeight());
+  }).height(maxHeight);
+}
+
+$(function () {
+  $('.testimonial-carousel').on('initialized.owl.carousel resized.owl.carousel refreshed.owl.carousel', function () {
+    setTimeout(equalizeTestimonialHeights, 100);
+  });
+
+  $('.testimonial-carousel').owlCarousel({
+    loop:true,
+    margin:20,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplaySpeed:800,
+    smartSpeed:800,
+    dots:true,
+    responsive:{
+        0:   {items:1,center:false},
+        576: {items:1,center:true},
+        768: {items:2,center:true},
+        992: {items:3,center:true}
     }
+  });
 });
+// Testimonial carousel section end here
 
 // Vendor carousel
 $('.vendor-carousel').owlCarousel({
