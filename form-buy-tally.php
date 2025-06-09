@@ -1,5 +1,5 @@
 <!-- buying tally prime section start here -->
-<div class="container wow fadeInUp mt-5" data-wow-delay="0.1s">
+<div class="container wow fadeInUp mt-5" id="buy" data-wow-delay="0.1s">
     <div class="container text-center">
         <!-- Centered Title -->
         <div class="section-title mx-auto pb-3 mb-5 py-5 text-center" style="max-width: 600px;">
