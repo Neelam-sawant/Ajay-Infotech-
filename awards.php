@@ -71,22 +71,42 @@
         callback: function (el) {
         if (el.classList.contains('award-carousel-wrapper')) {
             $(el).find('.award-carousel').owlCarousel({
-            loop:true,margin:20,nav:false,dots:true,
-            autoplay:true,autoplayTimeout:2000,smartSpeed:800,autoplayHoverPause:true,
-            responsive:{0:{items:1},576:{items:2},768:{items:3},992:{items:4}}
-            });
-        }
-        }
-    }).init();
+            loop:true,
+            margin:20,
+            nav:false,
+            dots:true,
+            autoplay:true,
+            autoplayTimeout:2000,
+            smartSpeed:800,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{items:1},
+                576:{items:2},
+                768:{items:3},
+                992:{items:4}
+                }
+                });
+            }).init();
 </script>
 <!-- award carousel section start here -->
 <script>
   $(function () {                 // document-ready shorthand
     $('.award-carousel').owlCarousel({
-      loop:true,margin:20,dots:true,nav:false,
-      autoplay:true,autoplayTimeout:2000,smartSpeed:800,autoplayHoverPause:true,
-      responsive:{0:{items:1},576:{items:2},768:{items:3},992:{items:4}}
+      loop:true,
+      margin:20,
+      nav:false,
+      dots:true,
+      autoplay:true,
+      autoplayTimeout:2000,
+      smartSpeed:800,
+      autoplayHoverPause:true,
+      responsive:{
+        0:{items:1},
+        576:{items:2},
+        768:{items:3},
+        992:{items:4}
+          }
+        });
     });
-  });
 </script>
 <!-- award carousel section end here -->
