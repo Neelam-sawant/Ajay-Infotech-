@@ -131,51 +131,50 @@
 <div class="accordion-background">
   <div class="container">
     <div class="accordion-container">
-      <div class="accordion-button active" data-target="#image1">Events</div>
+      <div class="accordion-button active" data-target="#image1">All</div>
       <div class="accordion-button" data-target="#image2">Awards</div>
-      <div class="accordion-button" data-target="#image3">All</div>
+      <div class="accordion-button" data-target="#image3">Events</div>
     </div>
 
-    <div id="image1" class="image-container" style="display: block;"> <!-- Show Events images by default -->
+    <div id="image3" class="image-container" style="display: block;"> <!-- Show Events images by default -->
       <div class="image-grid">
-        <img src="img/wimg1.jfif" alt="Image 1" />
-        <img src="img/wimg2.jfif" alt="Image 2" />
-        <img src="img/wimg3.jfif" alt="Image 3" />
-        <img src="img/wimg4.jfif" alt="Image 4" />
-       
+        <img class="event_img" src="./img/wimg1.jfif" alt="event 1">
+        <img class="event_img" src="./img/wimg2.jfif" alt="event 2">
+        <img class="event_img" src="./img/wimg3.jfif" alt="event 3">
+        <img class="event_img" src="./img/wimg4.jfif" alt="event 4">
         <!-- This will go on the next row -->
       </div>
     </div>
     <div id="image2" class="image-container">
       <div class="image-grid">
-      <img src="Awards and certificats\Awards and certificats\Remove background project (2).png" alt="Image 1" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (1).png" alt="Image 2" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (2).png" alt="Image 3" />
-        <img src="Awards and certificats/Awards and certificats/Remove background project-1 (3).png" alt="Image 4" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (4).png" alt="Image 5" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (5).png" alt="Image 6" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (8).png" alt="Image 7" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (6).png" alt="Image 8" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (7).png" alt="Image 9" />
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-1.png" alt="Award 1">
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-2.png" alt="Award 2">
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-3.png" alt="Award 3">
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-4.png" alt="Award 4">
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-5.png" alt="Award 5">
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-6.png" alt="Award 6">
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-7.png" alt="Award 7">
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-8.png" alt="Award 8">
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-9.png" alt="Award 9">
         <!-- This will go on the next row -->
       </div>
     </div>
 
-    <div id="image3" class="image-container">
+    <div id="image1" class="image-container">
       <div class="image-grid">
-      <img src="img/wimg1.jfif" alt="Image 1" />
-        <img src="img/wimg2.jfif" alt="Image 2" />
-        <img src="img/wimg3.jfif" alt="Image 3" />
-        <img src="img/wimg4.jfif" alt="Image 4" />
-      <img src="Awards and certificats\Awards and certificats\Remove background project (2).png" alt="Image 1" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (1).png" alt="Image 2" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (2).png" alt="Image 3" />
-        <img src="Awards and certificats/Awards and certificats/Remove background project-1 (3).png" alt="Image 4" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (4).png" alt="Image 5" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (5).png" alt="Image 6" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (8).png" alt="Image 7" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (6).png" alt="Image 8" />
-        <img src="Awards and certificats\Awards and certificats\Remove background project-1 (7).png" alt="Image 9" />
+        <img class="event_img" src="./img/wimg1.jfif" alt="event 1">
+        <img class="event_img" src="./img/wimg2.jfif" alt="event 2">
+        <img class="event_img" src="./img/wimg3.jfif" alt="event 3">
+        <img class="event_img" src="./img/wimg4.jfif" alt="event 4">
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-1.png" alt="Award 1">
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-2.png" alt="Award 2">
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-3.png" alt="Award 3">
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-4.png" alt="Award 4">
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-5.png" alt="Award 5">
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-6.png" alt="Award 6">
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-7.png" alt="Award 7">
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-8.png" alt="Award 8">
+        <img class="award_img" src="Awards and certificats/Awards and certificats/Remove background project-9.png" alt="Award 9">
         <!-- This will go on the next row -->
       </div>
     </div>
@@ -221,43 +220,43 @@
 
 
     <!-- scripting start -->
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    // Ensure default state is set correctly
-    const defaultButton = document.querySelector(".accordion-button.active");
-    if (defaultButton) {
-      const target = defaultButton.getAttribute("data-target");
-      document.querySelector(target).style.display = "block";
-    }
-  });
-
-  document.querySelectorAll(".accordion-button").forEach((button) => {
-    button.addEventListener("click", () => {
-      // Check if the button is already active
-      const isActive = button.classList.contains("active");
-      console.log("Button clicked:", button.textContent);
-      console.log("Is active:", isActive);
-
-      // Remove active class from all buttons and hide all images
-      document.querySelectorAll(".accordion-button").forEach((btn) => {
-        btn.classList.remove("active");
-        console.log("Removed active from:", btn.textContent);
-      });
-      document
-        .querySelectorAll(".image-container")
-        .forEach((img) => (img.style.display = "none"));
-
-      // If the clicked button was not active, activate it and show the images
-      if (!isActive) {
-        button.classList.add("active");
-        console.log("Added active to:", button.textContent);
-        const target = button.getAttribute("data-target");
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Ensure default state is set correctly
+      const defaultButton = document.querySelector(".accordion-button.active");
+      if (defaultButton) {
+        const target = defaultButton.getAttribute("data-target");
         document.querySelector(target).style.display = "block";
       }
     });
-  });
-</script>
-<!-- scripting end -->
+
+    document.querySelectorAll(".accordion-button").forEach((button) => {
+      button.addEventListener("click", () => {
+        // Check if the button is already active
+        const isActive = button.classList.contains("active");
+        console.log("Button clicked:", button.textContent);
+        console.log("Is active:", isActive);
+
+        // Remove active class from all buttons and hide all images
+        document.querySelectorAll(".accordion-button").forEach((btn) => {
+          btn.classList.remove("active");
+          console.log("Removed active from:", btn.textContent);
+        });
+        document
+          .querySelectorAll(".image-container")
+          .forEach((img) => (img.style.display = "none"));
+
+        // If the clicked button was not active, activate it and show the images
+        if (!isActive) {
+          button.classList.add("active");
+          console.log("Added active to:", button.textContent);
+          const target = button.getAttribute("data-target");
+          document.querySelector(target).style.display = "block";
+        }
+      });
+    });
+  </script>
+  <!-- scripting end -->
 
 
 </body>
