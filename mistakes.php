@@ -293,7 +293,7 @@
                     <!-- Comment List End -->
     
                     <!-- Comment Form Start -->
-                    <div class="col-12 wow slideInUp" data-wow-delay="0.1s">
+                    <!-- <div class="col-12 wow slideInUp" data-wow-delay="0.1s">
                             <nav aria-label="Page navigation">
                               <ul class="pagination pagination-lg m-0">
                                 <li class="page-item disabled">
@@ -311,7 +311,7 @@
                                 </li>
                               </ul>
                             </nav>
-                        </div>
+                        </div> -->
                     <!-- Comment Form End -->
                 </div>
     

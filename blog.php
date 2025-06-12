@@ -245,6 +245,7 @@
                                 <h5 class="mb-2">Storage using Cloud
 
                                 </h5>
+                                <br>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
                                 <a class="text-uppercase small fw-bold" href="storagecloud.php">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
@@ -260,6 +261,7 @@
                                 <h5 class="mb-2">TallyPrime Transaction Authorisation
 
                                 </h5>
+                                <br>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
                                 <a class="text-uppercase small fw-bold" href="transaction-auth.php">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>

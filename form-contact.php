@@ -31,10 +31,10 @@
             <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" value="From Contact us" hidden>
         </div>
         <div class="row m-0">
-            <div class="col-md-6 m-0">
+            <div class="col-md-12 mt-3 me-3">
                 <input type="text" id="name" name="name" class="form-control" placeholder="Your Name">
             </div>
-            <div class="col-md-6 m-0">
+            <div class="col-md-12 mt-3">
                 <input type="email" id="email" name="email" class="form-control" placeholder="Your Email">
             </div>
         </div>
