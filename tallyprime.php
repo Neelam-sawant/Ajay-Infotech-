@@ -13,7 +13,7 @@
 
 <body>
    <!-- Spinner Start -->
-   <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+   <div id="spinner" class="bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
     <div class="spinner"></div>
 </div>
 <!-- Spinner End -->
@@ -195,14 +195,14 @@
     <!-- do more with tally prime heading component end -->
 
     <!-- first text with video component start -->
-    <div class="row g-5 mt-5 align-items-center">
+    <div class="row g-5 mt-5 align-items-center" style="background:#e3e6f3">
     <div class="col-lg-7">
-        <p class="mb-4">
+        <p class="mb-4 mx-3"> 
             TallyPrime is designed to streamline and enhance payment processes for MSMEs, ensuring compliance with MSME regulations. Registered MSMEs can easily print their UDYAM registration number, track upcoming or delayed receivables, and send timely reminders to manage their cash flow effectively. For businesses engaging with MSMEs, TallyPrime provides a straightforward way to identify upcoming payables, monitor due dates, and use the ‘MSME Form -1’ to report overdue bills. This integration helps maintain transparency and efficiency in transactions, supporting better financial management and adherence to MSME guidelines.
         </p>
     </div>
-    <div class="col-lg-5">
-        <div class="position-relative h-100">
+    <div class="col-lg-5" >
+        <div class="position-relative h-100" >
             <video style="border-radius: 18px; width: 100%; height: auto; object-fit: cover;" 
                    class="w-100 rounded wow zoomIn" 
                    autoplay 

@@ -126,7 +126,7 @@
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+<div id="spinner" class="bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner"></div>
     </div>
     <!-- Spinner End -->
@@ -153,7 +153,7 @@
 
 <!-- Navbar & Carousel End -->
 <div class="mb-5 wow slideInUp" data-wow-delay="0.1s" style="margin-left:50px; margin-top:50px;">
-                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                        <!-- <div class="section-title section-title-sm position-relative pb-3 mb-4">
                             <h3 class="mb-0">Tag Cloud</h3>
                         </div>
                         <div class="d-flex flex-wrap m-n1">
@@ -165,7 +165,7 @@
                             <a href="" class="btn btn-light m-1">Consulting</a>
                         </div>
                     </div>
-                    </div>
+                    </div> -->
 <!-- Blog and Sidebar Container -->
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
