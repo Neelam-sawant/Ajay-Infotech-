@@ -37,10 +37,10 @@
 <!-- Navbar & Carousel end -->
 
 <!-- background name display end -->
-<div class="aiheaderimage">
+<!-- <div class="aiheaderimage">
     <img src="img/Tally Pime backgrornd image.png"  class="header-image">
     <h1 class="title">Contact</h1>
-</div>
+</div> -->
 <!-- background name display end -->
 
 
@@ -68,7 +68,6 @@
 
 
 <!-- contact start -->
-
 <?php include 'contact.php' ?>
 
   

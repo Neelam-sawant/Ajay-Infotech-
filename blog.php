@@ -152,7 +152,6 @@
     
 
 <!-- Navbar & Carousel End -->
-<div class="mb-5 wow slideInUp" data-wow-delay="0.1s" style="margin-left:50px; margin-top:50px;">
                         <!-- <div class="section-title section-title-sm position-relative pb-3 mb-4">
                             <h3 class="mb-0">Tag Cloud</h3>
                         </div>
@@ -220,6 +219,22 @@
                         </div>
                     </div>
                Blog Item End -->
+               
+<div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
+                        <div class="blog-item bg-light rounded overflow-hidden">
+                            <div class="blog-img position-relative overflow-hidden">
+                                <img class="img-fluid" src="img\mistakes.png" alt="" style="width:100%; height:250px;">
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="mistakes.php">12 June 2025</a>
+                            </div>
+                            <div class="p-3">
+                                <h5 class="mb-2">10 Mistakes to avoid while generating E-Way Bill
+
+                                </h5>
+                                <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
+                                <a class="text-uppercase small fw-bold" href="mistakes.php">Read More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
                <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
@@ -347,7 +362,7 @@
     </div>
 </div>
 </div>
-
+</div>
 <!-- blog cards end -->
 
 

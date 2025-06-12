@@ -1,6 +1,10 @@
 
                     <h3>Recent Blogs</h3>
                     <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img\mistakes.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="mistakes.php" class="small ms-2">10 Mistakes to avoid while generating E-way Bill</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
                         <img class="img-fluid" src="img\storage.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
                         <a href="storagecloud.php" class="small ms-2">Storage Using Cloud</a>
                     </div>
@@ -15,12 +19,4 @@
                     <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
                         <img class="img-fluid" src="img\banreconcilation.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
                         <a href="bankReconciliation.php" class="small ms-2">Bank Reconciliation In TallyPrime 6.0</a>
-                    </div>
-                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img/bdetails1.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
-                        <a href="reportsintallyprime.php" class="small ms-2">Working with reports in Tally Prime</a>
-                    </div>
-                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img/tally 6.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
-                        <a href="tallyprime6.php" class="small ms-2">What's new in Tally Prime 6.0?</a>
                     </div>
