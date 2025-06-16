@@ -1,105 +1,69 @@
-<!-- contact start -->
+ <!-- contact section start here -->
+      <div class="container py-5">
+      <div class="text-center mb-4">
+        <h3 class="section-title section-title-sm text-center text-primary">If You Have Any Query, Feel Free To Contact Us</h3>
+      </div>
+      <div class="row g-4">
+        <!-- Contact Info Box -->
+        <div class="col-lg-4">
+          <!-- Phone -->
+          <div class="d-flex rounded-3 p-3 align-items-center">
+            <div class="bg-primary text-light rounded-3 d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+              <i class="bi bi-telephone fs-2"></i>
+            </div>
+            <div class="ms-3 text-light">
+              <h6 class="mb-1 text-primary">Call to ask any question</h6>
+              <h5 class="mb-0 text-primary">+91 9324753025</h5>
+            </div>
+          </div>
 
-<div class="container wow fadeInUp mt-5" data-wow-delay="0.1s">
-    <div class="container">
-       <div class="container">
-  <div class="row justify-content-center">
-    <div class="col-lg-8">
-      <div class="section-title text-center position-relative pb-3 mb-5 py-5" style="max-width: 600px; margin-left:15%;">
-        <h5 class="fw-bold text-primary text-uppercase">Contact Us</h5>
-        <h1 class="mb-0">If You Have Any Query, Feel Free To Contact Us</h1>
+          <!-- Email -->
+          <div class="d-flex rounded-3 p-3 align-items-center mt-3">
+            <div class="bg-primary text-light rounded-3 d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+              <i class="bi bi-envelope-open fs-2"></i>
+            </div>
+            <div class="ms-3 text-light">
+              <h6 class="mb-1 text-primary">Email to get free quote</h6>
+              <h5 class="mb-0 text-primary">info@ajayinfotech.in</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-8">
+          <form action="https://formspree.io/f/mnnvnwoa" method="POST" class="bg-white p-4 rounded-4 shadow-sm">
+            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" value="From Contact us" hidden>
+            <div class="row g-2">
+              <div class="col-md-6 ">
+                <input type="text" name="first_name" class="form-control" placeholder="First Name" required>
+              </div>
+              <div class="col-md-6">
+                <input type="text" name="last_name" class="form-control" placeholder="Last Name" required>
+              </div>
+              <div class="col-md-6">
+                <input type="email" name="email" class="form-control" placeholder="Email" required>
+              </div>
+              <div class="col-md-6">
+                <input type="number" name="number" class="form-control" placeholder="Mobile Number" required>
+              </div>
+              <div class="col-md-6">
+                <input type="text" name="company_name" class="form-control" placeholder="Company Name">
+              </div>
+              <div class="col-md-6">
+                <input type="text" name="company_address" class="form-control" placeholder="Company Address">
+              </div>
+              <div class="col-md-6">
+                <input type="text" name="license_number" class="form-control" placeholder="License Number">
+              </div>
+              <div class="col-md-6">
+                <input type="text" name="message" class="form-control" placeholder="Message">
+              </div>
+              <div class="col-md-12 d-grid ps-3 pe-3 pb-3">
+                <button type="submit" class="btn btn-primary">Send the Request</button>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
-        <div class="row g-5 mt-5">
-            <!-- Contact Information -->
-            <!-- <div class="col-lg-6">
-                <div class="row g-5">
-                    <div class="col-lg-12 mb-5 mt-5">
-                        <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
-                            <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
-                                <i class="fa fa-phone-alt text-white"></i>
-                            </div>
-                            <div class="ps-4">
-                                <h5 class="mb-2">Call to ask any question</h5>
-                                <h4 class="text-primary mb-0">+91 9029005996</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s">
-                            <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
-                                <i class="fa fa-envelope-open text-white"></i>
-                            </div>
-                            <div class="ps-4">
-                                <h5 class="mb-2">Email to get free quote</h5>
-                                <h4 class="text-primary mb-0">ajayinfotech20@gmail.com</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-            <!-- Contact Form -->
-            <?php
-                include "form-contact.php"; 
-            ?>
-            <!-- <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-                <form action="./submit.php" method="post">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <input type="text" id="name" name="name" class="form-control" placeholder="Your Name">
-                        </div>
-                        <div class="col-md-6">
-                            <input type="email" id="email" name="email" class="form-control" placeholder="Your Email">
-                        </div>
-                    </div>
-                    <div class="form-group mt-3">
-                        <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
-                    </div>
-                    <div class="form-group mt-3">
-                        <textarea id="message" name="message" class="form-control" rows="4" placeholder="Message"></textarea>
-                    </div>
-                    <div class="form-group mt-3">
-                        <button class="btn btn-primary w-100 py-3" type="submit" value="Submit">Send Message</button>
-                    </div>
-                </form>
-            </div> -->
-        </div>
-
-        <!-- Row containing address and maps side by side -->
-        <div class="row g-5 mt-5">
-            <!-- Address -->
-            <div class="col-lg-4">
-                <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s">
-                    <div class="ps-4">
-                        <h5 class="mb-2" style="font-size: 50px;">Headquarter</h5>
-                        <h4 class="text-primary mb-0">A-220, Redbricks Business Plaza, Above Croma, Virar West.</h4>
-                    </div>
-                </div>
-                <br>
-                <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s">
-                    <div class="ps-4">
-                        <h5 class="mb-2" style="font-size: 50px;">Branches</h5>
-                        <h4 class="text-primary mb-0">Mira Road</h4>
-                        <h4 class="text-primary mb-0">Palghar</h4>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Maps -->
-            <div class="col-lg-8 d-flex">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60193.09223434135!2d72.75972299533613!3d19.4526233819601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7aa1feb01b015%3A0xf167c2b381a55ccc!2sRedbricks%20Business%20Plaza!5e0!3m2!1sen!2sin!4v1724390195086!5m2!1sen!2sin" frameborder="0" style="width: 100%; min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-  
-  
-  
-  <!-- contact end -->

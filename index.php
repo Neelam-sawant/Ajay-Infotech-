@@ -159,28 +159,28 @@
                                 <div class="item">
                                     <h5>Tally Software</h5>
                                     <p class="item-description">This business software is ideally suited for SMEs, effectively supporting trading, distribution, manufacturing, and service industries. Key modules include Financial Accounting and Management, Banking, Inventory Management, Payroll, and Statutory compliance for streamlined operations.</p>
-                                    <a href="tally.php" class="read-more" >Read More</a>
+                                    <a href="tally" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="item">
                                     <h5>Tally Server 9 Or Tally Prime Server</h5>
                                     <p class="item-description">For medium and large organizations aiming for operational efficiency, Tally Server 9 or TallyPrime is essential. These robust solutions provide secure, concurrent data access for multiple users, enabling your team to work without disruptions.</p>
-                                    <a href="tpserver.php" class="read-more" >Read More</a>
+                                    <a href="tpserver" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="item">
                                     <h5>Tally For CA</h5>
                                     <p class="item-description">Tally is an essential software for Chartered Accountants, streamlining financial management and compliance. It simplifies accounting, auditing, and taxation tasks, enabling efficient reporting and client management. With Tally, CAs can ensure regulatory adherence while enhancing their service delivery.</p>
-                                    <a href="tallyca.php" class="read-more" >Read More</a>
+                                    <a href="tallyca" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="item">
                                     <h5>Tally .Net Subscription</h5>
                                     <p class="item-description">Tally .NET Subscription provides businesses with convenient access to Tally's features from any location. This subscription enhances collaboration and efficiency, offering real-time data access and multi-user capabilities, empowering organizations to manage their accounting and financial processes seamlessly.</p>
-                                    <a href="tallynet.php" class="read-more" >Read More</a>
+                                    <a href="tallynet" class="read-more" >Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -192,7 +192,7 @@
                                 <div class="item">
                                     <h5>Tally AMC / Annual Support Cover</h5>
                                     <p class="item-description">A business continuity program for your organisation from a team who knows Tally Best. You do your business peacefully while we take care of your software. Select a plan suitable to you.</p>
-                                    <a href="tamc.php" class="read-more" >Read More</a>
+                                    <a href="tamc" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
@@ -200,21 +200,21 @@
                                     <h5>Tally Data Synchronization</h5>
                                     <p>
                                         Decide on architecture Type : Centralized / Decentralized / Hybrid, we will set it up for your Multi Location Organization. Sync Data periodically or directly enter data into Central Tally Server.</p>
-                                        <a href="tsynchronization.php" class="read-more" >Read More</a>
+                                        <a href="tsynchronization" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="item">
                                     <h5>Tally ERP 9 and TallyPrime Training</h5>
                                     <p class="item-description">Corporate training programs for your staff to ensure use of Tally.ERP 9 and TallyPrime to the fullest. A basket of training modules to choose from depending on your need & profile of the team.</p>
-                                    <a href="tctraining.php" class="read-more" >Read More</a>
+                                    <a href="tctraining" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="item">
                                     <h5>Tally Support – Onsite & Remote</h5>
                                     <p class="item-description">We offer Tally installation, data synchronization, migration, and ongoing support. Our engineers provide training and assistance, available onsite or remotely for your complete convenience.</p>
-                                    <a href="tamc.php" class="read-more" >Read More</a>
+                                    <a href="tamc" class="read-more" >Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -226,7 +226,7 @@
                                 <div class="item">
                                     <h5>Business Dashboard App</h5>
                                     <p class="item-description">This business software is ideally designed for SMEs, covering trading, distribution, manufacturing, and service industries. Key modules include Financial Accounting, Banking, Inventory Management, Payroll, and Statutory compliance, ensuring streamlined operations and efficient management.</p>
-                                    <a href="businessdashboard.php" class="read-more" >Read More</a>
+                                    <a href="businessdashboard" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
@@ -234,21 +234,21 @@
                                     <h5>Customer Profiling App</h5>
                                     <p class="item-description">The Tally Mobile application is invaluable for field personnel—salespersons, sales managers, and business owners. It features a business directory, contact management, and real-time access to financial data, empowering users to manage sales, track performance, and streamline operations on the go.
                                     </p>
-                                    <a href="profilingapp.php" class="read-more" >Read More</a>
+                                    <a href="profilingapp" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="item">
                                     <h5>Trans Approval App</h5>
                                     <p class="item-description">A business owner must approve critical transactions while on the move to ensure business continuity. With the right tools, they can manage approvals in real-time, mitigating risks and enhancing operational efficiency, ensuring that essential decisions are made promptly and effectively for success.</p>
-                                    <a href="transapp.php" class="read-more" >Read More</a>
+                                    <a href="transapp" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="item">
                                     <h5>Sales Order Booking App</h5>
                                     <p class="item-description">Sales orders can be easily entered and managed through smartphones using the Sales Order Booking Tally App for Android and iPhone. This app facilitates faster order booking, allowing sales teams to efficiently capture and track orders on the go, streamlining the sales process for improved productivity.</p>
-                                    <a href="salesorder.php" class="read-more" >Read More</a>
+                                    <a href="salesorder" class="read-more" >Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -260,21 +260,21 @@
                                 <div class="item">
                                     <h5>Vertical Solutions</h5>
                                     <p class="item-description">Businesses, regardless of size, have unique processes and challenges that can be effectively addressed with solutions built on Tally ERP 9. This versatile software adapts to various requirements, offering customizable features that enhance operational efficiency and support informed decision-making for all industries.</p>
-                                    <a href="verticalsolutions.php" class="read-more" >Read More</a>
+                                    <a href="verticalsolutions" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="item">
                                     <h5>Tally Integration</h5>
                                     <p class="item-description">Integrate Tally.ERP 9 with virtually everything—Excel, SQL, Java, .NET, eCommerce websites, mobile devices, and even hardware like digital weighing scales. This seamless integration enhances data flow, streamlines operations, and enables businesses to leverage Tally's powerful capabilities across various platforms and devices.</p>
-                                    <a href="tallyint.php" class="read-more" >Read More</a>
+                                    <a href="tallyint" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="item">
                                     <h5>Tally Customization</h5>
                                     <p class="item-description">Customize your Tally.ERP 9 to align with your business needs through tailored invoice and voucher formats, specialized reports, and the addition of new fields. Strengthen controls and security while developing new functionalities to optimize processes, ensuring Tally integrates into your operational framework for enhanced efficiency.</p>
-                                    <a href="tcustomization.php" class="read-more" >Read More</a>
+                                    <a href="tcustomization" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
@@ -282,7 +282,7 @@
                                     <h5>Tally GST</h5>
                                 <p class="item-description">Business dynamics in India are poised for change with the introduction of the Goods and Services Tax (GST). Effective from July 1st, GST simplifies the taxation process and creates a unified market across the country. Tally GST equips businesses with essential tools to ensure compliance and streamline financial operations in this evolving landscape.
                                 </p>
-                                <a href="gstfilling.php" class="read-more" >Read More</a>
+                                <a href="gstfilling" class="read-more" >Read More</a>
                             </div>
                             </div>
                         </div>
@@ -294,21 +294,21 @@
                                 <div class="item">
                                     <h5>Smart Backup++</h5>
                                     <p class="item-description">Smart Backup++ is an intelligent system designed to resolve your Tally backup issues effortlessly. It eliminates the need for human intervention, ensuring that backups are taken consistently without the risk of forgetting. This automated solution safeguards your important data while enhancing overall operational efficiency for your business.</p>
-                                    <a href="smartbackup.php" class="read-more" >Read More</a>
+                                    <a href="smartbackup" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="item">
                                     <h5>Multi File Attachment</h5>
                                     <p class="item-description">With the Multi File Attachment feature, you can easily attach multiple files such as DOC, XLS, PDF, JPG, and more to your financial transactions in Tally. Retrieve these files directly from the Tally application without leaving your desk, streamlining your workflow and enhancing document management for improved efficiency.</p>
-                                    <a href="multifile.php" class="read-more" >Read More</a>
+                                    <a href="multifile" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="item">
                                     <h5>Tally Sheet Magic</h5>
                                     <p class="item-description">Tally Sheet Magic allows you to create custom reports in Excel using data from Tally, all without needing programming knowledge. Effortlessly convert your existing Excel report formats into Sheet Magic reports, enabling you to streamline your reporting process and gain valuable insights from your financial data with ease.</p>
-                                    <a href="magicsheet.php" class="read-more" >Read More</a>
+                                    <a href="magicsheet" class="read-more" >Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-3">
@@ -316,7 +316,7 @@
                                     <h5>Audit Trail with Voucher History</h5>
                                     <p class="item-description">The Audit Trail feature allows you to track the history of a transaction from its creation through multiple alterations. It maintains a log of inventory and ledger entries, including details on rates and amounts. This transparency enhances accountability and ensures compliance in your financial processes for better oversight.
                                     </p>
-                                    <a href="audittrial.php" class="read-more" >Read More</a>
+                                    <a href="audittrial" class="read-more" >Read More</a>
                                 </div>
                             </div>
                         </div>

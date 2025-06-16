@@ -128,7 +128,7 @@
 </ul>
 
         <h3 style="margin-top: 20%;">INR <strong>750</strong></h3>
-      <p style="font-size: 14px;">+18% GST (INR 135)</p><a href="maincontact.php">
+      <p style="font-size: 14px;">+18% GST (INR 135)</p><a href="maincontact">
       <button style="margin-top: 10px; background: #2bb1e0; border: none; padding: 10px 25px; border-radius: 25px; font-weight: bold; color:white;">Buy Now</button></a>
         <p class="text-xs text-gray-400 mt-2">IN Indian License</p>
       </div>
@@ -150,7 +150,7 @@
 
 
         <h3 style="margin-top: 20%;">INR <strong>2,250</strong></h3>
-      <p style="font-size: 14px;">+18% GST (INR 405)</p><a href="maincontact.php">
+      <p style="font-size: 14px;">+18% GST (INR 405)</p><a href="maincontact">
       <button style="margin-top: 10px; background: #2bb1e0; border: none; padding: 10px 25px; border-radius: 25px; font-weight: bold; color:white;">Buy Now</button></a>
         <p class="text-xs text-gray-400 mt-2">IN Indian License</p>
       </div>
@@ -175,7 +175,7 @@
 
 
         <h3 style="margin-top: 20%;">INR <strong>2,138</strong></h3>
-      <p style="font-size: 14px;">+18% GST (INR 385)</p><a href="maincontact.php">
+      <p style="font-size: 14px;">+18% GST (INR 385)</p><a href="maincontact">
       <button style="margin-top: 10px; background: #2bb1e0; border: none; padding: 10px 25px; border-radius: 25px; font-weight: bold; color:white;">Buy Now</button></a>
         <p class="text-xs text-gray-400 mt-2">IN Indian License</p>
       </div>
@@ -196,7 +196,7 @@
 </ul>
 
         <h3 style="margin-top: 20%;">INR <strong>6,413</strong></h3>
-      <p style="font-size: 14px;">+18% GST (INR 1,154)</p><a href="maincontact.php">
+      <p style="font-size: 14px;">+18% GST (INR 1,154)</p><a href="maincontact">
       <button style="margin-top: 10px; background: #2bb1e0; border: none; padding: 10px 25px; border-radius: 25px; font-weight: bold; color:white;">Buy Now</button></a>
         <p class="text-xs text-gray-400 mt-2">IN Indian License</p>
       </div>
@@ -221,7 +221,7 @@
 
 
         <h3 style="margin-top: 20%;">INR <strong>8,100</strong></h3>
-      <p style="font-size: 14px;">+18% GST (INR 1,458)</p><a href="maincontact.php">
+      <p style="font-size: 14px;">+18% GST (INR 1,458)</p><a href="maincontact">
       <button style="margin-top: 10px; background: #2bb1e0; border: none; padding: 10px 25px; border-radius: 25px; font-weight: bold; color:white;">Buy Now</button></a>
         <p class="text-xs text-gray-400 mt-2">IN Indian License</p>
       </div>
@@ -242,7 +242,7 @@
 </ul>
 
         <h3 style="margin-top: 20%;">INR <strong>24,300</strong></h3>
-      <p style="font-size: 14px;">+18% GST (INR 4,374)</p><a href="maincontact.php">
+      <p style="font-size: 14px;">+18% GST (INR 4,374)</p><a href="maincontact">
       <button style="margin-top: 10px; background: #2bb1e0; border: none; padding: 10px 25px; border-radius: 25px; font-weight: bold; color:white;">Buy Now</button></a>
         <p class="text-xs text-gray-400 mt-2">IN Indian License</p>
       </div>
@@ -267,7 +267,7 @@
 
 
         <h3 style="margin-top: 20%;">INR <strong>22,500</strong></h3>
-      <p style="font-size: 14px;">+18% GST (INR 4,050)</p><a href="maincontact.php">
+      <p style="font-size: 14px;">+18% GST (INR 4,050)</p><a href="maincontact">
       <button style="margin-top: 10px; background: #2bb1e0; border: none; padding: 10px 25px; border-radius: 25px; font-weight: bold; color:white;">Buy Now</button></a>
         <p class="text-xs text-gray-400 mt-2">IN Indian License</p>
       </div>
@@ -289,7 +289,7 @@
 
 
         <h3 style="margin-top: 20%;">INR <strong>67,500</strong></h3>
-      <p style="font-size: 14px;">+18% GST (INR 12,150)</p><a href="maincontact.php">
+      <p style="font-size: 14px;">+18% GST (INR 12,150)</p><a href="maincontact">
       <button style="margin-top: 10px; background: #2bb1e0; border: none; padding: 10px 25px; border-radius: 25px; font-weight: bold; color:white;">Buy Now</button></a>
         <p class="text-xs text-gray-400 mt-2">IN Indian License</p>
       </div>
@@ -348,10 +348,7 @@
 
 
 <!-- Vendor End -->
-
-
-
-
+<?php include 'maincontact.php' ?>
 
 
 <!-- footer start -->

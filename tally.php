@@ -146,11 +146,11 @@
 
 <!-- Pricing Plan Start -->
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="container py-5">
-        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-            <h5 class="fw-bold text-primary text-uppercase">Product and Services Overview</h5>
-            <h1 class="mb-0">We are Offering Best Products and Services</h1>
-        </div>
+    <div class="container text-center py-5">
+        <div class="section-title text-center position-relative pb-3 mb-5 mx-3">
+    <h5 class="fw-bold text-primary text-uppercase">Product and Services Overview</h5>
+    <h1 class="mb-0 mx-9" >We are Offering Best Products and Services</h1>
+</div>
         <div class="row g-4" style="margin:0 5% 0 5%;"> <!-- Adjusted spacing with g-4 -->
             <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s"> <!-- Adjusted column width to 6 for a 2-column layout -->
                 <div class="bg-light rounded" style="margin-right: 20px;">

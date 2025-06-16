@@ -224,14 +224,14 @@
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img\mistakes.png" alt="" style="width:100%; height:250px;">
-                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="mistakes.php">12 June 2025</a>
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="avoid_mistakes">12 June 2025</a>
                             </div>
                             <div class="p-3">
                                 <h5 class="mb-2">10 Mistakes to avoid while generating E-Way Bill
 
                                 </h5>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
-                                <a class="text-uppercase small fw-bold" href="mistakes.php">Read More <i class="bi bi-arrow-right"></i></a>
+                                <a class="text-uppercase small fw-bold" href="avoid_mistakes">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -239,7 +239,7 @@
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img\storage.png" alt="" style="width:100%; height:250px;">
-                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="storagecloud.php">29 May 2025</a>
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="storagecloud">29 May 2025</a>
                             </div>
                             <div class="p-3">
                                 <h5 class="mb-2">Storage using Cloud
@@ -247,7 +247,7 @@
                                 </h5>
                                 <br>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
-                                <a class="text-uppercase small fw-bold" href="storagecloud.php">Read More <i class="bi bi-arrow-right"></i></a>
+                                <a class="text-uppercase small fw-bold" href="storagecloud">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -255,7 +255,7 @@
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img\trans-auth.png" alt="" style="width:100%; height:250px;">
-                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="transaction-auth.php">05 May 2025</a>
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="transaction-auth">05 May 2025</a>
                             </div>
                             <div class="p-3">
                                 <h5 class="mb-2">TallyPrime Transaction Authorisation
@@ -263,7 +263,7 @@
                                 </h5>
                                 <br>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
-                                <a class="text-uppercase small fw-bold" href="transaction-auth.php">Read More <i class="bi bi-arrow-right"></i></a>
+                                <a class="text-uppercase small fw-bold" href="transaction-auth">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -271,14 +271,14 @@
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img\tallyoncloudblog.png" alt="" style="width:100%; height:250px;">
-                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="bankReconciliation.php">31 April
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="bankReconciliation">31 April
                                        2025</a>
                             </div>
                             <div class="p-3">
                                 <h5 class="mb-2">How Tally on Cloud can support Business for Growth and Expansion
                                 </h5>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
-                                <a class="text-uppercase small fw-bold" href="tallyoncloud.php">Read More <i class="bi bi-arrow-right"></i></a>
+                                <a class="text-uppercase small fw-bold" href="tallyoncloud">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -286,13 +286,13 @@
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img\banreconcilation.png" alt="" style="width:100%; height:250px;">
-                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="bankReconciliation.php">24 April 2025</a>
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="bankReconciliation">24 April 2025</a>
                             </div>
                             <div class="p-3">
                                 <h5 class="mb-2">Bank Reconciliation In TallyPrime 6.0
                                 </h5>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
-                                <a class="text-uppercase small fw-bold" href="blog\bankReconciliation.php">Read More <i class="bi bi-arrow-right"></i></a>
+                                <a class="text-uppercase small fw-bold" href="bankReconciliation">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -300,12 +300,12 @@
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img\bdetails1.png" alt="" style="width:100%; height:250px;">
-                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="reportsintallyprime.php">17 April 2025</a>
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="reportsintallyprime">17 April 2025</a>
                             </div>
                             <div class="p-3">
                                 <h5 class="mb-2">Working with reports in Tally Prime</h5>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
-                                <a class="text-uppercase small fw-bold" href="reportsintallyprime.php">Read More <i class="bi bi-arrow-right"></i></a>
+                                <a class="text-uppercase small fw-bold" href="reportsintallyprime">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -313,18 +313,18 @@
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/tally 6.png" alt="" style="width:100%; height:250px;">
-                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="tallyprime6.php">10 April 2025</a>
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="tallyprime6">10 April 2025</a>
                             </div>
                             <div class="p-3">
                                 <h5 class="mb-2">What's new in Tally Prime 6.0?</h5>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
-                                <a class="text-uppercase small fw-bold" href="tallyprime6.php">Read More <i class="bi bi-arrow-right"></i></a>
+                                <a class="text-uppercase small fw-bold" href="tallyprime6">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                   
                 </div>
-                <div class="col-12 wow slideInUp" data-wow-delay="0.1s">
+                <!-- <div class="col-12 wow slideInUp" data-wow-delay="0.1s">
                             <nav aria-label="Page navigation">
                               <ul class="pagination pagination-lg m-0">
                                 <li class="page-item disabled">
@@ -342,19 +342,19 @@
                                 </li>
                               </ul>
                             </nav>
-                        </div>
+                        </div> -->
             </div>
             <!-- Blog list End -->
 
             <!-- Sidebar Start -->
             <div class="col-lg-4">
                 <!-- Search Form Start -->
-                <div class="mb-4 wow slideInUp" data-wow-delay="0.1s">
+                <!-- <div class="mb-4 wow slideInUp" data-wow-delay="0.1s">
                     <div class="input-group">
                         <input type="text" class="form-control p-2" placeholder="Keyword" style="margin-left:30px;">
                         <button class="btn btn-primary px-3"><i class="bi bi-search"></i></button>
                     </div>
-                </div>
+                </div> -->
              <div class="recent-blogs" style="padding-left:20px;">
                     <?php include 'recentblogs.php' ?>
                     </div>              

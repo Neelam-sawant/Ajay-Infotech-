@@ -70,20 +70,19 @@
 <!-- background name display end -->
 
       <!-- Text Column on the Right -->
-      <div class="col-lg-7 m-5">
-        <div class="section-title position-relative pb-3 mb-5" style="margin: 40px;">
+      <div class="col-lg-12 mt-4 text-center ">
+        <div class="section-title position-relative pb-3 text-center">
           <h1 class="mb-0">Tally AMC (Tally Support)</h1>
         </div>
-        <p class="mb-4" style="margin: 40px;">
+        <p class="mb-4">
           Continue recording transactions or viewing reports while taking backup with no compromise on speed, access, or accuracy. It also limits discrepancies at the client end to the client systems and ensures that neither data on the server nor the operations of other users get impacted. Thus, improves work productivity and business performance by avoiding disruption of work and ensuring zero downtime.
         </p>
-        <a href="maincontact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.5s" style="margin: 40px;">Contact Us</a>
+        <a href="maincontact" class="btn btn-primary py-3 px-5 mb-3 wow zoomIn" data-wow-delay="0.5s">Contact Us</a>
       </div>
-    </div>
     <!-- image + description end -->
     <div style="background-color:  rgb(253, 253, 253);">
     <!-- Key benefits start here -->
-    <h1 class="mb-5 text-uppercase" style="text-align: center">Key Benefits</h1>
+    <h1 class="mb-5 text-uppercase mt-5" style="text-align: center">Key Benefits</h1>
 
     <!-- cards for key benefits start -->
     <div class="container">

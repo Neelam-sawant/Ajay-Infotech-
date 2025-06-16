@@ -156,7 +156,7 @@
                   <p class="mb-4">
                     Embarking on a career journey can be both exciting and challenging, but with the right guidance and resources, finding your ideal career path becomes a fulfilling experience. At Ajay Infotech, we are dedicated to helping you navigate the complexities of career choices and opportunities.
                   </p>
-                  <a href="maincontact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact Us</a>
+                  <a href="maincontact" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact Us</a>
                 </div>
             </div>
         </div>

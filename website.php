@@ -471,7 +471,7 @@ h1 {
                 <div class="carousel-caption ">
                     <div class="p-3" style="max-width: 900px;">
                         <a href="blogdetais.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">To Know More</a>
-                        <a href="maincontact.php" class="btn btn-primary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                        <a href="maincontact" class="btn btn-primary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -536,7 +536,7 @@ h1 {
                     </div>
                 </div>
                 <a href="about.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Know More</a>
-                <a href="maincontact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact
+                <a href="maincontact" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact
                     Us</a>
             </div>
             <div class="col-lg-5" style="min-height: 500px;">

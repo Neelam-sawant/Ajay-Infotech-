@@ -213,7 +213,7 @@ input:not(:checked) + .slider .renew {
 </ul>
 
         <h3 style="margin-top: 20%;">INR <strong>4,500</strong></h3>
-      <p style="font-size: 14px;">+18% GST (INR 810)</p><a href="maincontact.php">
+      <p style="font-size: 14px;">+18% GST (INR 810)</p><a href="maincontact">
       <button style="margin-top: 10px; background: #06a3da; border: none; padding: 10px 25px; border-radius: 25px; font-weight: bold; color:white;">Renew Now</button></a>
         <p class="text-xs text-gray-400 mt-2">IN Indian License</p>
       </div>
@@ -231,7 +231,7 @@ input:not(:checked) + .slider .renew {
 </ul>
 
         <h3 style="margin-top: 20%;">INR <strong>13,500</strong></h3>
-      <p style="font-size: 14px;">+18% GST (INR 2,430)</p><a href="maincontact.php">
+      <p style="font-size: 14px;">+18% GST (INR 2,430)</p><a href="maincontact">
       <button style="margin-top: 10px; background: #06a3da; border: none; padding: 10px 25px; border-radius: 25px; font-weight: bold; color:white;">Renew Now</button></a>
         <p class="text-xs text-gray-400 mt-2">IN Indian License</p>
       </div>
@@ -249,7 +249,7 @@ input:not(:checked) + .slider .renew {
 </ul>
 
         <h3 style="margin-top: 20%;">INR <strong>6,750</strong></h3>
-      <p style="font-size: 14px;">+18% GST (INR 1,215)</p><a href="maincontact.php">
+      <p style="font-size: 14px;">+18% GST (INR 1,215)</p><a href="maincontact">
       <button style="margin-top: 10px; background: #06a3da; border: none; padding: 10px 25px; border-radius: 25px; font-weight: bold; color:white;">Renew Now</button></a>
               <p class="text-xs text-gray-400 mt-2">IN Indian License</p>
 
@@ -273,7 +273,7 @@ input:not(:checked) + .slider .renew {
 </ul>
 
       <h3 style="margin-top: 20%;">INR <strong>8,100</strong></h3>
-      <p style="font-size: 14px;">+18% GST (INR 1,458)</p><a href="maincontact.php">
+      <p style="font-size: 14px;">+18% GST (INR 1,458)</p><a href="maincontact">
       <button style="margin-top: 10px; background: #06a3da; border: none; padding: 10px 25px; border-radius: 25px; font-weight: bold; color:white;">Renew Now</button></a>
 <p class="text-xs text-gray-400 mt-2">IN Indian License</p>    </div>
 
@@ -290,7 +290,7 @@ input:not(:checked) + .slider .renew {
 </ul>
 
      <h3 style="margin-top: 20%;">INR <strong>24,300</strong></h3>
-      <p style="font-size: 14px;">+18% GST (INR 4,374)</p><a href="maincontact.php">
+      <p style="font-size: 14px;">+18% GST (INR 4,374)</p><a href="maincontact">
       <button style="margin-top: 10px; background: #06a3da; border: none; padding: 10px 25px; border-radius: 25px; font-weight: bold; color:white;">Renew Now</button></a>
 <p class="text-xs text-gray-400 mt-2">IN Indian License</p>    </div>
     <!-- UPGRADE Plan -->
@@ -306,7 +306,7 @@ input:not(:checked) + .slider .renew {
 </ul>
 
      <h3 style="margin-top: 20%;">INR <strong>12,150</strong></h3>
-      <p style="font-size: 14px;">+18% GST (INR 2,187)</p><a href="maincontact.php">
+      <p style="font-size: 14px;">+18% GST (INR 2,187)</p><a href="maincontact">
       <button style="margin-top: 10px; background: #06a3da; border: none; padding: 10px 25px; border-radius: 25px; font-weight: bold; color:white;">Renew Now</button></a>
 <p class="text-xs text-gray-400 mt-2">IN Indian License</p>    </div>
   </div>

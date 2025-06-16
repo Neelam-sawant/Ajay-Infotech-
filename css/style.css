@@ -148,7 +148,7 @@ h6,
 }
 
 .carousel-inner img {
-    height: 80vh; /* You can change this value as needed */
+    height: 50%; /* You can change this value as needed */
     /* object-fit: cover; Ensures images fill the area without distortion */
     width: 100%; /* Full width */
   }
@@ -964,6 +964,7 @@ h6,
 .custom-carousel {
     position: relative;
     overflow: hidden;
+    
     width: 100%;
 }
 
@@ -974,7 +975,9 @@ h6,
 
 .custom-carousel-item {
     min-width: 30%; /* Adjust according to how many items you want visible */
+    height:300px;
     box-sizing: border-box;
+    
 }
 
 .custom-card {

@@ -111,7 +111,7 @@
   </ul>
 
   <div class="text-center mt-4">
-    <a href="maincontact.php" class="btn btn-primary px-4 py-2 rounded-pill">Contact Us for Demo</a>
+    <a href="maincontact" class="btn btn-primary px-4 py-2 rounded-pill">Contact Us for Demo</a>
   </div>
 </div>
 

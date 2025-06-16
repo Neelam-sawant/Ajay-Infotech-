@@ -183,15 +183,17 @@
             <h4 class="text-primary mb-0">+91 7977801547</h4>
           </div>
         </div>
-        <a href="maincontact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact Us</a>
+        <a href="maincontact" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact Us</a>
       </div>
     </div>
 
     <!-- do more with tally prime heading component start -->
+         <div class="container text-center py-5">
     <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
         <h5 class="fw-bold text-primary text-uppercase">Tally Prime</h5>
         <h1 class="mb-0">Do More With Tally Prime</h1>
     </div>
+</div>
     <!-- do more with tally prime heading component end -->
 
     <!-- first text with video component start -->

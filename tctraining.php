@@ -116,7 +116,7 @@
           profitability.
         </p>
         <a
-          href="maincontact.php"
+          href="maincontact"
           class="btn btn-primary py-3 px-5 mt-3 wow zoomIn"
           data-wow-delay="0.9s"
           >Contact Us</a

@@ -131,7 +131,7 @@
       </div>
     </div>
     <div class="text-center mt-5">
-      <a href="maincontact.php" class="btn btn-primary py-3 px-5">Talk to Our Tally Experts</a>
+      <a href="maincontact" class="btn btn-primary py-3 px-5">Talk to Our Tally Experts</a>
     </div>
   </div>
 </div>

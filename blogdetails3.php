@@ -157,7 +157,7 @@
                         <img class="img-fluid w-100 rounded mb-5" src="img/e-way-bill.jpeg" alt="">
                         <a class="position-absolute bg-primary text-white rounded-end py-1 px-3" 
        style="top: 20px; left: 0; z-index: 10;" 
-       href="blogdetails2.php">
+       href="blogdetails3">
         17 March 2025
     </a>
                         <h1 class="mb-4">E-Way Bill in Tally Prime</h1>
@@ -236,7 +236,7 @@ The e-Way Bill report is a one-stop shop for your e-Way Bill needs in TallyPrime
                      Recent Post End -->
     
                     <!-- Tags Start -->
-                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s" style="margin-left:20px;">
+                    <!-- <div class="mb-5 wow slideInUp" data-wow-delay="0.1s" style="margin-left:20px;">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
                             <h3 class="mb-0">Tag Cloud</h3>
                         </div>
@@ -248,7 +248,7 @@ The e-Way Bill report is a one-stop shop for your e-Way Bill needs in TallyPrime
                             <a href="" class="btn btn-light m-1">Writing</a>
                             <a href="" class="btn btn-light m-1">Consulting</a>
                         </div>
-                    </div>
+                    </div> -->
                 
                     </div>
 </div>

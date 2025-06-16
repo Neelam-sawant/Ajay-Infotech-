@@ -157,7 +157,7 @@
 
     <a class="position-absolute bg-primary text-white rounded-end py-1 px-3" 
        style="top: 20px; left: 0; z-index: 10;" 
-       href="bankReconciliation.php">
+       href="bankReconciliation">
         24 April 2025
     </a>
 
@@ -225,7 +225,7 @@
 
     <p>Whether you are a small business or an enterprise, Antraweb's committed support can assist you in streamlining your financial activities and enhancing efficiency.</p>
 
-    <p><strong>Ready to simplify your bank reconciliation process?</strong> Switch to TallyPrime Release 6.0 today and experience hassle-free bank reconciliation. <a href="maincontact.php ">Contact us today</a> for expert consultation and seamless implementation of TallyPrime in your business workflow.</p>
+    <p><strong>Ready to simplify your bank reconciliation process?</strong> Switch to TallyPrime Release 6.0 today and experience hassle-free bank reconciliation. <a href="maincontact ">Contact us today</a> for expert consultation and seamless implementation of TallyPrime in your business workflow.</p>
 </div>
 
 
@@ -260,12 +260,12 @@
                 <!-- Sidebar Start -->
                 <div class="col-lg-4">
                     <!-- Search Form Start -->
-                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                    <!-- <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
                         <div class="input-group" style="margin-left:20px;">
                             <input type="text" class="form-control p-3" placeholder="Keyword">
                             <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Search Form End -->
                     <div class="recent-blogs" style="padding-left:20px;">
    <div class="recent-blogs" style="padding-left:20px;">
@@ -298,7 +298,7 @@
                      Recent Post End -->
     
                     <!-- Tags Start -->
-                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s" style="margin-left:20px;">
+                    <!-- <div class="mb-5 wow slideInUp" data-wow-delay="0.1s" style="margin-left:20px;">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
                             <h3 class="mb-0">Tag Cloud</h3>
                         </div>
@@ -310,7 +310,7 @@
                             <a href="" class="btn btn-light m-1">Writing</a>
                             <a href="" class="btn btn-light m-1">Consulting</a>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Tags End -->
 
     <!-- Second Container: Search Section -->

@@ -74,7 +74,7 @@
         <p class="mb-4" style="margin-left:30px; margin-right:30px;">
             "Data Entry with Tally" involves entering, managing, and processing financial transactions and other business data using Tally, a popular accounting software. This service typically includes recording daily transactions, managing ledgers, creating invoices, handling GST calculations, generating reports, and maintaining accurate financial records. Tally's user-friendly interface allows businesses to streamline their accounting tasks, ensuring accuracy and compliance with legal requirements. Data entry operators skilled in Tally can help organizations manage their finances efficiently, save time, and focus on their core operations.
         </p>
-        <a href="maincontact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s" style="margin-left:30px;">
+        <a href="maincontact" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s" style="margin-left:30px;">
             Contact Us
         </a>
     </div>

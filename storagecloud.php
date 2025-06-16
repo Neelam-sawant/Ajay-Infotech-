@@ -241,12 +241,12 @@
                 <!-- Sidebar Start -->
                 <div class="col-lg-4">
                     <!-- Search Form Start -->
-                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                    <!-- <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
                         <div class="input-group" style="margin-left:20px;">
                             <input type="text" class="form-control p-3" placeholder="Keyword">
                             <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Search Form End -->
                     <div class="recent-blogs" style="padding-left:20px;">
                    <?php include 'recentblogs.php' ?>
@@ -278,7 +278,7 @@
                      Recent Post End -->
     
                     <!-- Tags Start -->
-                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s" style="margin-left:20px;">
+                    <!-- <div class="mb-5 wow slideInUp" data-wow-delay="0.1s" style="margin-left:20px;">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
                             <h3 class="mb-0">Tag Cloud</h3>
                         </div>
@@ -290,7 +290,7 @@
                             <a href="" class="btn btn-light m-1">Writing</a>
                             <a href="" class="btn btn-light m-1">Consulting</a>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Tags End -->
 
     <!-- Second Container: Search Section -->

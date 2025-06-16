@@ -126,7 +126,7 @@
       </div>
     </div>
     <div class="text-center mt-5">
-      <a href="maincontact.php" class="btn btn-primary py-3 px-5">Talk to Our Tally Experts</a>
+      <a href="maincontact" class="btn btn-primary py-3 px-5">Talk to Our Tally Experts</a>
     </div>
   </div>
 </div>
@@ -149,7 +149,7 @@
       </ul>
     </div>
     <div class="text-center mt-4">
-      <a href="maincontact.php" class="btn btn-primary px-4 py-2 rounded-pill">📞 Contact Us to Subscribe</a>
+      <a href="maincontact" class="btn btn-primary px-4 py-2 rounded-pill">📞 Contact Us to Subscribe</a>
     </div>
   </div>
 </div>

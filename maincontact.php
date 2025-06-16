@@ -44,6 +44,10 @@
 <!-- background name display end -->
 
 
+  <div class="aiheaderimage">
+  <img src="img/Tally Pime backgrornd image.png" class="header-image">
+  <h1 class="title">Contact </h1>
+</div>
 
 
 
@@ -79,7 +83,7 @@
 
 
 <!-- Vendor Start -->
-<?php include 'vendor.php' ?>
+
 <!-- Vendor End -->
 
 
