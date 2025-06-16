@@ -129,7 +129,7 @@
 <!-- accordion start -->
   
 
-    <section class="product-services services" style="background:#fff;">
+     <section class="product-services services" style="background:#fff;">
         <div class="col-xl-10 offset-xl-1" style="margin: 0 10% 0 10%;">
             <div class="col-sm-12 section-header section-title text-center position-relative pb-3 mb-4 mx-auto">
                 <h2 class="text-primary fw-bold text-primary text-uppercase">We Cater Your Needs</h2>
