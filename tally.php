@@ -358,7 +358,7 @@
                 <b>
                     <p class="phh">What is the first time and ongoing costs of running TallyPrime?</p>
                 </b>
-                <p class="ph">One-time cost of 18,000 + GST 18% for Single user and 54,000 + GST 18% for a
+                <p class="ph">One-time cost of 22,500 + GST 18% for Single user and 67,500 + GST 18% for a
                     Multi-User License. From the second year onwards, you need to renew TSS to avail a host of
                     value-added services.</p>
                 <br>

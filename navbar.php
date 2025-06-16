@@ -1,3 +1,5 @@
+
+
 <!-----Complete Navbar Start----->
 <style>
 .top-bar {
@@ -27,6 +29,26 @@
 body {
     padding-top: 60px; /* Adjust: 30px for top bar + ~50px for navbar */
 }
+/* Mega Dropdown - full width on desktop */
+.dropdown-mega {
+  min-width: 600px;
+  max-width: 100%;
+}
+
+/* Prevent overlapping and spacing issues */
+.dropdown-item {
+  white-space: nowrap;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+/* Mobile stacking already handled by col-12 */
+@media (max-width: 767.98px) {
+  .dropdown-mega {
+    min-width: 100%;
+  }
+}
+
 </style>
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark px-5 d-block top-bar">
@@ -71,7 +93,9 @@ body {
                     <h6 class="dropdown-title">Tally</h6>
                 </a>
                 <a href="./tallyprime.php" class="dropdown-item">Tally Prime</a>
-                <a href="./tallyfeatures.php" class="dropdown-item">Tally Features</a>
+                <a href="tallyfeatures.php" class="dropdown-item">Tally Features</a>
+                <a href="pricing.php" class="dropdown-item">Tally Prime Pricing</a>
+                <a href="plans.php" class="dropdown-item">Tally Software Services</a>
                 <a href="tpserver.php" class="dropdown-item">Tally Prime Server</a>
                 <a href="tmobile.php" class="dropdown-item">Tally On Mobile</a>
                 <a href="tcloud.php" class="dropdown-item">Tally On Cloud</a>
@@ -123,3 +147,4 @@ body {
 <br>
 <br>
   <!-----Complete Navbar End----->
+

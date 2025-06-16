@@ -38,7 +38,7 @@
 
             <!-- Right Form -->
             <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-                <form action="https://formspree.io/f/mnnvnwoa" method="POST">
+                <form action="https://formspree.io/f/mnnvnwoa" method="POST" target="_blank">
                     <input type="hidden" id="subject" name="subject" value="Want to buy Tally Prime">
                     <div class="row m-0 p-0">
                         <div class="col-md-6 m-0">
