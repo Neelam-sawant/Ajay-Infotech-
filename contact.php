@@ -31,7 +31,7 @@
 
         <!-- Contact Form -->
         <div class="col-lg-8">
-          <form action="https://formspree.io/f/mnnvnwoa" method="POST" class="bg-white p-4 rounded-4 shadow-sm">
+          <form action="https://formspree.io/f/mnnvnwoa" method="POST" class="border bg-white p-4 rounded-4 shadow-sm">
             <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" value="From Contact us" hidden>
             <div class="row g-2">
               <div class="col-md-6 ">
@@ -46,19 +46,10 @@
               <div class="col-md-6">
                 <input type="number" name="number" class="form-control" placeholder="Mobile Number" required>
               </div>
-              <div class="col-md-6">
-                <input type="text" name="company_name" class="form-control" placeholder="Company Name">
-              </div>
-              <div class="col-md-6">
-                <input type="text" name="company_address" class="form-control" placeholder="Company Address">
-              </div>
-              <div class="col-md-6">
-                <input type="text" name="license_number" class="form-control" placeholder="License Number">
-              </div>
-              <div class="col-md-6">
+              <div class="col-md-12 d-grid px-3">
                 <input type="text" name="message" class="form-control" placeholder="Message">
               </div>
-              <div class="col-md-12 d-grid ps-3 pe-3 pb-3">
+              <div class="col-md-12 d-grid px-3 pt-3">
                 <button type="submit" class="btn btn-primary">Send the Request</button>
               </div>
             </div>

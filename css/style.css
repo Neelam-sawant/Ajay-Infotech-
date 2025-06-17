@@ -148,9 +148,9 @@ h6,
 }
 
 .carousel-inner img {
-    height: 50%; /* You can change this value as needed */
+    height: 30%; /* You can change this value as needed */
     /* object-fit: cover; Ensures images fill the area without distortion */
-    width: 100%; /* Full width */
+    width: 60%; /* Full width */
   }
 
   @media (max-width: 768px) {
@@ -799,7 +799,7 @@ h6,
 
 /* Vendor Carousel Image Styling */
 .vimg {
-    height: 160px;            /* Adjust for larger image size */
+    height: 100px;            /* Adjust for larger image size */
     width: auto;
     margin: 0 auto;
     object-fit: contain;      /* Maintains aspect ratio */

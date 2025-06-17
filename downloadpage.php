@@ -55,9 +55,9 @@
 <!-- Tally Products List Start here -->
 <div class="container-fluid " style="background-color:  rgb(253, 253, 253)" data-wow-delay="0.1s">
 
-  <div class="container mt-3">
-   <div class="container text-center">
-  <div class="section-title position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+  <div class="container mt-3 text-center">
+   <div class="container ">
+  <div class="section-title position-relative mb-3 text-center">
     <h5 class="fw-bold text-primary text-uppercase">Tally 6.1</h5>
   </div>
 </div>
@@ -647,7 +647,6 @@
   
     <!-- tally prime, tally prime edit log and ERP-9 end -->
 
-    <br><br><br><br>
 
 
 <!-- contact start -->

@@ -348,8 +348,9 @@
 
 
 <!-- Vendor End -->
-<?php include 'maincontact.php' ?>
-
+<!-- Vendor Start -->
+<?php include 'vendor.php' ?>
+<!-- Vendor End -->
 
 <!-- footer start -->
     <?php include 'footer.php' ?>
