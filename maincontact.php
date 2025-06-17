@@ -83,7 +83,7 @@
 
 
 <!-- Vendor Start -->
-
+<?php include "vendor.php"; ?>
 <!-- Vendor End -->
 
 

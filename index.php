@@ -34,7 +34,7 @@
 
 <div class="carousel-inner" >
     <div class="carousel-item active" data-bs-interval="2000" >
-      <img src="img/bgtally6.png" class="d-block w-100" alt="First Slide" >
+      <img src="img/bgtally6.png" class="img-fluid d-flex" alt="First Slide" >
     </div>
 </div>
 

@@ -54,11 +54,14 @@
 
 <!-- Tally Products List Start here -->
 <div class="container-fluid " style="background-color:  rgb(253, 253, 253)" data-wow-delay="0.1s">
-  <br><br><br>
-  <div class="container ">
-    <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px">
-      <h5 class="fw-bold text-primary text-uppercase">Tally 5.Ov</h5>
-    </div>
+
+  <div class="container mt-3">
+   <div class="container text-center">
+  <div class="section-title position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+    <h5 class="fw-bold text-primary text-uppercase">Tally 6.1</h5>
+  </div>
+</div>
+
     <div class=" text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px">
       <p class="mb-0">
         Experience a new-age business management software for new-age businesses. Now, with simplified MSME payments, e-commerce report in GSTR-1, intuitive report dashboards, and more.
@@ -70,21 +73,19 @@
       <!-- First Download Section -->
       <div class="col-md-4 mb-4 text-center">
         <div class="bg-light rounded py-4 px-5">
-          <h4 class="text-primary mb-1">Tally Prime 5.O</h4>
-          <a href="downloads/tallyprime5.exe" id="downloadtp5" class="btn btn-primary py-2 px-4 mt-4">Download</a>
+          <h4 class="text-primary mb-1">Tally Prime 6.1</h4>
+          <a href="downloads/tally6.1.exe" id="downloadtp5" class="btn btn-primary py-2 px-4 mt-4">Download</a>
         </div>
       </div>
 
       <!-- Second Download Section -->
       <div class="col-md-4 mb-4 text-center">
         <div class="bg-light rounded py-4 px-5">
-          <h4 class="text-primary mb-1">Tally Prime 5.O (Edit Log)</h4>
-          <a href="downloads/tallyprimeditlog5.exe" id="downloadtpel5" class="btn btn-primary py-2 px-4 mt-4">Download</a>
+          <h4 class="text-primary mb-1">Tally Prime 6.1 (Edit Log)</h4>
+          <a href="downloads/tally el 6.1.exe" id="downloadtpel5" class="btn btn-primary py-2 px-4 mt-4">Download</a>
         </div>
       </div>
     </div>
-
-    <br /><br /><br /><br /><br /><br />
 
     <!-- Tally Products List Start here -->
 
@@ -99,47 +100,95 @@
 
                 <!-- section for new versions -->
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading41">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse41" aria-expanded="true" aria-controls="collapse41">
-                            Version 4.1
-                        </button>
-                    </h2>
-                    <div id="collapse41" class="accordion-collapse collapse show" aria-labelledby="heading">
-                        <div class="accordion-body">
-                            <p class="mb-0">
-                                1.	TallyPrime with WhatsApp for Business
-                            </p>
-                            <p class="mb-0">
-                                2.	Import Data from MS Excel
-                            </p>
-                            <p class="mb-0">
-                                    3.	Graphical Dashboard
-                                </p>
-                                <p class="mb-0"><b>Date - </b> 12 March 2024</p>
-                                <div class="btn-style">
-                                    <a
-                                    href="downloads/setup (2).exe" id="downloadtp"
-                                    class="btn btn-primary py-2 px-4 mt-4"
-                                    >Tally Prime Download </a
-                                    >
-                                    <a
-                                    href="downloads/setup (4).exe" id="downloadtpel"
-                                    class="btn btn-primary py-2 px-4 mt-4"
-                                    >Tally Edit Log Download</a
-                                    >
-                                </div>
-                        </div>
-                    </div>
-                </div>
 
                 <!-- section for new end -->
 
+  <div class="accordion-item">
+  <h2 class="accordion-header" id="heading60">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse60" aria-expanded="true" aria-controls="collapse60">
+      Version 6.0
+    </button>
+  </h2>
+  <div id="collapse60" class="accordion-collapse collapse show" aria-labelledby="heading60">
+    <div class="accordion-body">
+      <ul class="mb-3 ps-3">
+        <li>Missing or invalid State for Consignee (Ship To) & Dispatch From</li>
+        <li>Mismatch between State and Pincode</li>
+        <li>Mismatch between HSN and Type of supply</li>
+        <li>Invoice numbers starting with zero</li>
+      </ul>
+      <p><strong>Date:</strong> 25 March 2025</p>
+      <div class="d-flex flex-wrap gap-3 mt-3">
+        <a href="downloads/tally6.exe" id="downloadtp301" class="btn btn-primary">
+          Tally Prime Download
+        </a>
+        <a href="downloads/tallyel6.0.exe" id="downloadtpel301" class="btn btn-primary">
+          Tally Edit Log Download
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
                   <!-- Section 1 -->
+                 <div class="accordion-item">
+  <h2 class="accordion-header" id="heading51">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse51" aria-expanded="false" aria-controls="collapse51">
+      Version 5.0
+    </button>
+  </h2>
+  <div id="collapse51" class="accordion-collapse collapse" aria-labelledby="heading51">
+    <div class="accordion-body">
+      <ul class="mb-3 ps-3">
+        <li>Missing or invalid State for Consignee (Ship To) & Dispatch From</li>
+        <li>Mismatch between State and Pincode</li>
+        <li>Mismatch between HSN and Type of supply</li>
+        <li>Invoice numbers starting with zero</li>
+      </ul>
+      <p><strong>Date:</strong> 12 September 2024</p>
+      <div class="d-flex flex-wrap gap-3 mt-3">
+        <a href="downloads/tallyprime5.exe" id="downloadtp301" class="btn btn-primary">
+          Tally Prime Download
+        </a>
+        <a href="downloads/tallyprimeelg4.exe" id="downloadtpel301" class="btn btn-primary">
+          Tally Edit Log Download
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+                
+               <div class="accordion-item">
+  <h2 class="accordion-header" id="heading41">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse41" aria-expanded="false" aria-controls="collapse41">
+      Version 4.1
+    </button>
+  </h2>
+  <div id="collapse41" class="accordion-collapse collapse" aria-labelledby="heading41">
+    <div class="accordion-body">
+      <ul class="mb-3 ps-3">
+        <li>TallyPrime with WhatsApp for Business</li>
+        <li>Import Data from MS Excel</li>
+        <li>Graphical Dashboard</li>
+      </ul>
+      <p><strong>Date:</strong> 12 March 2024</p>
+      <div class="d-flex flex-wrap gap-3 mt-3">
+        <a href="downloads/setup (2).exe" id="downloadtp" class="btn btn-primary">
+          Tally Prime Download
+        </a>
+        <a href="downloads/setup (4).exe" id="downloadtpel" class="btn btn-primary">
+          Tally Edit Log Download
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapse51">
                             Version 4.0
                         </button>
                     </h2>

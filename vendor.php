@@ -1,6 +1,6 @@
-<br><br><br><br>
+
 <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
-  <div class="bg-white" style="margin: 0 auto; max-width: 90%; padding: 0 20px;">
+  <div class="bg-white">
     <div class="owl-carousel vendor-carousel text-center">
       <img class="vimg" src="img/v8.png" alt="Vendor Image 8">
       <img class="vimg" src="img/v5.png" alt="Vendor Image 5">
@@ -14,4 +14,31 @@
     </div>
   </div>
 </div>
-<br><br><br><br>
+
+<!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="assets/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/owl.theme.default.min.css">
+
+<!-- jQuery (required) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="assets/owl.carousel.min.js"></script>
+
+<!-- Init Script -->
+<script>
+  $(document).ready(function(){
+    $('.vendor-carousel').owlCarousel({
+      loop:true,
+      margin:30,
+      autoplay:true,
+      autoplayTimeout:2000,
+      responsive:{
+        0:{ items:2 },
+        600:{ items:4 },
+        1000:{ items:6 }
+      }
+    });
+  });
+</script>
+
