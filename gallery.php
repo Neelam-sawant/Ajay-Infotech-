@@ -136,7 +136,7 @@
       <div class="accordion-button" data-target="#image3">Events</div>
     </div>
 
-    <div id="image3" class="image-container" style="display: block;"> <!-- Show Events images by default -->
+    <div id="image3" class="image-container"> <!-- Show Events images by default -->
       <div class="image-grid">
         <img class="event_img" src="./img/wimg1.jfif" alt="event 1">
         <img class="event_img" src="./img/wimg2.jfif" alt="event 2">
@@ -183,8 +183,6 @@
 <!-- Accordion end -->
 
 
-
-<br><br><br><br>
 
 
 <!-- contact start -->

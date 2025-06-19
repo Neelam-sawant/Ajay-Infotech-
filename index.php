@@ -31,12 +31,13 @@
 <!-- NavbarStart -->
 <?php include 'navbar.php'; ?>
 <!--Navbar End-->
+<!-- 
+<div class="carousel-inner">
+  <div class="carousel-item active" data-bs-interval="2000">
+    <img src="img/bgtally6.png" class="d-block mx-auto img-fluid" alt="First Slide" style="max-height: 400px; object-fit: cover;">
+  </div>
+</div> -->
 
-<div class="carousel-inner" >
-    <div class="carousel-item active" data-bs-interval="2000" >
-      <img src="img/bgtally6.png" class="img-fluid d-flex" alt="First Slide" >
-    </div>
-</div>
 
 <!--Carousel Start-->
 <!-- <div id="carouselExampleDark" class="carousel carousel-dark slide">
@@ -78,8 +79,6 @@
   </button>
 </div> -->
 
-<br>
-<br>
 <!-- Carousel End -->
 <!-- Text and Description Start for Tally -->
 <!-- Main Content Section -->
@@ -399,7 +398,6 @@
     include "event.php";
 ?>
 <!-- Events carousel end -->
-<br><br><br><br>
 <!-- footer start -->
 <?php include './footer.php' ?>
   <!-- Footer End -->

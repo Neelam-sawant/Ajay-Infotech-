@@ -17,7 +17,17 @@
             }
         };
     </script>
-
+<style>  /* Main-carousel section start here */
+  .carousel-inner,
+  .carousel-item {
+    height: 70vh;
+  }
+  .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }</style>
 
 </head>
 
@@ -38,43 +48,36 @@
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-
   <div class="carousel-inner">
-
-    <!-- Slide 1 -->
     <div class="carousel-item active" data-bs-interval="2000">
-      <img src="img/Frame 3351.png" class="d-block w-100 img-fluid" alt="First Slide">
-      <div class="carousel-caption d-none d-md-block text-start">
-        <div class="d-flex flex-column flex-sm-row gap-2">
-          <button class="btn btn-primary btn-lg ms-4">Read More 1</button>
-          <button class="btn btn-primary btn-lg">Download Now 1</button>
-        </div>
+      <img src="img\Frame 3351.png" class="d-block w-100" alt="First Slide">
+      <div class="carousel-caption d-none d-md-block">
+        <!-- Optional captions can go here -->
       </div>
     </div>
-
-    <!-- Slide 2 -->
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="img/Frame 3351.png" class="d-block w-100 img-fluid" alt="Second Slide">
-      <div class="carousel-caption d-none d-md-block text-start">
-        <div class="d-flex flex-column flex-sm-row gap-2">
-          <button class="btn btn-warning btn-lg ms-4">Read More 2</button>
-          <button class="btn btn-warning btn-lg">Download Now 2</button>
-        </div>
+      <img src="img/bgtally6.png" class="d-block w-100" alt="Second Slide">
+      <div class="carousel-caption d-none d-md-block">
+        <!-- Optional captions can go here -->
       </div>
     </div>
-
-    <!-- Slide 3 -->
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="img/Frame 3351.png" class="d-block w-100 img-fluid" alt="Third Slide">
-      <div class="carousel-caption d-none d-md-block text-start">
-        <div class="d-flex flex-column flex-sm-row gap-2">
-          <button class="btn btn-danger btn-lg ms-4">Read More 3</button>
-          <button class="btn btn-danger btn-lg">Download Now 3</button>
-        </div>
+      <img src="img/bgtally6.png" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption d-none d-md-block">
+        <!-- Optional captions can go here -->
       </div>
     </div>
-
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
 
   <!-- Controls -->
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">

@@ -11,7 +11,7 @@
             </i><br>Ajay Infotech
           </h1>
         </a>
-        <p class="mt-3 mb-4">Simple Solutions For Complex Problems <br> Want to Become Our Family Member? Join Us.</p>
+        <p class="mt-3 mb-4">Simple Solutions For Complex Problems <br> Want to Become Our Family Member? <a href="maincontact">Join Us.</a></p>
       </div>
 
       <!-- Get In Touch -->

@@ -303,95 +303,169 @@
 
 
 <!-- Help me decide start -->
-<div class="">
-    <div class="container">
-        <div class="center-content">
-            <h1 class="center-heading text-primary mb-1">Help Me Decide</h1>
-            <p class="center-paragraph">Got questions? We’ll answer them for you!.</p>
+<div class="container my-5">
+  <div class="text-center mb-4">
+    <h1 class="text-primary mb-2">Help Me Decide</h1>
+    <p>Got questions? We’ll answer them for you!</p>
+  </div>
+
+  <div class="accordion" id="faqAccordion">
+    <!-- FAQ Item 1 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faq1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+          Why Tally Prime is Best Business Management Software?
+        </button>
+      </h2>
+      <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          TallyPrime is a one-stop business management software that caters to all your business requirements – from accounting and invoicing to inventory management, insightful business reports, and cash flow management, thereby improving business efficiency.
         </div>
-        <div class="text-line">
-            <span class="left-text">
-                <b>
-                    <p class="phh">Why Tally Prime is Best Business Management Software ? </p>
-                </b>
-                <p class="ph">TallyPrime is a one-stop business management software that caters to all your business
-                    requirements – from accounting and invoicing to inventory management, insightful business
-                    reports, and cash flow management, thereby improving business efficiency.</p>
-                <br>
-                <b>
-                    <p class="phh">What is the process for setting up TallyPrime? How much time does it take? </p>
-                </b>
-                <p class="ph">You can be up and running within a few minutes. All you need is 3 quick Steps:
-                    1) Download <br>
-                    2) Install <br>
-                    3) Start transacting in a few minutes.</p>
-                <br>
-                <b>
-                    <p class="phh">Can you help me find an accountant to operate TallyPrime?</p>
-                </b>
-                <p class="ph">TallyPrime is so easy to operate that anyone can learn and operate in no time at all.
-                    If you still need an accountant, we have more than 1 lakhs Tally Certified Candidates to full
-                    fill your requirement. You can search, shortlist, assess and select the right candidate from
-                    Tally Job Portal.</p>
-                <br>
-                <b>
-                    <p class="phh">Is Tally only to be used by an accountant?</p>
-                </b>
-                <p class="ph">No. Business owners need to use accounting software to keep track of business
-                    performance. Accounts department captures and maintains data in a more organized way, which
-                    should be used by decision-makers to make informed decisions.</p>
-                <br>
-                <b>
-                    <p class="phh">What kind of reports can I get from TallyPrime?</p>
-                </b>
-                <p class="ph">You get 3600 view of your business through a host of business reports related to
-                    Accounting, Inventory, Financial, Management control reports (MIS) and Statutory reports to help
-                    you make confident business decisions.</p>
-                <br>
-                <b>
-                    <p class="phh">Can I access business reports on my mobile?</p>
-                </b>
-                <p class="ph">TallyPrime, supports real-time and secure access to important business report from a
-                    web browser, on any device, anywhere.</p>
-            </span>
-            <span class="right-text">
-                <b>
-                    <p class="phh">What is the first time and ongoing costs of running TallyPrime?</p>
-                </b>
-                <p class="ph">One-time cost of 22,500 + GST 18% for Single user and 67,500 + GST 18% for a
-                    Multi-User License. From the second year onwards, you need to renew TSS to avail a host of
-                    value-added services.</p>
-                <br>
-                <b>
-                    <p class="phh">Can someone guide me on using TallyPrime?</p>
-                </b>
-                <p class="ph">No worries! TallyPrime is so simple that you will comfortably use it. With simple and
-                    consistent navigation, by just learning once to create a ledger, voucher or navigating to a
-                    report, you will be able to use it completely by applying the same steps.</p>
-                <br>
-                <b>
-                    <p class="phh">What business processes can I handle with TallyPrime?</p>
-                </b>
-                <p class="ph">TallyPrime is an integrated business management software. You can manage Accounting,
-                    Inventory, Statutory and compliance, Banking, Payroll and various other processes.</p>
-                <br>
-                <b>
-                    <p class="phh">How many users and transactions can TallyPrime support?</p>
-                </b>
-                <p class="ph">Using Multi-user License, you can have unlimited users on the same LAN environment
-                    with the capabilities to handle a larger volume of transactions.</p>
-                <br>
-                <b>
-                    <p class="phh">Is my business data safe with TallyPrime?</p>
-                </b>
-                <p class="ph">Countless hours have been put in to make our product truly trustworthy and reliable.
-                    Even in situations where you encounter any issue with the software due to factors out of your
-                    control, like network disruption, power failure or a system reboot, your data remains safe from
-                    any corruption.</p>
-            </span>
-        </div>
+      </div>
     </div>
+
+    <!-- FAQ Item 2 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faq2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+          What is the process for setting up TallyPrime? How much time does it take?
+        </button>
+      </h2>
+      <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          You can be up and running within a few minutes. All you need is 3 quick Steps:<br>1) Download<br>2) Install<br>3) Start transacting.
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Item 3 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faq3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+          Can you help me find an accountant to operate TallyPrime?
+        </button>
+      </h2>
+      <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          TallyPrime is easy to operate. Still, if you need help, we have more than 1 lakh Tally Certified Candidates you can hire via Tally Job Portal.
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Item 4 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faq4">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+          Is Tally only to be used by an accountant?
+        </button>
+      </h2>
+      <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          No. Business owners also use it to monitor business performance and make informed decisions using organized data.
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Item 5 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faq5">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+          What kind of reports can I get from TallyPrime?
+        </button>
+      </h2>
+      <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          TallyPrime provides reports for Accounting, Inventory, Financials, MIS, and Statutory compliance to support confident decision-making.
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Item 6 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faq6">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
+          Can I access business reports on my mobile?
+        </button>
+      </h2>
+      <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Yes, TallyPrime supports secure, real-time access to business reports via any web browser on any device.
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Item 7 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faq7">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7">
+          What is the first time and ongoing costs of running TallyPrime?
+        </button>
+      </h2>
+      <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Single User: ₹22,500 + GST<br>Multi-User: ₹67,500 + GST<br>Annual TSS renewal is required for additional services.
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Item 8 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faq8">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8">
+          Can someone guide me on using TallyPrime?
+        </button>
+      </h2>
+      <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          TallyPrime is intuitive. Learn once and apply the same steps for ledger creation, voucher entry, and reporting.
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Item 9 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faq9">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9">
+          What business processes can I handle with TallyPrime?
+        </button>
+      </h2>
+      <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          You can manage Accounting, Inventory, Banking, Payroll, Compliance, and more — all in one software.
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Item 10 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faq10">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10">
+          How many users and transactions can TallyPrime support?
+        </button>
+      </h2>
+      <div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          With a Multi-user License, you can add unlimited users and handle high transaction volumes within the same LAN.
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Item 11 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faq11">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11">
+          Is my business data safe with TallyPrime?
+        </button>
+      </h2>
+      <div id="collapse11" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Yes. TallyPrime ensures your data is safe even during network failures, system restarts, or unexpected shutdowns.
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
 
 <!-- Help me decide end -->
 

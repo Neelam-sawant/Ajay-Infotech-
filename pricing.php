@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-between;
     padding: 5px;
-    width: 500px;
+    width: 440px;
     margin: 40px auto 20px auto;
     position: relative;
     overflow: hidden;
@@ -52,27 +52,36 @@
     width: calc(100% / 4 - 10px); /* For 3 buttons */
     background: #0077b6;
     border-radius: 25px;
-    transition: left 0.3s ease;
+    transition: center 0.3s ease;
     z-index: 1;
   }
 
-  .card-section {
+  .card-container {
+  position: relative;
+  height: 650px; /* Set based on the tallest card section */
+}
 
-    transform: translateY(20px);
-    display: none;
-    margin-top: 30px;
-    text-align: center;
-    opacity: 0;
-    transition: opacity 0.4s ease, transform 0.4s ease;
-    
-  }
+.card-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  transform: translateY(0px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
 
-  .card-section.active {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    opacity: 1;
-  }
+.card-section.active {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  z-index: 1;
+}
+
 
   .card {
     width: 200px;
@@ -98,34 +107,34 @@
     
 
 <!-- Pricing Plan Start -->
-  <div class="aiheaderimage">
-  <img src="img/Tally Pime backgrornd image.png" class="header-image">
-  <h1 class="title">Buy Tally Prime</h1>
-</div>
+ <div class="aiheaderimage">
+    <img src="img/Tally Pime backgrornd image.png" class="header-image">
+    <h1 class="title">Buy Tally Prime</h1>
+  </div>
 
   <div class="switch-container mt-5">
     <div class="switch-button active" data-target="section1">1 Month</div>
-    <div class="switch-button" data-target="section2">3 Months</div>
-    <div class="switch-button" data-target="section3">12 Months</div>
-    <div class="switch-button" data-target="section4">Lifetime</div>
+     <div class="switch-button" data-target="section2">3 Months</div>
+        <div class="switch-button" data-target="section3">12 Months</div>
+          <div class="switch-button" data-target="section4">Lifetime</div>
   </div>
-
+ <div class="card-container">
   <div id="section1" class="card-section active">
-   <div style="width: 300px; background: #e6f7ff; border: 1px solid #0077b6; border-radius:20px;; box-shadow: 0 0 15px rgba(0,0,0,0.1); padding: 30px; text-align: center;">
-        <h2 class="text-xl font-semibold">SILVER</h2>
-        <p class="text-gray-600 mt-2">For individual PC usage</p>
-        <hr class="my-4">
-     <ul style="list-style: none; padding: 0; text-align: left; margin-top: 20px;">
-  <li>✔️ Fully loaded with all Features</li>
-  <li>✔️ Free access to TSS Features</li>
-  <li>✔️ Invoicing & Accounting</li>
-  <li>✔️ Inventory Management</li>
-  <li>✔️ GST and Compliance</li>
-  <li>✔️ Banking and Cashflow</li>
-  <li>✔️ e-Invoicing and e-way bills</li>
-  <li>✔️ Connected Services</li>
-  <li>✔️ Business Operation</li>
-</ul>
+      <div style="width: 300px; background: #e6f7ff; border: 1px solid #0077b6; border-radius:20px; box-shadow: 0 0 15px rgba(0,0,0,0.1); padding: 30px; text-align: center;">
+          <h2 class="text-xl font-semibold">SILVER</h2>
+          <p class="text-gray-600 mt-2">For individual PC usage</p>
+          <hr class="my-4">
+            <ul style="list-style: none; padding: 0; text-align: left; margin-top: 20px;">
+                  <li>✔️ Fully loaded with all Features</li>
+                  <li>✔️ Free access to TSS Features</li>
+                  <li>✔️ Invoicing & Accounting</li>
+                  <li>✔️ Inventory Management</li>
+                  <li>✔️ GST and Compliance</li>
+                  <li>✔️ Banking and Cashflow</li>
+                  <li>✔️ e-Invoicing and e-way bills</li>
+                  <li>✔️ Connected Services</li>
+                  <li>✔️ Business Operation</li>
+              </ul>     
 
         <h3 style="margin-top: 20%;">INR <strong>750</strong></h3>
       <p style="font-size: 14px;">+18% GST (INR 135)</p><a href="maincontact">
@@ -155,6 +164,8 @@
         <p class="text-xs text-gray-400 mt-2">IN Indian License</p>
       </div>
   </div>
+
+ 
 
   <div id="section2" class="card-section">
    <div style="width: 300px; background: #e6f7ff; border: 1px solid #0077b6; border-radius:20px;; box-shadow: 0 0 15px rgba(0,0,0,0.1); padding: 30px; text-align: center;">
@@ -202,6 +213,8 @@
       </div>
   </div>
 
+ 
+
   <div id="section3" class="card-section">
    <div style="width: 300px; background: #e6f7ff; border: 1px solid #0077b6; border-radius:20px;; box-shadow: 0 0 15px rgba(0,0,0,0.1); padding: 30px; text-align: center;">
         <h2 class="text-xl font-semibold">SILVER</h2>
@@ -247,7 +260,7 @@
         <p class="text-xs text-gray-400 mt-2">IN Indian License</p>
       </div>
   </div>
-
+ 
   <div id="section4" class="card-section">
    <div style="width: 300px; background: #e6f7ff; border: 1px solid #0077b6; border-radius:20px;; box-shadow: 0 0 15px rgba(0,0,0,0.1); padding: 30px; text-align: center;">
         <h2 class="text-xl font-semibold">SILVER</h2>
@@ -294,6 +307,8 @@
         <p class="text-xs text-gray-400 mt-2">IN Indian License</p>
       </div>
   </div>
+  </div>
+</div>
  <script>
   const buttons = document.querySelectorAll('.switch-button');
   const sections = document.querySelectorAll('.card-section');
@@ -342,28 +357,9 @@
   });
 </script>
 
-
-
-<!-- Vendor Start -->
-
-
-<!-- Vendor End -->
-<!-- Vendor Start -->
 <?php include 'vendor.php' ?>
-<!-- Vendor End -->
-
-<!-- footer start -->
-    <?php include 'footer.php' ?>
-  <!-- Footer End -->
-
-
-
-
-
-
-
-
-<!-- Back to Top -->
+    
+<?php include 'footer.php' ?>
 
 <?php include 'linkscript.php'; ?>
 
