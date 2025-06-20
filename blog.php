@@ -220,129 +220,161 @@
                     </div>
                Blog Item End -->
                
+ <a href="tally-6.1">             
+<div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
+                        <div class="blog-item bg-light rounded overflow-hidden">
+                            <div class="blog-img position-relative overflow-hidden">
+                                <img class="img-fluid" src="img\tally-6.1.png" alt="" style="width:100%; height:250px;">
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="tally-6.1">20 June 2025</a>
+                            </div>
+                             <a href="tally-6.1">             
+                            <div class="p-3">
+                                <h5 class="mb-2">What’s New in Tally Prime 6.1?
+                                </h5>
+                                <p class="small">Learn how to optimize your website for search engines and rank higher.</p> <br>
+                                <a class="text-uppercase small fw-bold" href="tally-6.1">Read More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                    </a>
+                        </div>
+                    </div>
+                    </a>
+
+<a href="avoid_mistakes">
 <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img\mistakes.png" alt="" style="width:100%; height:250px;">
                                 <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="avoid_mistakes">12 June 2025</a>
                             </div>
+                            <a href="avoid_mistakes">
                             <div class="p-3">
                                 <h5 class="mb-2">10 Mistakes to avoid while generating E-Way Bill
-
                                 </h5>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
                                 <a class="text-uppercase small fw-bold" href="avoid_mistakes">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
+                            </a>
                         </div>
                     </div>
+                    </a>
+
+                    <a href="storagecloud">
                <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img\storage.png" alt="" style="width:100%; height:250px;">
                                 <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="storagecloud">29 May 2025</a>
                             </div>
+                            <a href="storagecloud">
                             <div class="p-3">
                                 <h5 class="mb-2">Storage using Cloud
-
                                 </h5>
                                 <br>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
                                 <a class="text-uppercase small fw-bold" href="storagecloud">Read More <i class="bi bi-arrow-right"></i></a>
-                            </div>
+                            </div></a>
                         </div>
                     </div>
+                    </a>
+
+
+            <a href="transaction-auth">
                <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img\trans-auth.png" alt="" style="width:100%; height:250px;">
                                 <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="transaction-auth">05 May 2025</a>
                             </div>
+                            <a href="transaction-auth">
                             <div class="p-3">
                                 <h5 class="mb-2">TallyPrime Transaction Authorisation
-
                                 </h5>
                                 <br>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
                                 <a class="text-uppercase small fw-bold" href="transaction-auth">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
+                        </a>
                         </div>
                     </div>
+                    </a>
+
+
+            <a href="tallyoncloud">
                <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img\tallyoncloudblog.png" alt="" style="width:100%; height:250px;">
-                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="bankReconciliation">31 April
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="tallyoncloud">31 April
                                        2025</a>
                             </div>
+                            <a href="tallyoncloud">
                             <div class="p-3">
                                 <h5 class="mb-2">How Tally on Cloud can support Business for Growth and Expansion
                                 </h5>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
                                 <a class="text-uppercase small fw-bold" href="tallyoncloud">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
+                        </a>
                         </div>
                     </div>
+                    </a>
+
+                <a href="bankReconciliation">
                <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img\banreconcilation.png" alt="" style="width:100%; height:250px;">
                                 <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="bankReconciliation">24 April 2025</a>
                             </div>
+                            <a href="bankReconciliation">
                             <div class="p-3">
                                 <h5 class="mb-2">Bank Reconciliation In TallyPrime 6.0
                                 </h5>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
                                 <a class="text-uppercase small fw-bold" href="bankReconciliation">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
+                        </a>
                         </div>
                     </div>
+                    </a>
+
+                <a href="reportsintallyprime">
                <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img\bdetails1.png" alt="" style="width:100%; height:250px;">
                                 <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="reportsintallyprime">17 April 2025</a>
                             </div>
+                            <a href="reportsintallyprime">
                             <div class="p-3">
                                 <h5 class="mb-2">Working with reports in Tally Prime</h5>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
                                 <a class="text-uppercase small fw-bold" href="reportsintallyprime">Read More <i class="bi bi-arrow-right"></i></a>
                             </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
+                    </a>
+
+
+                    <a href="tallyprime6">
+                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.2s">
                         <div class="blog-item bg-light rounded overflow-hidden">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/tally 6.png" alt="" style="width:100%; height:250px;">
                                 <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-2 py-1 px-3" href="tallyprime6">10 April 2025</a>
                             </div>
+                            <a href="tallyprime6">
                             <div class="p-3">
                                 <h5 class="mb-2">What's new in Tally Prime 6.0?</h5>
                                 <p class="small">Learn how to optimize your website for search engines and rank higher.</p>
                                 <a class="text-uppercase small fw-bold" href="tallyprime6">Read More <i class="bi bi-arrow-right"></i></a>
-                            </div>
+                            </div></a>
                         </div>
                     </div>
-                  
+                    </a>              
                 </div>
-                <!-- <div class="col-12 wow slideInUp" data-wow-delay="0.1s">
-                            <nav aria-label="Page navigation">
-                              <ul class="pagination pagination-lg m-0">
-                                <li class="page-item disabled">
-                                  <a class="page-link rounded-0" href="#" aria-label="Previous">
-                                    <span aria-hidden="true"><i class="bi bi-arrow-left"></i></span>
-                                  </a>
-                                </li>
-                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item">
-                                  <a class="page-link rounded-0" href="#" aria-label="Next">
-                                    <span aria-hidden="true"><i class="bi bi-arrow-right"></i></span>
-                                  </a>
-                                </li>
-                              </ul>
-                            </nav>
-                        </div> -->
+             
             </div>
             <!-- Blog list End -->
 

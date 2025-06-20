@@ -1,6 +1,10 @@
 
                     <h3>Recent Blogs</h3>
                     <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
+                        <img class="img-fluid" src="img\tally-6.1.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
+                        <a href="tally-6.1" class="small ms-2">What’s New in Tally Prime 6.1?</a>
+                    </div>
+                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
                         <img class="img-fluid" src="img\mistakes.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
                         <a href="avoid_mistakes" class="small ms-2">10 Mistakes to avoid while generating E-way Bill</a>
                     </div>
@@ -16,7 +20,4 @@
                         <img class="img-fluid" src="img\tallyoncloudblog.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
                         <a href="tallyoncloud" class="small ms-2">How Tally on Cloud can suport business growth and Expansion</a>
                     </div>
-                    <div class="d-flex mb-3 align-items-center bg-light p-2 rounded">
-                        <img class="img-fluid" src="img\banreconcilation.png" style="width: 120px; height: 60px; object-fit: cover;" alt="">
-                        <a href="bankReconciliation" class="small ms-2">Bank Reconciliation In TallyPrime 6.0</a>
-                    </div>
+                  

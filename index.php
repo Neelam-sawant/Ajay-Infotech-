@@ -17,13 +17,32 @@
             }
         };
     </script>
+<style>
+    .carousel-caption .btn {
+  transition: background 0.3s ease;
+}
 
+.carousel-caption .btn-warning:hover {
+  background: linear-gradient(135deg, #ffc107, #ffdd57);
+  color: #000;
+}
+
+.carousel-caption .btn-primary {
+  background: linear-gradient(135deg,rgb(3, 196, 254),rgb(246, 78, 183));
+  color: #fff;
+}
+
+.carousel-caption .btn-primary:hover {
+  background: linear-gradient(135deg,rgb(246, 78, 183),rgb(3, 196, 254));
+  color: #fff;
+}
+</style>
 
 </head>
 
 <body>
     <!-- Spinner Start -->
-<div id="spinner" class="bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner" class="bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner"></div>
     </div>
     <!-- Spinner End -->
@@ -31,55 +50,65 @@
 <!-- NavbarStart -->
 <?php include 'navbar.php'; ?>
 <!--Navbar End-->
-<!-- 
-<div class="carousel-inner">
-  <div class="carousel-item active" data-bs-interval="2000">
-    <img src="img/bgtally6.png" class="d-block mx-auto img-fluid" alt="First Slide" style="max-height: 400px; object-fit: cover;">
-  </div>
-</div> -->
+<!-- Bootstrap Carousel Start -->
+<div id="carouselExample" class="carousel slide mt-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <!-- First Slide -->
+    <div class="carousel-item active position-relative">
+      <img src="img/bgtally6.png" class="d-block w-100" alt="First Slide">
+      <div class="carousel-caption d-none d-md-block text-start caption-left">
+        <a href="tally-6.1" class="btn btn-warning me-2">Know more</a>
+        <a href="maincontact" class="btn btn-warning">Upgrade your tally</a>
+      </div>
+    </div>
 
+    <!-- Second Slide -->
+    <div class="carousel-item position-relative">
+      <img src="img/Gemlyte.png" class="d-block w-100" alt="Second Slide">
+      <div class="carousel-caption d-none d-md-block text-start caption-left">
+        <a href="Gem/index-5.1.html" class="btn btn-primary">Design my Digital Journey</a>
+      </div>
+    </div>
+  </div>
 
-<!--Carousel Start-->
-<!-- <div id="carouselExampleDark" class="carousel carousel-dark slide">
-  <div class="carousel-indicators" >
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner" >
-    <div class="carousel-item active" data-bs-interval="2000" >
-      <img src="img/bgtally6.png" class="d-block w-100" alt="First Slide" >
-      <div class="carousel-caption d-none d-md-block text-start mb-3 ms-3">
-        <button class="btn btn-primary me-2" style="padding: 12px 24px; font-size: 1.1rem;">Learn More</button>
-        <button class="btn btn-primary" style="padding: 12px 24px; font-size: 1.1rem;">Contact</button>
-      </div>
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="img/Tally prime 5.0.png" class="d-block w-100" alt="Second Slide" >
-      <div class="carousel-caption d-none d-md-block text-start mb-3 ms-3">
-        <button class="btn btn-primary me-2" style="padding: 12px 24px; font-size: 1.1rem;">Learn More</button>
-        <button class="btn btn-primary" style="padding: 12px 24px; font-size: 1.1rem;">Contact</button>
-      </div>
-    </div>
-    <div class="carousel-item" >
-      <img src="img/carousel-2.jpg" class="d-block w-100" alt="third Slide" >
-      <div class="carousel-caption d-none d-md-block text-start mb-3 ms-3">
-        <button class="btn btn-primary me-2" style="padding: 12px 24px; font-size: 1.1rem;">Learn More</button>
-        <button class="btn btn-primary" style="padding: 12px 24px; font-size: 1.1rem;">Contact</button>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+  <!-- Carousel Controls with Dark Border -->
+  <button class="carousel-control-prev custom-control" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon border border-dark rounded-circle p-2"></span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
+  <button class="carousel-control-next custom-control" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon border border-dark rounded-circle p-2"></span>
   </button>
-</div> -->
+</div>
 
-<!-- Carousel End -->
+
+
+
+<!-- Bootstrap Carousel End -->
+
+<style>
+/* Custom style for carousel controls */
+.custom-control {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid #000; /* Dark border */
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: background-color 0.3s ease;
+}
+
+.custom-control:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Make icons darker if needed */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); /* Makes arrow icons dark */
+}
+</style>
+
 <!-- Text and Description Start for Tally -->
 <!-- Main Content Section -->
 <div class="container-fluid wow fadeInUp pt-5 mt-4" data-wow-delay="0.1s">

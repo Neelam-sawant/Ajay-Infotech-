@@ -1,6 +1,6 @@
 
       <!-- contact section start here -->
-      <div class="container py-3">
+      <div class="container py-4">
         <div class="text-center mb-4">
           <h3 class="section-title section-title-sm text-center text-primary">If You Have Any Query, Feel Free To Contact Us</h3>
         </div>
@@ -32,25 +32,25 @@
 
           <!-- Contact Form -->
           <div class="col-lg-8">
-            <form action="https://formspree.io/f/mnnvnwoa" method="POST" class="bg-white p-4 rounded-4 shadow-sm">
+            <form action="https://formspree.io/f/mnnvnwoa" method="POST" class="bg-white rounded-4 shadow-sm border">
               <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" value="From Contact us" hidden>
-              <div class="row g-3">
-                <div class="col-md-6">
+              <div class="row g-3 mt-1">
+                <div class="col-md-6 px-1">
                   <input type="text" name="first_name" class="form-control" placeholder="First Name" required>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 px-1">
                   <input type="text" name="last_name" class="form-control" placeholder="Last Name" required>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 px-1">
                   <input type="email" name="email" class="form-control" placeholder="Email" required>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 px-1">
                   <input type="number" name="number" class="form-control" placeholder="Mobile Number" required>
                 </div>
                 <div class="col-md-12">
                   <input type="text" name="message" class="form-control" placeholder="Your Message" required>
                 </div>
-                <div class="col-12 d-grid">
+                <div class="col-md-12 d-grid mt-4">
                   <button type="submit" class="btn btn-primary">Send the Request</button>
                 </div>
               </div>

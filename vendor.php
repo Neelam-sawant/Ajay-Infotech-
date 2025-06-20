@@ -4,7 +4,7 @@
     <div class="owl-carousel vendor-carousel text-center">
       <img class="vimg" src="img/v8.png" alt="Vendor Image 8">
       <img class="vimg" src="img/v5.png" alt="Vendor Image 5">
-      <img class="vimg" src="img/v9.png" alt="Vendor Image 9">
+      <img class="vimg" src="img/v91.png" alt="Vendor Image 9">
       <img class="vimg" src="img/v10.png" alt="Vendor Image 9">
       <img class="vimg" src="img/v1.png" alt="Vendor Image 1">
       <img class="vimg" src="img/v2.png" alt="Vendor Image 2">

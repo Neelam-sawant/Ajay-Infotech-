@@ -1,5 +1,3 @@
-
-
 <!-----Complete Navbar Start----->
 <style>
 .top-bar {
@@ -25,15 +23,22 @@
     z-index: 1000;
 }
 
+.dropdown-title {
+  font-weight: bold;
+  padding-bottom: 5px;
+  display: block;
+  margin-top: 10px;
+}
+
 /* Push content below fixed elements */
 body {
     padding-top: 60px; /* Adjust: 30px for top bar + ~50px for navbar */
 }
 /* Mega Dropdown - full width on desktop */
-.dropdown-mega {
+/* .dropdown-mega {
   min-width: 600px;
   max-width: 100%;
-}
+} */
 
 /* Prevent overlapping and spacing issues */
 .dropdown-item {
@@ -41,110 +46,161 @@ body {
   font-size: 14px;
   padding: 5px 10px;
 }
-
-/* Mobile stacking already handled by col-12 */
+/* For mobile: full width dropdown and vertical stacking */
 @media (max-width: 767.98px) {
-  .dropdown-mega {
-    min-width: 100%;
+  /* Make dropdown scrollable on small screens */
+@media (max-width: 767.98px) {
+  .dropdown-menu {
+    max-height: 60vh;  /* Adjust based on preference */
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: static !important; /* Helps inside collapsible navbar */
+    border: none;
+    box-shadow: none;
+  }
+
+  .navbar-collapse {
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+}
+
+/* Add subtle scroll bar for dropdown */
+.dropdown-menu::-webkit-scrollbar {
+  width: 6px;
+}
+.dropdown-menu::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+
+  .dropdown-menu .row {
+    flex-direction: column;
+  }
+
+  .dropdown-menu .col-4 {
+    width: 100%;
+    padding: 5px 0;
   }
 }
 
 </style>
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark px-5 d-block top-bar">
-    <div class="row gx-0"> 
-        <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
-            <div class="d-inline-flex align-items-center" style="height: 45px;">
-                <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+91 9029005996</small>
-                <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@ajayinfotech.in</small>
-            </div>
-        </div>
-        <!-- <div class="col-lg-4 text-center text-lg-end">
-            <div class="d-inline-flex align-items-center" style="height: 45px;">
-                <a class="me-3 text-light" href="career.php">Career</a>
-                <a class="me-3 text-light" href="downloadpage.php">Download</a>
-            </div>
-        </div> -->
-    </div>
-</div>
-  <!-- Topbar End -->
-  
-  
-  <!-- NavbarStart -->
-  <div class="container-fluid p-0 ">
-      <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0" style="background-color: #003B64;">
-          <a href="index" class="navbar-brand p-0">
-              <h1 style="margin-left:30px; margin: 5%;"><i class="fa  me-2"><img style="height: 50px;width: 50px; margin: 5%;" src="img\AILOGO.png" alt=""> </i>Ajay Infotech</h1>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-              <span class="fa fa-bars"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-              <div class="navbar-nav ms-auto py-0">
-                  <a href="index" class="nav-item nav-link active">Home</a>
-                  <div class="nav-item dropdown">
-    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product & Services</a>
-    <div class="dropdown-menu p-3" aria-labelledby="navbarDropdown" style="width: 500px;">
-
-        <div class="row gx-2"> <!-- Added gx-2 for horizontal spacing -->
-            <!-- Tally Section -->
-            <div class="col-4">
-                <a href="tally">
-                    <h6 class="dropdown-title">Tally</h6>
-                </a>
-                <a href="./tallyprime" class="dropdown-item">Tally Prime</a>
-                <a href="tallyfeatures" class="dropdown-item">Tally Features</a>
-                <a href="pricing" class="dropdown-item">Tally Prime Pricing</a>
-                <a href="plans" class="dropdown-item">Tally Software Services</a>
-                <a href="tpserver" class="dropdown-item">Tally Prime Server</a>
-                <a href="tmobile" class="dropdown-item">Tally On Mobile</a>
-                <a href="tcloud" class="dropdown-item">Tally On Cloud</a>
-            </div>
-
-           
-
-            <!-- Tally Services Section -->
-            <div class="col-4">
-                <h6 class="dropdown-title" style="margin-left: 12px;">Tally Services</h6>
-                <a href="tamc" class="dropdown-item">Tally AMC</a>
-                <a href="tctraining" class="dropdown-item">Tally Corporate Training</a>
-                <a href="tcustomization" class="dropdown-item">Tally Customization</a>
-                <a href="tsynchronization" class="dropdown-item">Tally Synchronization</a>
-            </div>
-
-             <!-- GST Services Section -->
-             <div class="col-4">
-                <a href="gstservice">
-                    <h6 class="dropdown-title">GST Services</h6>
-                </a>
-                <a href="gstfilling" class="dropdown-item">GST Filing</a>
-                <a href="inrfilling" class="dropdown-item">INR Filing</a>
-                <a href="datafilling" class="dropdown-item">Data Entry</a>
+        <div class="row gx-0"> 
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+91 9029005996</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@ajayinfotech.in</small>
+                </div>
             </div>
         </div>
     </div>
+    <!-- Topbar End -->
+  
+  
+    <!-- NavbarStart -->
+    <div class="container-fluid p-0 ">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0" style="background-color: #003B64;">        
+            <a href="index" class="navbar-brand p-0">
+                <h1 style="margin-left:30px; margin: 5%;"><i class="fa  me-2">
+                <img style="height: 50px;width: 50px; margin: 5%;" src="img\AILOGO.png" alt=""> </i>Ajay Infotech</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index" class="nav-item nav-link">Home</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product & Services</a>
+                        <div class="dropdown-menu m-0" aria-labelledby="navbarDropdown" style="width: 500px;">
+                            <div class="row gx-2">
+    <!-- Tally Section -->
+    <div class="col-12 col-md-4">
+        <a href="tally">
+            <h6 class="dropdown-title">Tally</h6>
+        </a>
+        <a href="./tallyprime" class="dropdown-item">Tally Prime</a>
+        <a href="tallyfeatures" class="dropdown-item">Tally Features</a>
+        <a href="pricing" class="dropdown-item">Tally Prime Pricing</a>
+        <a href="plans" class="dropdown-item">Tally Software Services</a>
+        <a href="tpserver" class="dropdown-item">Tally Prime Server</a>
+        <a href="tmobile" class="dropdown-item">Tally On Mobile</a>
+        <a href="tcloud" class="dropdown-item">Tally On Cloud</a>
+    </div>
+
+    <!-- Tally Services Section -->
+    <div class="col-12 col-md-4">
+        <h6 class="dropdown-title" style="margin-left: 12px;">Tally Services</h6>
+        <a href="tamc" class="dropdown-item">Tally AMC</a>
+        <a href="tctraining" class="dropdown-item">Tally Corporate Training</a>
+        <a href="tcustomization" class="dropdown-item">Tally Customization</a>
+        <a href="tsynchronization" class="dropdown-item">Tally Synchronization</a>
+    </div>
+
+    <!-- GST Services Section -->
+    <div class="col-12 col-md-4">
+        <a href="gstservice">
+            <h6 class="dropdown-title">GST Services</h6>
+        </a>
+        <a href="gstfilling" class="dropdown-item">GST Filing</a>
+        <a href="inrfilling" class="dropdown-item">INR Filing</a>
+        <a href="datafilling" class="dropdown-item">Data Entry</a>
+    </div>
 </div>
 
-
-<a href="Gem\index-5.1.html" class="nav-item nav-link">Gemlyte</a>
-
-
-
-                  <div class="nav-item dropdown">
-                      <a href="about" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
-                      <div class="dropdown-menu m-0">
-                      <a href="about" class="dropdown-item">About Ajay Infotech</a>
-                          <a href="gallery" class="dropdown-item">Gallery</a>
-                      </div>
-                  </div>
-                  <a href="blog" class="nav-item nav-link">Blog</a>
-                  
-                  <a href="maincontact" class="nav-item nav-link">Contact</a>
-              </div>
-          </div>
-      </nav>
-  <!--Navbar End-->
-<br>
-<br>
+                        </div>
+                    </div>
+                    <a href="Gem\index-5.1.html" class="nav-item nav-link">Gemlyte</a>
+                    <div class="nav-item dropdown">
+                        <a href="about" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="about" class="dropdown-item">About Ajay Infotech</a>
+                            <a href="gallery" class="dropdown-item">Gallery</a>
+                        </div>
+                    </div>
+                    <a href="blog" class="nav-item nav-link">Blog</a>
+                    <a href="maincontact" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+</div>
   <!-----Complete Navbar End----->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const dropdownToggles = document.querySelectorAll('.navbar .dropdown-toggle');
 
+  dropdownToggles.forEach(function (toggle) {
+    toggle.addEventListener('click', function (e) {
+      const dropdownMenu = this.nextElementSibling;
+
+      // Only apply on small screens
+      if (window.innerWidth < 992) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        // Close other open dropdowns
+        document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+          if (menu !== dropdownMenu) {
+            menu.classList.remove('show');
+          }
+        });
+
+        // Toggle current dropdown
+        dropdownMenu.classList.toggle('show');
+      }
+    });
+  });
+
+  // Hide dropdowns when clicking outside
+  document.addEventListener('click', function (e) {
+    if (window.innerWidth < 992 && !e.target.closest('.dropdown')) {
+      document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+        menu.classList.remove('show');
+      });
+    }
+  });
+});
+</script>

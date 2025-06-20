@@ -393,9 +393,9 @@ h6,
         a {
             text-decoration: none !important;
         }
-        a:hover {
+        /* a:hover {
             text-decoration: underline !important;
-        }
+        } */
 
   
         @media (max-width: 768px) {
